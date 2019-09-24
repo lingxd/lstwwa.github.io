@@ -77,6 +77,24 @@ body {
   margin-bottom: 1em;
 }
 
+._button {
+  display: block;
+  position: absolute;
+  top: 576px;
+  left: 35.6%;
+  z-index: 9;
+  width: 26.4166666666%;
+  height: 208px;
+  border-radius: 3px;
+  background: url('../images/construction.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+  font-size: 1.333em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
 .link-4 {
   left: 50.8333333333%;
   z-index: 3;
@@ -109,7 +127,7 @@ body {
 }
 
 .resume-2 {
-  top: 1324px;
+  top: 1325px;
   z-index: 7;
   height: 89px;
   background-color: #000000;

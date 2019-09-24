@@ -4,11 +4,40 @@ body {
   color: rgba(255, 255, 255, 0.35);
 }
 
-.black {
-  top: 0;
-  height: 135px;
-  border: 1px solid rgba(0, 0, 0, 0.21);
-  background-color: rgba(0, 0, 0, 0.49);
+.baidu {
+  display: block;
+  position: absolute;
+  top: 289px;
+  left: 10%;
+  z-index: 9;
+  width: 13.5833333333%;
+  height: 67px;
+  border-radius: 3px;
+  background: url('../images/baidu.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+  font-size: 1.333em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.csdn {
+  display: block;
+  position: absolute;
+  top: 396px;
+  left: 10%;
+  z-index: 12;
+  width: 13.5833333333%;
+  height: 67px;
+  border-radius: 3px;
+  background: url('../images/csdn-logo.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-size: 1.333em;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .element {
@@ -17,9 +46,46 @@ body {
   width: 100%;
 }
 
+.github {
+  display: block;
+  position: absolute;
+  top: 396px;
+  left: 30.3997395833%;
+  z-index: 11;
+  width: 13.5833333333%;
+  height: 67px;
+  border-radius: 3px;
+  background: url('../images/github.png') rgb(255, 255, 255);
+  background-repeat: repeat-y;
+  background-size: contain;
+  background-position: 10% 50%;
+  font-size: 1.667em;
+  line-height: 3.5;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.google {
+  display: block;
+  position: absolute;
+  top: 289px;
+  left: 30.3997395833%;
+  z-index: 10;
+  width: 13.5833333333%;
+  height: 67px;
+  border-radius: 3px;
+  background: url('../images/google.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-size: 1.333em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
 .home {
   left: 37.1666666666%;
-  z-index: 6;
+  z-index: 5;
   height: 102px;
   white-space: nowrap;
 }
@@ -29,10 +95,28 @@ body {
   position: absolute;
   top: 18px;
   left: 2.1666666666%;
-  z-index: 1;
+  z-index: 8;
   width: 94px;
   height: auto;
   overflow: hidden;
+}
+
+.imooc {
+  display: block;
+  position: absolute;
+  top: 289px;
+  left: 76.3893229166%;
+  z-index: 13;
+  width: 13.5833333333%;
+  height: 67px;
+  border-radius: 3px;
+  background: url('../images/imooc.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-size: 1.333em;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .link {
@@ -49,14 +133,14 @@ body {
 
 .linux {
   left: 64.4%;
-  z-index: 4;
+  z-index: 3;
   height: 36px;
 }
 
 .lstwwa {
   top: 38px;
   left: 12.3489583333%;
-  z-index: 2;
+  z-index: 1;
   width: 22.3333333333%;
   min-height: 29px;
   font-size: 1.333em;
@@ -65,14 +149,32 @@ body {
 
 .resources {
   left: 78%;
-  z-index: 5;
+  z-index: 4;
   height: 36px;
 }
 
 .resume {
   left: 50.8%;
-  z-index: 3;
+  z-index: 2;
   height: 36px;
+}
+
+.sina {
+  display: block;
+  position: absolute;
+  top: 289px;
+  left: 55.9986979166%;
+  z-index: 14;
+  width: 13.1666666666%;
+  height: 67px;
+  border-radius: 3px;
+  background: url('../images/sina-logo-white-744x430.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-size: 1.333em;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .text {
@@ -83,10 +185,53 @@ body {
   margin-bottom: 1em;
 }
 
+._button {
+  display: block;
+  border-radius: 3px;
+  font-size: 1.333em;
+  text-align: center;
+}
+
+._input {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 18;
+  width: 26.3333333333%;
+  height: 40px;
+  margin: 166px 0 0 56.83203%;
+  padding: 0 10px;
+  background-color: rgb(41, 47, 62);
+  font-size: 1.083em;
+  color: rgb(255, 255, 255);
+  white-space: normal;
+}
+
+.element-1 {
+  top: 488px;
+  z-index: 16;
+  height: 28px;
+  background-color: rgb(133, 145, 172);
+}
+
+.element-2 {
+  top: 238px;
+  z-index: 15;
+  height: 28px;
+  background-color: rgb(133, 145, 172);
+}
+
+.element-4 {
+  top: 0;
+  height: 135px;
+  border: 1px solid rgba(0, 0, 0, 0.21);
+  background-color: rgba(0, 0, 0, 0.49);
+}
+
 .index-1 {
   top: 1487px;
   left: 2.1666666666%;
-  z-index: 8;
+  z-index: 7;
   width: 81%;
   min-height: 68px;
   font-size: 1em;
@@ -95,7 +240,32 @@ body {
 
 .index-2 {
   top: 1466px;
-  z-index: 7;
+  z-index: 6;
   height: 89px;
   background-color: #000000;
+}
+
+._button-1 {
+  position: relative;
+  float: left;
+  z-index: 17;
+  width: 5.1666666666%;
+  height: 40px;
+  margin: 166px 0 0 1.66146%;
+  background-color: rgb(41, 47, 62);
+  color: rgb(255, 255, 255);
+}
+
+._button-2 {
+  position: absolute;
+  top: 597px;
+  left: 36.3997395833%;
+  z-index: 19;
+  width: 26.4166666666%;
+  height: 208px;
+  background: url('../images/construction.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+  color: rgb(0, 0, 0);
 }
