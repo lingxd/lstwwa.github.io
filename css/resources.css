@@ -20,7 +20,7 @@ body {
 .home {
   left: 37.1666666666%;
   z-index: 6;
-  height: 102px;
+  height: 36px;
   white-space: nowrap;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .linux {
-  left: 64.4%;
+  left: 64.3997395833%;
   z-index: 4;
   height: 36px;
 }
@@ -67,11 +67,11 @@ body {
 .resources {
   left: 78%;
   z-index: 5;
-  height: 36px;
+  height: 93px;
 }
 
 .resume {
-  left: 50.8%;
+  left: 50.7994791666%;
   z-index: 3;
   height: 36px;
 }
@@ -81,7 +81,7 @@ body {
 }
 
 ._element {
-  top: 1466px;
+  top: 1323px;
   z-index: 7;
   height: 89px;
   background-color: #000000;
@@ -93,7 +93,7 @@ body {
   z-index: 8;
   width: 38%;
   min-height: 68px;
-  margin: 1466px 0 0 1.75%;
+  margin: 1324px 0 0 1.75%;
   font-size: 1em;
   color: rgba(255, 255, 255, 0.35);
 }
