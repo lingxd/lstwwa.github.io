@@ -1,8 +1,8 @@
 body {
   height: 100%;
-  background: url('../images/blue(3).png') rgb(255, 255, 255);
+  background: url('../images/bank.png') rgb(255, 255, 255);
   background-size: auto auto;
-  background-position: center center;
+  background-position: left top;
   font: 400 1em/1.38 Georgia;
   color: rgb(0, 0, 0);
 }
@@ -17,7 +17,6 @@ p {
   z-index: 0;
   width: 100%;
   height: 101px;
-  margin-top: -7px;
   border-bottom: 1px solid rgb(0, 0, 0);
   background-color: #000000;
   overflow: visible;
@@ -53,7 +52,6 @@ p {
   float: left;
   width: 6.6666666666%;
   height: 41px;
-  margin-top: -196px;
   border-radius: 3px;
   font-size: 1em;
   text-align: center;
@@ -70,44 +68,45 @@ p {
 .image-2 {
   z-index: 3;
   width: 121px;
-  margin: -89px 0 0 40.71615%;
+  margin: -80px 0 0 54.31641%;
 }
 
 .image-3 {
   z-index: 8;
   width: 50px;
-  margin-top: -126px;
+  margin-top: -135px;
 }
 
 .image-4 {
   clear: both;
   z-index: 9;
   width: 50px;
-  margin: -126px 0 0 96.29167%;
+  margin: -135px 0 0 96.29167%;
 }
 
 ._button-1 {
-  clear: both;
   z-index: 5;
-  margin-left: 42.39974%;
+  margin: -70px 0 0 42.39974%;
+  background-color: rgb(81, 94, 123);
 }
 
 ._button-2 {
+  clear: both;
   z-index: 4;
-  margin-left: 56%;
-  background-color: rgb(81, 94, 123);
+  margin: -205px 0 0 56%;
+  background-color: rgba(222, 222, 222, 0);
 }
 
 ._button-3 {
   z-index: 6;
-  margin-left: 69.59896%;
+  margin: -205px 0 0 69.59896%;
   background-color: rgb(81, 94, 123);
 }
 
 ._button-4 {
   z-index: 7;
-  margin-left: 83.19922%;
-  background-color: rgb(81, 94, 123);
+  margin: -205px 0 0 83.19922%;
+  background-color: rgb(76, 89, 116);
 }
 
 .text a {
