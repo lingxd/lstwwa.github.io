@@ -1,7 +1,7 @@
 body {
   background-color: rgb(81, 94, 123);
-  font: 400 1em/1.38 Helvetica;
-  color: rgb(255, 255, 255);
+  font: 400 0.75em/1.38 Helvetica;
+  color: rgba(255, 255, 255, 0.35);
 }
 
 .black {
@@ -18,15 +18,16 @@ body {
   width: 12.8506236689%;
   height: 24px;
   background-color: rgb(61, 71, 92);
-  font-size: 1em;
+  font-size: 1.333em;
 }
 
-.container {
-  position: relative;
-  float: left;
+.divresource {
+  position: absolute;
+  top: 180px;
+  left: 8%;
+  z-index: 11;
   width: 42.7994791666%;
   height: 53px;
-  margin: 180px 0 0 8%;
 }
 
 .element {
@@ -42,7 +43,7 @@ body {
   width: 8.25%;
   height: 36px;
   background-color: rgb(81, 94, 123);
-  font-size: 1.75em;
+  font-size: 2.333em;
   white-space: nowrap;
 }
 
@@ -72,34 +73,28 @@ body {
   width: 8.25%;
   height: 36px;
   background-color: rgb(81, 94, 123);
-  font-size: 1.75em;
+  font-size: 2.333em;
 }
 
 .lstwwa {
-  position: absolute;
   top: 38px;
   left: 12.3489583333%;
   z-index: 2;
   width: 22.3333333333%;
   min-height: 29px;
-  font-size: 1em;
+  font-size: 1.333em;
   color: rgb(255, 255, 255);
 }
 
 .resource {
-  position: absolute;
+  display: block;
   top: 14px;
   left: 4.6729540614%;
   z-index: 9;
   width: 53.154852449%;
   height: 24px;
-  font-size: 1em;
+  font-size: 1.333em;
   color: rgb(255, 255, 255);
-}
-
-.resources-3 p,
-.text-1 p {
-  margin-bottom: 1em;
 }
 
 .resume {
@@ -109,34 +104,41 @@ body {
   width: 8.25%;
   height: 36px;
   background-color: rgb(81, 94, 123);
-  font-size: 1.75em;
+  font-size: 2.333em;
 }
 
-.link-2 {
+.text {
+  position: absolute;
+}
+
+.resources-1 p,
+.text-3 p {
+  margin-bottom: 1em;
+}
+
+.link-3 {
   top: 52px;
   left: 78%;
   z-index: 5;
   width: 8.25%;
   height: 93px;
   background-color: rgb(81, 94, 123);
-  font-size: 1.75em;
+  font-size: 2.333em;
+}
+
+.resources-1 {
+  top: 1345px;
+  left: 2.1666666666%;
+  z-index: 8;
+  width: 87.8333333333%;
+  min-height: 68px;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.35);
 }
 
 .resources-2 {
-  top: 1323px;
+  top: 1324px;
   z-index: 7;
   height: 89px;
   background-color: #000000;
-}
-
-.resources-3 {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 8;
-  width: 38%;
-  min-height: 68px;
-  margin: 1045px 0 0 2.16667%;
-  font-size: 0.75em;
-  color: rgba(255, 255, 255, 0.35);
 }
