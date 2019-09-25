@@ -162,6 +162,7 @@ body {
 
   .resources {
     left: 83.1999999999%;
+    height: 24px;
   }
 
   ._button {
@@ -395,7 +396,6 @@ body {
 
   .resources {
     left: 83.2%;
-    height: 24px;
     font-size: 16px;
   }
 
@@ -452,6 +452,7 @@ body {
 
   .resources {
     left: 76.4%;
+    width: 13.8%;
     height: 22px;
   }
 

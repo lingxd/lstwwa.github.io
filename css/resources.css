@@ -378,6 +378,7 @@ body {
   .resources {
     left: 83.25%;
     width: 6.875%;
+    height: 97px;
     font-size: 2em;
   }
 
@@ -431,7 +432,6 @@ body {
   .resources {
     left: 83.1428571428%;
     width: 6.8571428571%;
-    height: 97px;
     font-size: 18px;
   }
 
