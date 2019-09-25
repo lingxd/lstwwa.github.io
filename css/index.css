@@ -94,8 +94,8 @@ body {
 .image {
   display: block;
   position: absolute;
-  top: 33px;
-  left: 1.25%;
+  top: 20px;
+  left: 1.6666666666%;
   z-index: 8;
   width: 100px;
   height: auto;
@@ -121,7 +121,7 @@ body {
 }
 
 .index {
-  top: 1466px;
+  top: 1966px;
 }
 
 .link {
@@ -252,11 +252,13 @@ body {
 }
 
 ._button-1 {
-  top: 597px;
-  left: 36.3997395833%;
+  top: 500px;
+  left: 0;
+  right: 0;
   z-index: 19;
   width: 26.4166666666%;
   height: 208px;
+  margin: 0 auto;
   background: url('../images/construction.png') rgba(222, 222, 222, 0);
   background-repeat: no-repeat;
   background-size: auto auto;
@@ -305,12 +307,10 @@ body {
     left: 42.4%;
     width: 6.8181818181%;
     height: 100px;
-    font-size: 2.4em;
   }
 
   .image {
-    top: 22px;
-    left: 1.8181818181%;
+    left: 2%;
     width: 90px;
     height: auto;
   }
@@ -325,15 +325,15 @@ body {
   .link {
     min-width: 0;
     min-height: 0;
+    font-size: 2.6em;
   }
 
   .linux {
     width: 6.8%;
-    font-size: 2.6em;
   }
 
   .lstwwa {
-    left: 15.1818181818%;
+    left: 15%;
     width: 27.1818181818%;
     min-width: 0;
     min-height: 0;
@@ -343,12 +343,10 @@ body {
   .resources {
     left: 83.1818181818%;
     width: 6.8181818181%;
-    font-size: 2.6em;
   }
 
   .resume {
     width: 6.8181818181%;
-    font-size: 2.6em;
   }
 
   .sina {
@@ -363,13 +361,17 @@ body {
   }
 
   .index-1 {
+    top: 1466px;
     font-size: 10px;
   }
 
   ._button-1 {
     top: 617px;
-    left: 26.9548611111%;
-    width: 48.4444444444%;
+    left: 0;
+    right: 0;
+    width: 48.4431818181%;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 1.6em;
   }
 
@@ -389,17 +391,16 @@ body {
 
   .image {
     top: 24px;
-    left: 2%;
     width: 80px;
     height: auto;
   }
 
   .linux {
+    width: 6.8333333333%;
     font-size: 2.2em;
   }
 
   .lstwwa {
-    left: 14.4999999999%;
     width: 27.9%;
     font-size: 1.4em;
   }
@@ -420,8 +421,11 @@ body {
   }
 
   ._button-1 {
-    left: 14.4999999999%;
+    left: 0;
+    right: 0;
     width: 73.5%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   ._button-2 {
@@ -436,15 +440,13 @@ body {
   }
 
   .home {
-    left: 42.1111111111%;
     width: 7.1111111111%;
     height: 96px;
     font-size: 2em;
   }
 
   .image {
-    top: 26px;
-    left: 2.2222222222%;
+    top: 30px;
     width: 70px;
     min-width: 0;
     height: auto;
@@ -457,7 +459,6 @@ body {
   }
 
   .lstwwa {
-    left: 15.2222222222%;
     width: 26.8888888888%;
     font-size: 1.3em;
   }
@@ -473,7 +474,10 @@ body {
   }
 
   ._button-1 {
-    left: 26.9548611111%;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   ._button-2 {
@@ -483,7 +487,7 @@ body {
 
 @media(max-width: 800px) {
   .home {
-    left: 42.375%;
+    left: 42.25%;
     width: 6.75%;
     height: 93px;
   }
@@ -502,7 +506,7 @@ body {
 
   .lstwwa {
     top: 44px;
-    left: 12.125%;
+    left: 12%;
     width: 30.25%;
     font-size: 1.2em;
   }
@@ -522,6 +526,13 @@ body {
     width: 26.375%;
   }
 
+  ._button-1 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   ._button-2 {
     width: 11.875%;
   }
@@ -532,7 +543,6 @@ body {
     font-size: 0.563em;
   }
 
-  ._button-1,
   .baidu,
   .csdn,
   .google,
@@ -552,7 +562,8 @@ body {
   }
 
   .image {
-    left: 1.4285714285%;
+    top: 38px;
+    left: 2%;
     width: 50px;
     height: auto;
   }
@@ -566,8 +577,6 @@ body {
   }
 
   .lstwwa {
-    top: 42px;
-    left: 11.5714285714%;
     width: 31%;
     font-size: 1.222em;
   }
@@ -588,6 +597,14 @@ body {
 
   .index-1 {
     font-size: 9px;
+  }
+
+  ._button-1 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.778em;
   }
 
   ._button-2 {
@@ -615,11 +632,12 @@ body {
 
   .home {
     left: 42.3333333333%;
+    height: 47px;
     font-size: 16px;
   }
 
   .image {
-    left: 1.6666666666%;
+    top: 33px;
     height: auto;
   }
 
@@ -635,8 +653,8 @@ body {
   }
 
   .lstwwa {
-    top: 47px;
-    left: 14.4999999999%;
+    top: 41px;
+    left: 14%;
     font-size: 1.25em;
   }
 
@@ -662,7 +680,10 @@ body {
 
   ._button-1 {
     top: 597px;
-    left: 14.4999999999%;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 2em;
   }
 
@@ -676,7 +697,6 @@ body {
     font-size: 0.438em;
   }
 
-  ._button-1,
   .baidu,
   .csdn,
   .google,
@@ -691,7 +711,7 @@ body {
 
   .home {
     left: 10%;
-    width: 13.25%;
+    width: 13.6%;
   }
 
   .image {
@@ -705,14 +725,15 @@ body {
   }
 
   .linux {
-    left: 56.8%;
-    width: 13.25%;
+    left: auto;
+    right: 32%;
+    width: 13.5%;
     height: 22px;
   }
 
   .lstwwa {
     top: 25px;
-    left: 23.5999999999%;
+    left: 23%;
     width: 69.8%;
     font-size: 1.286em;
   }
@@ -724,7 +745,7 @@ body {
   }
 
   .resume {
-    left: 30.4%;
+    left: 32%;
     width: 13.5%;
     height: 22px;
   }
@@ -736,6 +757,14 @@ body {
 
   .index-1 {
     font-size: 7px;
+  }
+
+  ._button-1 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 2.286em;
   }
 
   ._button-2 {
@@ -766,19 +795,18 @@ body {
   }
 
   .image {
-    top: 20px;
+    top: 22px;
     height: auto;
   }
 
   .linux {
-    left: 55.9999999999%;
     height: 20px;
     font-size: 2.5em;
   }
 
   .lstwwa {
-    top: 34px;
-    left: 28.4999999999%;
+    top: 30px;
+    left: 28%;
     width: 64.75%;
     font-size: 1.667em;
   }
@@ -799,15 +827,15 @@ body {
     font-size: 2.167em;
   }
 
-  .element-4 {
-    top: -13px;
-  }
-
   .index-1 {
     font-size: 6px;
   }
 
   ._button-1 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
     background-size: contain;
     font-size: 2.667em;
   }
@@ -856,7 +884,6 @@ body {
   }
 
   .image {
-    top: 23px;
     height: auto;
   }
 
@@ -873,14 +900,9 @@ body {
     line-height: 1.7;
   }
 
-  .linux {
-    left: auto;
-    right: 30.7499999999%;
-  }
-
   .lstwwa {
-    top: 43px;
-    left: 30.4%;
+    top: 34px;
+    left: 30%;
     width: 60%;
     font-size: 1.6em;
   }
@@ -910,9 +932,12 @@ body {
 
   ._button-1 {
     top: 672px;
-    left: 14.6666666666%;
+    left: 0;
+    right: 0;
     width: 74.6666666666%;
     height: 133px;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 3.2em;
   }
 
@@ -929,7 +954,6 @@ body {
     font-size: 0.25em;
   }
 
-  ._button-1,
   .baidu,
   .csdn,
   .google,
@@ -943,7 +967,7 @@ body {
   }
 
   .home {
-    height: 37px;
+    height: 49px;
     line-height: 2;
   }
 
@@ -957,14 +981,9 @@ body {
     font-size: 2em;
   }
 
-  .linux {
-    right: 30.6666666666%;
-    line-height: 2;
-  }
-
   .lstwwa {
-    top: 48px;
-    left: 36.4%;
+    top: 40px;
+    left: 36%;
     font-size: 1.5em;
   }
 
@@ -972,6 +991,7 @@ body {
     right: 9.3%;
   }
 
+  .linux,
   .resume {
     line-height: 2;
   }
@@ -984,6 +1004,15 @@ body {
 
   .index-1 {
     font-size: 4px;
+  }
+
+  ._button-1 {
+    left: 0;
+    right: 0;
+    width: 74.6640625%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 4em;
   }
 
   ._button-2 {

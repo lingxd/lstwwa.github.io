@@ -5,46 +5,35 @@ body {
 }
 
 .black {
-  position: absolute;
   top: 0;
-  z-index: 5;
+  z-index: 2;
   height: 135px;
   border: 1px solid rgba(0, 0, 0, 0.21);
   background-color: rgba(0, 0, 0, 0.49);
 }
 
 .button {
-  position: absolute;
-  top: 14px;
-  left: 84.1131731061%;
-  z-index: 3;
-  width: 12.8506236689%;
+  top: 194px;
+  left: 44%;
+  z-index: 1;
+  width: 5.5%;
   height: 24px;
   background-color: rgb(61, 71, 92);
   font-size: 1.333em;
 }
 
-.divresource {
-  position: absolute;
-  top: 180px;
-  left: 8%;
-  z-index: 4;
-  width: 42.7994791666%;
-  height: 53px;
-}
-
 .element {
+  position: absolute;
   left: 0;
   width: 100%;
 }
 
 .home {
-  position: absolute;
   top: 52px;
   left: 42.3333333333%;
-  z-index: 10;
+  z-index: 7;
   width: 6.8333333333%;
-  height: 102px;
+  height: 36px;
   background-color: rgb(81, 94, 123);
   font-size: 2.333em;
   white-space: nowrap;
@@ -53,26 +42,30 @@ body {
 .image {
   display: block;
   position: absolute;
-  top: 33px;
-  left: 1.25%;
-  z-index: 11;
+  top: 20px;
+  left: 1.6666666666%;
+  z-index: 8;
   width: 100px;
   height: auto;
   overflow: hidden;
 }
 
+.index {
+  top: 1824px;
+}
+
 .link {
   display: block;
+  position: absolute;
   border-radius: 3px;
   text-align: center;
   color: rgb(255, 255, 255);
 }
 
 .linux {
-  position: absolute;
   top: 52px;
-  left: 69.5989583333%;
-  z-index: 8;
+  left: 69.5833333333%;
+  z-index: 5;
   width: 6.75%;
   height: 36px;
   background-color: rgb(81, 94, 123);
@@ -83,7 +76,7 @@ body {
   position: absolute;
   top: 40px;
   left: 15.1666666666%;
-  z-index: 6;
+  z-index: 3;
   width: 27.1666666666%;
   min-width: 98px;
   font-size: 1.333em;
@@ -93,43 +86,49 @@ body {
 .resource {
   display: block;
   position: absolute;
-  top: 14px;
-  left: 4.6729540614%;
-  z-index: 2;
-  width: 53.154852449%;
+  top: 194px;
+  left: 10%;
+  width: 22.75%;
   height: 24px;
   font-size: 1.333em;
   color: rgb(255, 255, 255);
 }
 
 .resources {
-  position: absolute;
-}
-
-.resources-2 p,
-.text-1 p {
-  margin-bottom: 1em;
+  top: 52px;
+  left: 83.1666666666%;
+  z-index: 6;
+  width: 6.8333333333%;
+  height: 95px;
+  background-color: rgb(81, 94, 123);
+  font-size: 2.333em;
 }
 
 .resume {
-  position: absolute;
   top: 52px;
   left: 56%;
-  z-index: 7;
+  z-index: 4;
   width: 6.8333333333%;
   height: 36px;
   background-color: rgb(81, 94, 123);
   font-size: 2.333em;
 }
 
+.index p,
+.text-2 p {
+  margin-bottom: 1em;
+}
+
 ._button {
   display: block;
   position: absolute;
-  top: 557px;
-  left: 37.2%;
-  z-index: 12;
+  top: 547px;
+  left: 0;
+  right: 0;
+  z-index: 9;
   width: 26.4166666666%;
   height: 208px;
+  margin: 0 auto;
   border-radius: 3px;
   background: url('../images/construction.png') rgba(222, 222, 222, 0);
   background-repeat: no-repeat;
@@ -140,42 +139,44 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.link-2 {
-  top: 52px;
-  left: 83.1666666666%;
-  z-index: 9;
-  width: 6.8333333333%;
-  height: 36px;
-  background-color: rgb(81, 94, 123);
-  font-size: 2.333em;
-}
-
-.resources-2 {
-  top: 1345px;
-  left: 2.1666666666%;
-  z-index: 1;
-  width: 87.8333333333%;
+.index-1 {
+  position: absolute;
+  left: 0;
+  z-index: 11;
+  width: 81%;
   min-height: 68px;
   font-size: 1em;
   color: rgba(255, 255, 255, 0.35);
 }
 
-.resources-3 {
-  top: 1324px;
+.index-2 {
+  z-index: 10;
   height: 89px;
   background-color: #000000;
 }
 
 @media(max-width: 1100px) {
+  body {
+    font-size: 0.625em;
+  }
+
+  .button {
+    left: 43.9985795454%;
+    width: 5.4985795454%;
+    height: 39px;
+    font-size: 1.2em;
+  }
+
   .home {
+    left: 42.3636363636%;
     width: 6.8181818181%;
     min-width: 0;
-    height: 100px;
     min-height: 0;
-    font-size: 2em;
+    font-size: 2.6em;
   }
 
   .image {
+    left: 2%;
     width: 90px;
     height: auto;
   }
@@ -184,77 +185,127 @@ body {
     width: 6.8%;
     min-width: 0;
     min-height: 0;
-    font-size: 2.167em;
+    font-size: 2.6em;
   }
 
   .lstwwa {
+    left: 15%;
     width: 27.1818181818%;
     min-width: 0;
     min-height: 0;
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
 
-  .link-2,
+  .resource {
+    left: 9.9985795454%;
+    width: 22.7485795454%;
+    font-size: 1.6em;
+  }
+
+  .resources {
+    left: 83.1818181818%;
+    width: 6.8181818181%;
+    min-width: 0;
+    height: 98px;
+    min-height: 0;
+    font-size: 2.6em;
+  }
+
   .resume {
     width: 6.8181818181%;
     min-width: 0;
     min-height: 0;
-    font-size: 2.167em;
+    font-size: 2.6em;
   }
 
   ._button {
+    top: 500px;
+    left: 0;
+    right: 0;
     width: 48.4444444444%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.6em;
+  }
+
+  .index-1 {
+    font-size: 10px;
   }
 }
 
 @media(max-width: 1000px) {
-  body {
-    font-size: 0.75em;
+  .button {
+    left: 43.9984375%;
+    width: 5.4984375%;
   }
 
   .home {
+    left: 42.4%;
     width: 6.8%;
-    height: 88px;
-    font-size: 1.833em;
+    font-size: 2.2em;
   }
 
   .image {
+    top: 24px;
     width: 80px;
     height: auto;
   }
 
   .linux {
-    font-size: 1.833em;
+    left: 69.6%;
+    width: 6.8333333333%;
+    font-size: 2.2em;
   }
 
   .lstwwa {
     width: 27.9%;
-    font-size: 1.167em;
+    font-size: 1.4em;
+  }
+
+  .resource {
+    left: 9.9984375%;
+    width: 22.7484374999%;
+  }
+
+  .resources {
+    left: 83.2%;
+    width: 6.8%;
+    height: 91px;
+    font-size: 2.4em;
   }
 
   .resume {
     width: 6.8%;
-    font-size: 1.833em;
+    font-size: 2.2em;
   }
 
   ._button {
+    left: 0;
+    right: 0;
     width: 73.5%;
-  }
-
-  .link-2 {
-    width: 6.8%;
-    font-size: 2em;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
 @media(max-width: 900px) {
+  body {
+    font-size: 0.625em;
+  }
+
+  .button {
+    left: 43.9982638888%;
+    width: 5.4982638888%;
+  }
+
   .home {
+    left: 42.4444444444%;
     width: 7.1111111111%;
-    height: 96px;
-    font-size: 1.667em;
+    font-size: 2em;
   }
 
   .image {
+    top: 30px;
     width: 70px;
     min-width: 0;
     height: auto;
@@ -262,31 +313,48 @@ body {
 
   .linux {
     width: 6.8888888888%;
-    font-size: 1.667em;
+    font-size: 2em;
   }
 
   .lstwwa {
     width: 26.8888888888%;
-    font-size: 1.083em;
+    font-size: 1.3em;
   }
 
-  .link-2 {
+  .resource {
+    left: 9.9982638888%;
+    width: 22.7482638888%;
+  }
+
+  .resources {
+    left: 83.2222222222%;
     width: 6.7777777777%;
-    font-size: 1.833em;
+    height: 99px;
+    font-size: 2.2em;
+  }
+
+  ._button {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
 @media(max-width: 800px) {
-  body {
-    font-size: 0.75em;
+  .button {
+    left: 43.998046875%;
+    width: 5.498046875%;
   }
 
   .home {
+    left: 42.25%;
     width: 6.75%;
-    height: 93px;
   }
 
   .image {
+    top: 33px;
+    left: 2.5%;
     width: 60px;
     height: auto;
   }
@@ -296,196 +364,404 @@ body {
   }
 
   .lstwwa {
+    top: 44px;
+    left: 12%;
     width: 30.25%;
-    font-size: 1em;
+    font-size: 1.2em;
+  }
+
+  .resource {
+    left: 9.998046875%;
+    width: 22.748046875%;
+  }
+
+  .resources {
+    left: 83.25%;
+    width: 6.875%;
+    font-size: 2em;
   }
 
   .resume {
-    font-size: 1.667em;
+    font-size: 2em;
   }
 
-  .link-2 {
-    width: 6.875%;
-    font-size: 1.667em;
+  ._button {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
 @media(max-width: 700px) {
+  body {
+    font-size: 0.563em;
+  }
+
+  .button {
+    left: 44%;
+    width: 7%;
+    font-size: 1.333em;
+  }
+
   .home {
+    left: 42.3999999999%;
     width: 6.7142857142%;
-    height: 92px;
-    font-size: 1.5em;
+    font-size: 18px;
   }
 
   .image {
+    top: 38px;
+    left: 2%;
     width: 50px;
     height: auto;
   }
 
   .lstwwa {
     width: 31%;
-    font-size: 0.917em;
+    font-size: 1.222em;
   }
 
-  .link-2,
+  .resource {
+    left: 9.9977678571%;
+    width: 22.7477678571%;
+    font-size: 1.778em;
+  }
+
+  .resources {
+    left: 83.1428571428%;
+    width: 6.8571428571%;
+    height: 97px;
+    font-size: 18px;
+  }
+
   .linux,
   .resume {
-    font-size: 1.5em;
+    font-size: 18px;
+  }
+
+  ._button {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.778em;
+  }
+
+  .index-1 {
+    font-size: 9px;
   }
 }
 
 @media(max-width: 600px) {
   body {
-    font-size: 0.75em;
+    font-size: 0.5em;
+  }
+
+  .button {
+    width: 5.5%;
+    font-size: 1.5em;
   }
 
   .home {
-    font-size: 1.333em;
+    top: 93px;
+    left: 42.3333333333%;
+    width: 6.6666666666%;
+    height: 24px;
+    font-size: 16px;
   }
 
   .image {
+    top: 33px;
     height: auto;
   }
 
   .linux {
+    top: 93px;
     width: 6.8333333333%;
     height: 24px;
-    font-size: 1.25em;
+    font-size: 1.875em;
   }
 
   .lstwwa {
-    font-size: 0.833em;
+    top: 41px;
+    left: 14%;
+    font-size: 1.25em;
   }
 
-  .link-2,
+  .resource {
+    left: 10%;
+    width: 22.75%;
+    font-size: 2em;
+  }
+
+  .resources {
+    top: 93px;
+    left: 83.1666666666%;
+    width: 6.8333333333%;
+    font-size: 16px;
+  }
+
   .resume {
+    top: 93px;
     height: 24px;
-    font-size: 1.333em;
+    font-size: 16px;
+  }
+
+  ._button {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 2em;
+  }
+
+  .index-1 {
+    font-size: 8px;
   }
 }
 
 @media(max-width: 500px) {
+  body {
+    font-size: 0.438em;
+  }
+
+  .button {
+    left: 76.971875%;
+    width: 10.5375%;
+    font-size: 1.714em;
+  }
+
   .home {
-    width: 13.25%;
-    font-size: 1.25em;
+    left: 10%;
+    width: 13.5%;
+    font-size: 2.143em;
   }
 
   .image {
+    top: 16px;
+    left: 10%;
     height: auto;
   }
 
   .linux {
-    width: 13.25%;
+    left: auto;
+    right: 32%;
+    width: 13.5%;
     height: 22px;
+    font-size: 2.143em;
   }
 
   .lstwwa {
+    top: 26px;
+    left: 23%;
     width: 69.8%;
-    font-size: 0.75em;
+    font-size: 1.286em;
+  }
+
+  .resource {
+    left: 11.83125%;
+    width: 43.5843749999%;
+    font-size: 2.286em;
+  }
+
+  .resources {
+    left: 76.4%;
+    width: 13.6%;
+    font-size: 2.143em;
   }
 
   .resume {
+    left: 32%;
     width: 13.5%;
     height: 22px;
-    font-size: 1.25em;
+    font-size: 2.143em;
   }
 
-  .link-2 {
-    width: 13.5%;
-    height: 23px;
-    font-size: 1.25em;
+  ._button {
+    top: 601px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 2.286em;
+  }
+
+  .index-1 {
+    font-size: 7px;
   }
 }
 
 @media(max-width: 400px) {
   body {
-    font-size: 0.75em;
+    font-size: 0.375em;
+  }
+
+  .button {
+    left: 76.97265625%;
+    width: 10.53515625%;
+    font-size: 2em;
   }
 
   .home {
-    width: 13.5%;
+    font-size: 2.5em;
   }
 
   .image {
+    top: 22px;
     height: auto;
   }
 
   .linux {
     height: 20px;
+    font-size: 2.5em;
   }
 
   .lstwwa {
+    top: 30px;
+    left: 28%;
     width: 64.75%;
-    font-size: 0.833em;
+    font-size: 1.667em;
   }
 
-  .link-2,
+  .resource {
+    left: 11.828125%;
+    width: 43.5859375%;
+    font-size: 2.667em;
+  }
+
+  .resources {
+    left: 76.5%;
+    width: 13.5%;
+    font-size: 2.167em;
+  }
+
   .resume {
     height: 20px;
-    font-size: 1.083em;
+    font-size: 2.167em;
   }
 
   ._button {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
     background-size: contain;
+    font-size: 2.667em;
+  }
+
+  .index-1 {
+    font-size: 6px;
   }
 }
 
 @media(max-width: 300px) {
+  body {
+    font-size: 0.313em;
+  }
+
+  .button {
+    left: 77%;
+    width: 10.6666666666%;
+  }
+
   .image {
     height: auto;
   }
 
-  .link-2,
-  .linux {
-    left: auto;
-    font-size: 1em;
-    line-height: 1.7;
+  .link {
+    font-size: 2.4em;
   }
 
   .lstwwa {
+    top: 34px;
+    left: 30%;
     width: 60%;
-    font-size: 0.667em;
+    font-size: 1.6em;
+  }
+
+  .resource {
+    width: 43.5833333333%;
+    font-size: 3.2em;
+  }
+
+  .resources {
+    left: auto;
+    right: 10.0999999999%;
+    line-height: 1.7;
   }
 
   .home,
+  .linux,
   .resume {
-    font-size: 1em;
     line-height: 1.7;
   }
 
   ._button {
+    left: 0;
+    right: 0;
     width: 74.6666666666%;
     height: 133px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 3.2em;
+  }
+
+  .index-1 {
+    font-size: 5px;
   }
 }
 
 @media(max-width: 200px) {
   body {
-    font-size: 0.75em;
+    font-size: 0.25em;
   }
 
-  .home {
-    height: 37px;
-    font-size: 0.667em;
-    line-height: 2;
+  .button {
+    top: 200px;
+    left: 70%;
+    width: 10.5%;
+    height: 14px;
   }
 
   .image {
+    top: 30px;
     width: 40px;
     height: auto;
   }
 
-  .lstwwa {
-    font-size: 0.5em;
+  .link {
+    font-size: 2em;
   }
 
+  .lstwwa {
+    top: 40px;
+    left: 36%;
+    font-size: 1.5em;
+  }
+
+  .resource {
+    left: 12%;
+    width: 51%;
+    height: 27px;
+    font-size: 2.5em;
+  }
+
+  .home,
   .linux,
   .resume {
-    font-size: 0.667em;
     line-height: 2;
   }
 
-  .link-2 {
-    font-size: 0.667em;
+  ._button {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 4em;
+  }
+
+  .index-1 {
+    font-size: 4px;
   }
 }
