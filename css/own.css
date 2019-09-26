@@ -39,12 +39,27 @@ body {
   color: rgba(255, 255, 255, 0.51);
 }
 
+.button {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 94.1666666666%;
+  z-index: 14;
+  width: 5.8333333333%;
+  height: 34px;
+  border-radius: 3px;
+  background-color: rgb(133, 145, 172);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
 .cut {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 14;
+  z-index: 15;
   width: 100%;
   height: 195px;
   margin: 0 auto;
@@ -212,6 +227,12 @@ body {
     height: 25px;
   }
 
+  .head .button {
+    left: 94.1661931818%;
+    width: 5.8323863636%;
+    font-size: 1.067em;
+  }
+
   .head .index {
     top: 25px;
     left: 0;
@@ -305,6 +326,12 @@ body {
     top: 180px;
   }
 
+  .head .button {
+    left: 94.1656249999%;
+    width: 5.8328125%;
+    font-size: 1.143em;
+  }
+
   .head .index {
     height: 155px;
   }
@@ -387,6 +414,12 @@ body {
     top: 185px;
   }
 
+  .head .button {
+    left: 94.1666666666%;
+    width: 5.8333333333%;
+    font-size: 1.231em;
+  }
+
   .head .index {
     height: 160px;
   }
@@ -462,6 +495,12 @@ body {
 
   .head {
     height: 189px;
+  }
+
+  .head .button {
+    left: 94.166015625%;
+    width: 5.83203125%;
+    font-size: 1.333em;
   }
 
   .head .index {
@@ -546,6 +585,12 @@ body {
 
   .head .bottom {
     top: 165px;
+  }
+
+  .head .button {
+    left: 94.1651785714%;
+    width: 5.8325892857%;
+    font-size: 1.455em;
   }
 
   .head .index {
@@ -638,6 +683,12 @@ body {
     top: 160px;
   }
 
+  .head .button {
+    left: 94.1666666666%;
+    width: 5.8333333333%;
+    font-size: 1.6em;
+  }
+
   .head .index {
     left: 0;
     right: auto;
@@ -710,6 +761,12 @@ body {
   .buttom .text {
     width: 40.784375%;
     font-size: 0.667em;
+  }
+
+  .head .button {
+    left: 94.1656249999%;
+    width: 5.83125%;
+    font-size: 1.778em;
   }
 
   .head .top {
@@ -785,6 +842,12 @@ body {
   .buttom .text {
     width: 40.78515625%;
     font-size: 0.6em;
+  }
+
+  .head .button {
+    left: 94.1640625%;
+    width: 5.83203125%;
+    font-size: 1.6em;
   }
 
   .head .index {
@@ -871,6 +934,12 @@ body {
 
   .head .bottom {
     top: 140px;
+  }
+
+  .head .button {
+    left: 94.1666666666%;
+    width: 5.8333333333%;
+    font-size: 2em;
   }
 
   .head .index {
@@ -965,6 +1034,12 @@ body {
 
   .head .bottom {
     top: 110px;
+  }
+
+  .head .button {
+    left: 94.1640625%;
+    width: 5.828125%;
+    font-size: 2.667em;
   }
 
   .head .index {

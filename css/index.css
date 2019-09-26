@@ -90,7 +90,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 24;
+  z-index: 25;
   width: 100%;
   height: 193px;
   margin: 0 auto;
@@ -234,6 +234,21 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.me {
+  display: block;
+  position: absolute;
+  top: 28px;
+  left: 94.1666666666%;
+  z-index: 24;
+  width: 5.8333333333%;
+  height: 34px;
+  border-radius: 3px;
+  background-color: rgb(133, 145, 172);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
 .resources {
   display: block;
   top: 0;
@@ -360,6 +375,12 @@ body {
 
   .head .bottom {
     height: 25px;
+  }
+
+  .head .button {
+    left: 94.1661931818%;
+    width: 5.8323863636%;
+    font-size: 1.067em;
   }
 
   .head .index {
@@ -520,6 +541,12 @@ body {
     top: 180px;
   }
 
+  .head .button {
+    left: 94.1656249999%;
+    width: 5.8328125%;
+    font-size: 1.143em;
+  }
+
   .head .top {
     left: 0;
     right: 0;
@@ -656,6 +683,12 @@ body {
     height: 204px;
   }
 
+  .head .button {
+    left: 94.1666666666%;
+    width: 5.8333333333%;
+    font-size: 1.231em;
+  }
+
   .head .index {
     height: 160px;
   }
@@ -784,6 +817,12 @@ body {
     top: 185px;
   }
 
+  .head .button {
+    left: 94.166015625%;
+    width: 5.83203125%;
+    font-size: 1.333em;
+  }
+
   .head .index {
     height: 159px;
   }
@@ -900,6 +939,12 @@ body {
 
   .head .bottom {
     top: 165px;
+  }
+
+  .head .button {
+    left: 94.1651785714%;
+    width: 5.8325892857%;
+    font-size: 1.455em;
   }
 
   .head .index {
@@ -1033,6 +1078,12 @@ body {
     top: 160px;
   }
 
+  .head .button {
+    left: 94.1666666666%;
+    width: 5.8333333333%;
+    font-size: 1.6em;
+  }
+
   .head .index {
     left: 0;
     right: auto;
@@ -1164,6 +1215,12 @@ body {
 
   .head {
     height: 185px;
+  }
+
+  .head .button {
+    left: 94.1656249999%;
+    width: 5.83125%;
+    font-size: 1.778em;
   }
 
   .head .top {
@@ -1313,6 +1370,12 @@ body {
     height: 184px;
   }
 
+  .head .button {
+    left: 94.1640625%;
+    width: 5.83203125%;
+    font-size: 1.6em;
+  }
+
   .head .index {
     top: 24px;
   }
@@ -1459,6 +1522,12 @@ body {
     right: 0;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .head .button {
+    left: 94.1666666666%;
+    width: 5.8333333333%;
+    font-size: 2em;
   }
 
   .head .index {
@@ -1611,6 +1680,12 @@ body {
     height: 10px;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .head .button {
+    left: 94.1640625%;
+    width: 5.828125%;
+    font-size: 2.667em;
   }
 
   .head .index {

@@ -5,7 +5,8 @@ body {
 }
 
 .index-2 p,
-.lstwwa-2 p {
+.lstwwa-2 p,
+.text-2 p {
   margin-bottom: 1em;
 }
 
@@ -188,6 +189,21 @@ body {
   background-color: rgb(133, 145, 172);
 }
 
+._text {
+  position: absolute;
+  top: 270px;
+  left: 0;
+  right: 0;
+  z-index: 16;
+  width: 54.3997395833%;
+  min-height: 507px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
 .link-1 {
   top: 48px;
   left: 42.1666666666%;
@@ -205,13 +221,8 @@ body {
 }
 
 @media(max-width: 1100px) {
-  body {
-    font-size: 0.938em;
-  }
-
   .buttom .text {
     width: 40.7855113636%;
-    font-size: 0.4em;
   }
 
   .cut {
@@ -228,9 +239,7 @@ body {
   }
 
   .head .button {
-    left: 94.1661931818%;
     width: 5.8323863636%;
-    font-size: 1.067em;
   }
 
   .head .index {
@@ -261,7 +270,7 @@ body {
   .link .link {
     min-width: 0;
     min-height: 0;
-    font-size: 1.733em;
+    font-size: 1.625em;
   }
 
   .link .linux {
@@ -291,7 +300,17 @@ body {
     width: 67.609172828%;
     min-width: 0;
     min-height: 0;
-    font-size: 15px;
+    font-size: 0.938em;
+  }
+
+  .text {
+    left: 0;
+  }
+
+  ._text {
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .index .link-1 {
@@ -310,12 +329,11 @@ body {
 
 @media(max-width: 1000px) {
   body {
-    font-size: 0.875em;
+    font-size: 1em;
   }
 
   .buttom .text {
     width: 40.7859375%;
-    font-size: 0.429em;
   }
 
   .head {
@@ -327,45 +345,36 @@ body {
   }
 
   .head .button {
-    left: 94.1656249999%;
     width: 5.8328125%;
-    font-size: 1.143em;
   }
 
   .head .index {
     height: 155px;
   }
 
-  .head .top {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .link .home {
     left: 0;
     width: 14.2744076797%;
-    font-size: 1.571em;
+    font-size: 1.375em;
   }
 
   .link .linux {
     left: 57.1103962418%;
     width: 14.3446180555%;
-    font-size: 1.571em;
+    font-size: 1.375em;
   }
 
   .link .resources {
     left: 85.666870915%;
     width: 14.2744076797%;
     height: 50px;
-    font-size: 1.714em;
+    font-size: 1.5em;
   }
 
   .link .resume {
     left: 28.5539215686%;
     width: 14.2744076797%;
-    font-size: 1.571em;
+    font-size: 1.375em;
   }
 
   .lstwwa .image {
@@ -378,7 +387,15 @@ body {
     top: 16px;
     left: 31.6367265469%;
     width: 68.1231287425%;
-    font-size: 14px;
+    font-size: 0.875em;
+  }
+
+  ._text,
+  .head .top {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .index .link-1 {
@@ -397,13 +414,8 @@ body {
 }
 
 @media(max-width: 900px) {
-  body {
-    font-size: 0.813em;
-  }
-
   .buttom .text {
     width: 40.7864583333%;
-    font-size: 0.462em;
   }
 
   .head {
@@ -411,44 +423,34 @@ body {
   }
 
   .head .button {
-    left: 94.1666666666%;
     width: 5.8333333333%;
-    font-size: 1.231em;
   }
 
   .head .index {
     height: 160px;
   }
 
-  .head .top {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .link .home {
     left: -0.0028409091%;
     width: 14.9318181818%;
-    font-size: 1.538em;
+    font-size: 1.25em;
   }
 
   .link .linux {
     left: 57.0170454545%;
     width: 14.4644886363%;
-    font-size: 1.538em;
+    font-size: 1.25em;
   }
 
   .link .resources {
     left: 85.7144886363%;
     width: 14.2315340909%;
-    font-size: 1.692em;
+    font-size: 1.375em;
   }
 
   .link .resume {
     left: 28.5539772727%;
     width: 14.2727272727%;
-    font-size: 1.692em;
   }
 
   .lstwwa .image {
@@ -462,7 +464,15 @@ body {
     top: 15px;
     left: 12.5%;
     width: 34.0277777777%;
-    font-size: 13px;
+    font-size: 0.813em;
+  }
+
+  ._text,
+  .head .top {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .index .link-1 {
@@ -481,12 +491,11 @@ body {
 
 @media(max-width: 800px) {
   body {
-    font-size: 0.75em;
+    font-size: 1em;
   }
 
   .buttom .text {
     width: 40.78515625%;
-    font-size: 0.5em;
   }
 
   .head {
@@ -498,29 +507,16 @@ body {
   }
 
   .head .button {
-    left: 94.166015625%;
     width: 5.83203125%;
-    font-size: 1.333em;
   }
 
   .head .index {
     height: 159px;
   }
 
-  .head .top {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .link .home {
     left: 0;
     width: 14.0912282941%;
-  }
-
-  .link .link {
-    font-size: 1.667em;
   }
 
   .link .linux {
@@ -531,11 +527,13 @@ body {
   .link .resources {
     left: 85.6071246169%;
     width: 14.3529749744%;
+    font-size: 1.25em;
   }
 
   .link .resume {
     left: 28.7075459652%;
     width: 14.1949693564%;
+    font-size: 1.25em;
   }
 
   .lstwwa .image {
@@ -548,7 +546,15 @@ body {
     top: 11px;
     left: 32.96875%;
     width: 67.03125%;
-    font-size: 12px;
+    font-size: 0.75em;
+  }
+
+  ._text,
+  .head .top {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .index .link-1 {
@@ -570,13 +576,8 @@ body {
 }
 
 @media(max-width: 700px) {
-  body {
-    font-size: 0.688em;
-  }
-
   .buttom .text {
     width: 40.7857142857%;
-    font-size: 0.545em;
   }
 
   .head {
@@ -588,9 +589,7 @@ body {
   }
 
   .head .button {
-    left: 94.1651785714%;
     width: 5.8325892857%;
-    font-size: 1.455em;
   }
 
   .head .index {
@@ -601,20 +600,13 @@ body {
     margin-left: auto;
   }
 
-  .head .top {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .link .home {
     width: 14.091739766%;
     height: 24px;
   }
 
   .link .link {
-    font-size: 1.636em;
+    font-size: 1.125em;
   }
 
   .link .linux {
@@ -644,7 +636,15 @@ body {
     top: 6px;
     left: 33.0357142857%;
     width: 66.9642857142%;
-    font-size: 11px;
+    font-size: 0.688em;
+  }
+
+  ._text,
+  .head .top {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .index .link-1 {
@@ -667,12 +667,11 @@ body {
 
 @media(max-width: 600px) {
   body {
-    font-size: 0.625em;
+    font-size: 1em;
   }
 
   .buttom .text {
     width: 40.7864583333%;
-    font-size: 0.6em;
   }
 
   .head {
@@ -684,9 +683,7 @@ body {
   }
 
   .head .button {
-    left: 94.1666666666%;
     width: 5.8333333333%;
-    font-size: 1.6em;
   }
 
   .head .index {
@@ -695,20 +692,12 @@ body {
     height: 135px;
   }
 
-  .head .top,
-  .index .lstwwa-2 {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .index {
     left: auto;
   }
 
   .link .home {
-    font-size: 1.6em;
+    font-size: 1em;
   }
 
   .link .link {
@@ -717,18 +706,18 @@ body {
 
   .link .linux {
     left: 57.3399182561%;
-    font-size: 1.5em;
+    font-size: 0.938em;
   }
 
   .link .resources {
     left: 85.6628916893%;
     height: 47px;
-    font-size: 1.6em;
+    font-size: 1em;
   }
 
   .link .resume {
     left: 28.6678303814%;
-    font-size: 1.6em;
+    font-size: 1em;
   }
 
   .lstwwa .image {
@@ -740,7 +729,16 @@ body {
     top: 8px;
     left: 32.9166666666%;
     width: 67.0833333333%;
-    font-size: 10px;
+    font-size: 0.625em;
+  }
+
+  ._text,
+  .head .top,
+  .index .lstwwa-2 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .index .link-1 {
@@ -754,13 +752,8 @@ body {
 }
 
 @media(max-width: 500px) {
-  body {
-    font-size: 0.563em;
-  }
-
   .buttom .text {
     width: 40.784375%;
-    font-size: 0.667em;
   }
 
   .head {
@@ -768,25 +761,13 @@ body {
   }
 
   .head .button {
-    left: 94.1656249999%;
     width: 5.83125%;
-    font-size: 1.778em;
-  }
-
-  .head .top {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .link .home {
     width: 17%;
     height: 22px;
-  }
-
-  .link .link {
-    font-size: 1.667em;
+    font-size: 0.938em;
   }
 
   .link .linux {
@@ -799,12 +780,14 @@ body {
   .link .resources {
     left: 83%;
     width: 16.875%;
+    font-size: 0.938em;
   }
 
   .link .resume {
     left: 27.5%;
     width: 16.875%;
     height: 22px;
+    font-size: 0.938em;
   }
 
   .lstwwa .image {
@@ -816,7 +799,15 @@ body {
     top: 10px;
     left: 32.8850855745%;
     width: 66.9926650366%;
-    font-size: 9px;
+    font-size: 0.563em;
+  }
+
+  ._text,
+  .head .top {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .index .link-1 {
@@ -840,12 +831,11 @@ body {
 
 @media(max-width: 400px) {
   body {
-    font-size: 0.625em;
+    font-size: 1em;
   }
 
   .buttom .text {
     width: 40.78515625%;
-    font-size: 0.6em;
   }
 
   .head {
@@ -853,43 +843,32 @@ body {
   }
 
   .head .button {
-    left: 94.1640625%;
     width: 5.83203125%;
-    font-size: 1.6em;
   }
 
   .head .index {
     top: 24px;
   }
 
-  .head .top {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .link .home {
     width: 16.875%;
     height: 25px;
-    font-size: 1.5em;
   }
 
   .link .linux {
     right: 27.49609375%;
     height: 25px;
-    font-size: 1.5em;
   }
 
   .link .resources {
     left: 83.125%;
     height: 40px;
-    font-size: 1.3em;
+    font-size: 0.813em;
   }
 
   .link .resume {
     height: 25px;
-    font-size: 1.3em;
+    font-size: 0.813em;
   }
 
   .lstwwa .image {
@@ -900,7 +879,15 @@ body {
     top: 8px;
     left: 33%;
     width: 78.2477341389%;
-    font-size: 10px;
+    font-size: 0.625em;
+  }
+
+  ._text,
+  .head .top {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .index .link-1 {
@@ -923,14 +910,9 @@ body {
 }
 
 @media(max-width: 300px) {
-  body {
-    font-size: 0.5em;
-  }
-
   .buttom .text {
     left: 0;
     width: 50.3333333333%;
-    font-size: 0.75em;
   }
 
   .head {
@@ -949,9 +931,7 @@ body {
   }
 
   .head .button {
-    left: 94.1666666666%;
     width: 5.8333333333%;
-    font-size: 2em;
   }
 
   .head .index {
@@ -965,31 +945,28 @@ body {
 
   .link .home {
     height: 20px;
-    font-size: 12px;
   }
 
   .link .link {
     width: 16.875878952%;
+    font-size: 0.75em;
     line-height: 1.7;
   }
 
   .link .linux {
     right: 27.4962237616%;
     height: 20px;
-    font-size: 12px;
   }
 
   .link .resources {
     left: auto;
     right: 0.1145893015%;
     height: 30px;
-    font-size: 1.5em;
   }
 
   .link .resume {
     left: 27.5014323662%;
     height: 20px;
-    font-size: 1.5em;
   }
 
   .lstwwa .image {
@@ -999,7 +976,17 @@ body {
   .lstwwa .text {
     top: 12px;
     width: 79.5833333333%;
-    font-size: 8px;
+    font-size: 0.5em;
+  }
+
+  .text {
+    left: 0;
+  }
+
+  ._text {
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .index .link-1 {
@@ -1024,12 +1011,11 @@ body {
 
 @media(max-width: 200px) {
   body {
-    font-size: 0.375em;
+    font-size: 1em;
   }
 
   .buttom .text {
     width: 56.9999999999%;
-    font-size: 1em;
   }
 
   .head {
@@ -1049,9 +1035,7 @@ body {
   }
 
   .head .button {
-    left: 94.1640625%;
     width: 5.828125%;
-    font-size: 2.667em;
   }
 
   .head .index {
@@ -1068,7 +1052,7 @@ body {
 
   .link .link {
     width: 16.6219325153%;
-    font-size: 1.333em;
+    font-size: 0.5em;
   }
 
   .link .linux {
@@ -1096,7 +1080,14 @@ body {
   .lstwwa .text {
     top: 10px;
     width: 66.6666666666%;
-    font-size: 6px;
+    font-size: 0.375em;
+  }
+
+  ._text {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .index .link-1 {
