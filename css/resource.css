@@ -4,44 +4,35 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.index-1 p,
-.lstwwa-4 p {
+.index-2 p,
+.lstwwa-2 p {
   margin-bottom: 1em;
 }
 
 .black {
-  position: absolute;
   width: 100%;
 }
 
 .bottom {
-  top: 167px;
+  position: absolute;
+  top: 165px;
   left: 0;
+  z-index: 3;
   height: 30px;
-  background-color: rgb(133, 145, 172);
+  background-color: rgba(162, 173, 197, 0.54);
 }
 
 .buttom {
+  position: absolute;
   top: 1400px;
-  left: 0;
-  z-index: 15;
+  z-index: 2;
   height: 50px;
-}
-
-.buttom .black {
-  bottom: 0;
-  z-index: 13;
-  height: 50px;
-  background-color: rgb(41, 47, 62);
-}
-
-.buttom .lstwwa {
-  left: 0.0833333333%;
 }
 
 .buttom .text {
   bottom: 11px;
-  z-index: 14;
+  left: 0.0833333333%;
+  z-index: 1;
   width: 40.75%;
   height: 34px;
   font-size: 0.375em;
@@ -49,27 +40,26 @@ body {
 }
 
 .cut {
-  left: 0;
-  right: 0;
-  z-index: 2;
-  width: 100%;
-  height: 197px;
-  margin: 0 auto;
-}
-
-.element {
-  top: 0;
-  left: 0;
-  z-index: 3;
-  height: 135px;
-  border: 1px solid rgba(0, 0, 0, 0.21);
-  background-color: rgba(0, 0, 0, 0.49);
-}
-
-.head {
   position: absolute;
   top: 0;
+  left: 0;
+  right: 0;
+  z-index: 14;
+  width: 100%;
+  height: 192px;
+  margin: 0 auto;
+  background-image: url('../images/ac5afa59ada34de634b6be4db5a59b24(4).png');
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center center;
   overflow: hidden;
+}
+
+.head .index {
+  top: 30px;
+  z-index: 12;
+  height: 135px;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .home {
@@ -89,15 +79,27 @@ body {
 
 .image {
   display: block;
+  position: absolute;
+  top: 0;
   left: 0;
   z-index: 5;
   width: 100px;
   height: auto;
+  overflow: hidden;
 }
 
 .index {
-  position: absolute;
+  left: 0;
+  right: 0;
   width: 100%;
+  margin: 0 auto;
+}
+
+.index .black {
+  bottom: 0;
+  left: 0.0833333333%;
+  height: 50px;
+  background-color: rgb(41, 47, 62);
 }
 
 .link {
@@ -116,6 +118,10 @@ body {
   font-size: 1.75em;
   text-align: center;
   color: rgb(255, 255, 255);
+}
+
+.lstwwa {
+  position: absolute;
 }
 
 .lstwwa .text {
@@ -156,46 +162,15 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.tamp {
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
-.tamp .tamp {
-  color: rgb(0, 0, 0);
-}
-
-.tamp .text {
-  top: 153px;
-  z-index: 17;
-  width: 100%;
-  min-height: 46px;
-  font-size: 1.875em;
-  text-align: center;
-}
-
-.text {
-  position: absolute;
-}
-
 .top {
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 13;
   height: 30px;
   margin: 0 auto;
   background-color: rgb(133, 145, 172);
-}
-
-.index-2 {
-  top: 31px;
-  left: 0;
-  right: 0;
-  z-index: 12;
-  height: 135px;
-  margin: 0 auto;
 }
 
 .link-1 {
@@ -206,8 +181,7 @@ body {
   height: 70px;
 }
 
-.lstwwa-4 {
-  position: absolute;
+.lstwwa-2 {
   top: 17px;
   left: 1.5%;
   z-index: 6;
@@ -215,38 +189,14 @@ body {
   height: 100px;
 }
 
-.tamp-1 {
-  position: absolute;
-  top: 500px;
-  z-index: 18;
-  width: 100%;
-  height: 199px;
-}
-
-.tamp-3 {
-  display: block;
-  position: absolute;
-  top: 0;
-  z-index: 16;
-  width: 99.9166666666%;
-  height: 152px;
-  border-radius: 3px;
-  background-image: url('../images/1011bce4d5fdbb6dcb74b137b4931e7e(5).png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-  font-size: 1em;
-  text-align: center;
-}
-
 @media(max-width: 1100px) {
-  .buttom {
-    top: 1365px;
-    left: auto;
+  body {
+    font-size: 0.938em;
   }
 
   .buttom .text {
     width: 40.7855113636%;
+    font-size: 0.4em;
   }
 
   .cut {
@@ -262,8 +212,11 @@ body {
     height: 25px;
   }
 
-  .head .bottom {
-    top: 165px;
+  .head .index {
+    top: 25px;
+    left: 0;
+    right: auto;
+    height: 139px;
   }
 
   .head .top {
@@ -273,8 +226,10 @@ body {
     margin-left: auto;
   }
 
-  .index .element {
-    height: 140px;
+  .index {
+    top: 1365px;
+    left: auto;
+    right: auto;
   }
 
   .link .home {
@@ -285,7 +240,7 @@ body {
   .link .link {
     min-width: 0;
     min-height: 0;
-    font-size: 1.625em;
+    font-size: 1.733em;
   }
 
   .link .linux {
@@ -315,22 +270,7 @@ body {
     width: 67.609172828%;
     min-width: 0;
     min-height: 0;
-    font-size: 0.938em;
-  }
-
-  .tamp {
-    right: auto;
-  }
-
-  .tamp .tamp {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .tamp .text {
-    width: 19.3323863636%;
+    font-size: 15px;
   }
 
   .index .link-1 {
@@ -339,35 +279,22 @@ body {
     height: 100px;
   }
 
-  .index .lstwwa-4 {
+  .index .lstwwa-2 {
     top: auto;
     left: auto;
     width: 40.1813706137%;
     height: 90px;
   }
-
-  .index-2 {
-    top: 25px;
-    right: auto;
-    height: 139px;
-  }
-
-  .tamp .tamp-3 {
-    width: 25.9161931818%;
-  }
-
-  .tamp-1 {
-    height: 221px;
-  }
 }
 
 @media(max-width: 1000px) {
   body {
-    font-size: 1em;
+    font-size: 0.875em;
   }
 
   .buttom .text {
     width: 40.7859375%;
+    font-size: 0.429em;
   }
 
   .head {
@@ -378,6 +305,10 @@ body {
     top: 180px;
   }
 
+  .head .index {
+    height: 155px;
+  }
+
   .head .top {
     left: 0;
     right: 0;
@@ -385,34 +316,29 @@ body {
     margin-left: auto;
   }
 
-  .index .element,
-  .index-2 {
-    height: 155px;
-  }
-
   .link .home {
     left: 0;
     width: 14.2744076797%;
-    font-size: 1.375em;
+    font-size: 1.571em;
   }
 
   .link .linux {
     left: 57.1103962418%;
     width: 14.3446180555%;
-    font-size: 1.375em;
+    font-size: 1.571em;
   }
 
   .link .resources {
     left: 85.666870915%;
     width: 14.2744076797%;
     height: 50px;
-    font-size: 1.5em;
+    font-size: 1.714em;
   }
 
   .link .resume {
     left: 28.5539215686%;
     width: 14.2744076797%;
-    font-size: 1.375em;
+    font-size: 1.571em;
   }
 
   .lstwwa .image {
@@ -425,18 +351,7 @@ body {
     top: 16px;
     left: 31.6367265469%;
     width: 68.1231287425%;
-    font-size: 0.875em;
-  }
-
-  .tamp .tamp {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .tamp .text {
-    width: 19.3328125%;
+    font-size: 14px;
   }
 
   .index .link-1 {
@@ -446,29 +361,30 @@ body {
     height: 51px;
   }
 
-  .index .lstwwa-4 {
+  .index .lstwwa-2 {
     top: 17px;
     left: 10%;
     width: 40.8989309389%;
     height: 80px;
   }
-
-  .tamp .tamp-3 {
-    width: 25.915625%;
-  }
-
-  .tamp-1 {
-    height: 257px;
-  }
 }
 
 @media(max-width: 900px) {
+  body {
+    font-size: 0.813em;
+  }
+
   .buttom .text {
     width: 40.7864583333%;
+    font-size: 0.462em;
   }
 
   .head {
     height: 400px;
+  }
+
+  .head .index {
+    height: 160px;
   }
 
   .head .top {
@@ -478,31 +394,28 @@ body {
     margin-left: auto;
   }
 
-  .index .element {
-    width: 100.1111111111%;
-  }
-
   .link .home {
     left: -0.0028409091%;
     width: 14.9318181818%;
-    font-size: 1.25em;
+    font-size: 1.538em;
   }
 
   .link .linux {
     left: 57.0170454545%;
     width: 14.4644886363%;
-    font-size: 1.25em;
+    font-size: 1.538em;
   }
 
   .link .resources {
     left: 85.7144886363%;
     width: 14.2315340909%;
-    font-size: 1.375em;
+    font-size: 1.692em;
   }
 
   .link .resume {
     left: 28.5539772727%;
     width: 14.2727272727%;
+    font-size: 1.692em;
   }
 
   .lstwwa .image {
@@ -516,18 +429,7 @@ body {
     top: 15px;
     left: 12.5%;
     width: 34.0277777777%;
-    font-size: 0.813em;
-  }
-
-  .tamp .tamp {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .tamp .text {
-    width: 19.3333333333%;
+    font-size: 13px;
   }
 
   .index .link-1 {
@@ -537,28 +439,21 @@ body {
     height: 49px;
   }
 
-  .index .lstwwa-4 {
+  .index .lstwwa-2 {
     top: 18px;
     width: 78.6666666666%;
     height: 70px;
-  }
-
-  .index-2 {
-    height: 160px;
-  }
-
-  .tamp .tamp-3 {
-    width: 25.9166666666%;
   }
 }
 
 @media(max-width: 800px) {
   body {
-    font-size: 1em;
+    font-size: 0.75em;
   }
 
   .buttom .text {
     width: 40.78515625%;
+    font-size: 0.5em;
   }
 
   .head {
@@ -569,6 +464,10 @@ body {
     top: 185px;
   }
 
+  .head .index {
+    height: 159px;
+  }
+
   .head .top {
     left: 0;
     right: 0;
@@ -576,14 +475,13 @@ body {
     margin-left: auto;
   }
 
-  .index .element {
-    width: 100%;
-    height: 159px;
-  }
-
   .link .home {
     left: 0;
     width: 14.0912282941%;
+  }
+
+  .link .link {
+    font-size: 1.667em;
   }
 
   .link .linux {
@@ -594,13 +492,11 @@ body {
   .link .resources {
     left: 85.6071246169%;
     width: 14.3529749744%;
-    font-size: 1.25em;
   }
 
   .link .resume {
     left: 28.7075459652%;
     width: 14.1949693564%;
-    font-size: 1.25em;
   }
 
   .lstwwa .image {
@@ -613,18 +509,7 @@ body {
     top: 11px;
     left: 32.96875%;
     width: 67.03125%;
-    font-size: 0.75em;
-  }
-
-  .tamp .tamp {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .tamp .text {
-    width: 19.33203125%;
+    font-size: 12px;
   }
 
   .index .link-1 {
@@ -634,7 +519,7 @@ body {
     height: 48px;
   }
 
-  .index .lstwwa-4 {
+  .index .lstwwa-2 {
     top: 10px;
     left: 0;
     right: 0;
@@ -643,19 +528,16 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
-
-  .index-2 {
-    height: 159px;
-  }
-
-  .tamp .tamp-3 {
-    width: 25.916015625%;
-  }
 }
 
 @media(max-width: 700px) {
+  body {
+    font-size: 0.688em;
+  }
+
   .buttom .text {
     width: 40.7857142857%;
+    font-size: 0.545em;
   }
 
   .head {
@@ -666,15 +548,19 @@ body {
     top: 165px;
   }
 
+  .head .index {
+    left: 0;
+    right: 0;
+    height: 140px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .head .top {
     left: 0;
     right: 0;
     margin-right: auto;
     margin-left: auto;
-  }
-
-  .index .element {
-    height: 140px;
   }
 
   .link .home {
@@ -683,7 +569,7 @@ body {
   }
 
   .link .link {
-    font-size: 1.125em;
+    font-size: 1.636em;
   }
 
   .link .linux {
@@ -713,18 +599,7 @@ body {
     top: 6px;
     left: 33.0357142857%;
     width: 66.9642857142%;
-    font-size: 0.688em;
-  }
-
-  .tamp .tamp {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .tamp .text {
-    width: 19.3325892857%;
+    font-size: 11px;
   }
 
   .index .link-1 {
@@ -736,38 +611,23 @@ body {
     margin-left: auto;
   }
 
-  .index .lstwwa-4 {
+  .index .lstwwa-2 {
     top: 13px;
     left: 23.5714285714%;
     right: auto;
     width: 52.8571428571%;
     height: 50px;
   }
-
-  .index-2 {
-    left: 0;
-    right: 0;
-    height: 140px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .tamp .tamp-3 {
-    width: 25.9151785714%;
-  }
 }
 
 @media(max-width: 600px) {
   body {
-    font-size: 1em;
-  }
-
-  .buttom {
-    left: auto;
+    font-size: 0.625em;
   }
 
   .buttom .text {
     width: 40.7864583333%;
+    font-size: 0.6em;
   }
 
   .head {
@@ -778,21 +638,26 @@ body {
     top: 160px;
   }
 
+  .head .index {
+    left: 0;
+    right: auto;
+    height: 135px;
+  }
+
   .head .top,
-  .index .lstwwa-4 {
+  .index .lstwwa-2 {
     left: 0;
     right: 0;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .index .element {
-    top: -1px;
-    height: 136px;
+  .index {
+    left: auto;
   }
 
   .link .home {
-    font-size: 1em;
+    font-size: 1.6em;
   }
 
   .link .link {
@@ -801,18 +666,18 @@ body {
 
   .link .linux {
     left: 57.3399182561%;
-    font-size: 0.938em;
+    font-size: 1.5em;
   }
 
   .link .resources {
     left: 85.6628916893%;
     height: 47px;
-    font-size: 1em;
+    font-size: 1.6em;
   }
 
   .link .resume {
     left: 28.6678303814%;
-    font-size: 1em;
+    font-size: 1.6em;
   }
 
   .lstwwa .image {
@@ -824,18 +689,7 @@ body {
     top: 8px;
     left: 32.9166666666%;
     width: 67.0833333333%;
-    font-size: 0.625em;
-  }
-
-  .tamp .tamp {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .tamp .text {
-    width: 19.3333333333%;
+    font-size: 10px;
   }
 
   .index .link-1 {
@@ -846,25 +700,16 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
-
-  .index-2 {
-    left: 0;
-    right: auto;
-    height: 135px;
-  }
-
-  .tamp .tamp-3 {
-    width: 25.9166666666%;
-  }
-
-  .tamp-1 {
-    height: 298px;
-  }
 }
 
 @media(max-width: 500px) {
+  body {
+    font-size: 0.563em;
+  }
+
   .buttom .text {
     width: 40.784375%;
+    font-size: 0.667em;
   }
 
   .head {
@@ -878,18 +723,13 @@ body {
     margin-left: auto;
   }
 
-  .index .element {
-    top: 0;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .link .home {
     width: 17%;
     height: 22px;
-    font-size: 0.938em;
+  }
+
+  .link .link {
+    font-size: 1.667em;
   }
 
   .link .linux {
@@ -902,14 +742,12 @@ body {
   .link .resources {
     left: 83%;
     width: 16.875%;
-    font-size: 0.938em;
   }
 
   .link .resume {
     left: 27.5%;
     width: 16.875%;
     height: 22px;
-    font-size: 0.938em;
   }
 
   .lstwwa .image {
@@ -921,18 +759,7 @@ body {
     top: 10px;
     left: 32.8850855745%;
     width: 66.9926650366%;
-    font-size: 0.563em;
-  }
-
-  .tamp .tamp {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .tamp .text {
-    width: 19.33125%;
+    font-size: 9px;
   }
 
   .index .link-1 {
@@ -944,7 +771,7 @@ body {
     margin-left: auto;
   }
 
-  .index .lstwwa-4 {
+  .index .lstwwa-2 {
     top: 14px;
     left: 0;
     right: 0;
@@ -952,27 +779,27 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
-
-  .tamp .tamp-3 {
-    width: 25.915625%;
-  }
 }
 
 @media(max-width: 400px) {
   body {
-    font-size: 1em;
+    font-size: 0.625em;
   }
 
   .buttom .text {
     width: 40.78515625%;
+    font-size: 0.6em;
   }
 
   .head {
     height: 463px;
   }
 
-  .head .top,
-  .index .element {
+  .head .index {
+    top: 24px;
+  }
+
+  .head .top {
     left: 0;
     right: 0;
     margin-right: auto;
@@ -982,22 +809,24 @@ body {
   .link .home {
     width: 16.875%;
     height: 25px;
+    font-size: 1.5em;
   }
 
   .link .linux {
     right: 27.49609375%;
     height: 25px;
+    font-size: 1.5em;
   }
 
   .link .resources {
     left: 83.125%;
     height: 40px;
-    font-size: 0.813em;
+    font-size: 1.3em;
   }
 
   .link .resume {
     height: 25px;
-    font-size: 0.813em;
+    font-size: 1.3em;
   }
 
   .lstwwa .image {
@@ -1008,18 +837,7 @@ body {
     top: 8px;
     left: 33%;
     width: 78.2477341389%;
-    font-size: 0.625em;
-  }
-
-  .tamp .tamp {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .tamp .text {
-    width: 19.33203125%;
+    font-size: 10px;
   }
 
   .index .link-1 {
@@ -1031,7 +849,7 @@ body {
     margin-left: auto;
   }
 
-  .index .lstwwa-4 {
+  .index .lstwwa-2 {
     top: 15px;
     left: 0;
     right: 0;
@@ -1039,24 +857,17 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
-
-  .index-2 {
-    top: 24px;
-  }
-
-  .tamp .tamp-3 {
-    width: 25.9140625%;
-  }
-
-  .tamp-1 {
-    height: 339px;
-  }
 }
 
 @media(max-width: 300px) {
+  body {
+    font-size: 0.5em;
+  }
+
   .buttom .text {
     left: 0;
     width: 50.3333333333%;
+    font-size: 0.75em;
   }
 
   .head {
@@ -1074,38 +885,42 @@ body {
     top: 135px;
   }
 
-  .index .element {
+  .head .index {
+    top: 25px;
     left: 0;
     right: 0;
-    height: 109px;
+    height: 116px;
     margin-right: auto;
     margin-left: auto;
   }
 
   .link .home {
     height: 20px;
+    font-size: 12px;
   }
 
   .link .link {
     width: 16.875878952%;
-    font-size: 0.75em;
     line-height: 1.7;
   }
 
   .link .linux {
     right: 27.4962237616%;
     height: 20px;
+    font-size: 12px;
   }
 
   .link .resources {
     left: auto;
     right: 0.1145893015%;
     height: 30px;
+    font-size: 1.5em;
   }
 
   .link .resume {
     left: 27.5014323662%;
     height: 20px;
+    font-size: 1.5em;
   }
 
   .lstwwa .image {
@@ -1115,18 +930,7 @@ body {
   .lstwwa .text {
     top: 12px;
     width: 79.5833333333%;
-    font-size: 0.5em;
-  }
-
-  .tamp .tamp {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .tamp .text {
-    width: 19.3333333333%;
+    font-size: 8px;
   }
 
   .index .link-1 {
@@ -1139,7 +943,7 @@ body {
     margin-left: auto;
   }
 
-  .index .lstwwa-4 {
+  .index .lstwwa-2 {
     top: 10px;
     left: 0;
     right: 0;
@@ -1147,32 +951,16 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
-
-  .index-2 {
-    top: 25px;
-    left: 0;
-    right: 0;
-    height: 116px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .tamp .tamp-3 {
-    width: 25.9166666666%;
-  }
-
-  .tamp-1 {
-    height: 462px;
-  }
 }
 
 @media(max-width: 200px) {
   body {
-    font-size: 1em;
+    font-size: 0.375em;
   }
 
   .buttom .text {
     width: 56.9999999999%;
+    font-size: 1em;
   }
 
   .head {
@@ -1191,12 +979,11 @@ body {
     top: 110px;
   }
 
-  .index .element {
+  .head .index {
+    top: 10px;
     left: 0;
-    right: 0;
+    right: auto;
     height: 100px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .link .home {
@@ -1206,7 +993,7 @@ body {
 
   .link .link {
     width: 16.6219325153%;
-    font-size: 0.5em;
+    font-size: 1.333em;
   }
 
   .link .linux {
@@ -1234,18 +1021,7 @@ body {
   .lstwwa .text {
     top: 10px;
     width: 66.6666666666%;
-    font-size: 0.375em;
-  }
-
-  .tamp .tamp {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .tamp .text {
-    width: 19.328125%;
+    font-size: 6px;
   }
 
   .index .link-1 {
@@ -1258,7 +1034,7 @@ body {
     margin-left: auto;
   }
 
-  .index .lstwwa-4 {
+  .index .lstwwa-2 {
     top: 15px;
     left: 0;
     right: 0;
@@ -1266,16 +1042,5 @@ body {
     height: 40px;
     margin-right: auto;
     margin-left: auto;
-  }
-
-  .index-2 {
-    top: 10px;
-    left: 0;
-    right: auto;
-    height: 100px;
-  }
-
-  .tamp .tamp-3 {
-    width: 25.9140625%;
   }
 }
