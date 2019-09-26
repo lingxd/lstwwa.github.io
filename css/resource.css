@@ -110,7 +110,7 @@ body {
   left: 57.2006118881%;
   z-index: 8;
   width: 14.1608391608%;
-  height: 70px;
+  height: 35px;
   border-radius: 3px;
   background-color: rgb(81, 94, 123);
   font-size: 1.75em;
@@ -134,7 +134,7 @@ body {
   left: 85.6643356643%;
   z-index: 9;
   width: 14.3356643356%;
-  height: 35px;
+  height: 70px;
   border-radius: 3px;
   background-color: rgb(81, 94, 123);
   font-size: 1.75em;
@@ -399,13 +399,13 @@ body {
   .link .linux {
     left: 57.1103962418%;
     width: 14.3446180555%;
-    height: 50px;
     font-size: 1.375em;
   }
 
   .link .resources {
     left: 85.666870915%;
     width: 14.2744076797%;
+    height: 50px;
     font-size: 1.5em;
   }
 
@@ -689,12 +689,12 @@ body {
   .link .linux {
     left: 57.033991228%;
     width: 14.1666666666%;
+    height: 24px;
   }
 
   .link .resources {
     left: 85.5116959064%;
     width: 14.4298245614%;
-    height: 24px;
   }
 
   .link .resume {
@@ -801,12 +801,12 @@ body {
 
   .link .linux {
     left: 57.3399182561%;
-    height: 47px;
     font-size: 0.938em;
   }
 
   .link .resources {
     left: 85.6628916893%;
+    height: 47px;
     font-size: 1em;
   }
 
@@ -896,12 +896,12 @@ body {
     left: auto;
     right: 27.5%;
     width: 16.875%;
+    height: 22px;
   }
 
   .link .resources {
     left: 83%;
     width: 16.875%;
-    height: 22px;
     font-size: 0.938em;
   }
 
@@ -986,12 +986,12 @@ body {
 
   .link .linux {
     right: 27.49609375%;
-    height: 40px;
+    height: 25px;
   }
 
   .link .resources {
     left: 83.125%;
-    height: 25px;
+    height: 40px;
     font-size: 0.813em;
   }
 
@@ -1082,6 +1082,10 @@ body {
     margin-left: auto;
   }
 
+  .link .home {
+    height: 20px;
+  }
+
   .link .link {
     width: 16.875878952%;
     font-size: 0.75em;
@@ -1090,13 +1094,13 @@ body {
 
   .link .linux {
     right: 27.4962237616%;
-    height: 30px;
+    height: 20px;
   }
 
   .link .resources {
     left: auto;
     right: 0.1145893015%;
-    height: 20px;
+    height: 30px;
   }
 
   .link .resume {
@@ -1207,12 +1211,12 @@ body {
 
   .link .linux {
     right: 28.5563650306%;
+    height: 15px;
     line-height: 2;
   }
 
   .link .resources {
     right: 0.5943251533%;
-    height: 15px;
   }
 
   .link .resume {
