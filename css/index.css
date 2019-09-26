@@ -4,16 +4,21 @@ body {
   color: rgba(255, 255, 255, 0.35);
 }
 
+.index-2 p,
+.lstwwa-2 p {
+  margin-bottom: 1em;
+}
+
 .baidu {
   display: block;
   position: absolute;
-  top: 289px;
-  left: 10%;
-  z-index: 9;
-  width: 13.5833333333%;
+  top: 0;
+  left: 0;
+  z-index: 8;
+  width: 16.9791666666%;
   height: 67px;
   border-radius: 3px;
-  background: url('../images/baidu.png') rgb(255, 255, 255);
+  background: url('../images/baidu.png') rgb(124, 139, 169);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -22,16 +27,42 @@ body {
   color: rgb(0, 0, 0);
 }
 
+.black {
+  position: absolute;
+  width: 100%;
+}
+
+.bottom {
+  left: 0;
+}
+
+.bottom .element {
+  z-index: 4;
+  width: 100%;
+  height: 89px;
+  background-color: #000000;
+}
+
+.bottom .text {
+  bottom: 17px;
+  left: 0;
+  z-index: 5;
+  width: 81%;
+  min-height: 68px;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.35);
+}
+
 .csdn {
   display: block;
   position: absolute;
-  top: 396px;
-  left: 10%;
-  z-index: 12;
-  width: 13.5833333333%;
+  top: 107px;
+  left: 0;
+  z-index: 11;
+  width: 16.9791666666%;
   height: 67px;
   border-radius: 3px;
-  background: url('../images/csdn-logo.png') rgb(255, 255, 255);
+  background: url('../images/csdn.jpg') rgb(124, 139, 169);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -40,25 +71,30 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.element {
-  position: absolute;
+.cut {
   left: 0;
+  right: 0;
+  z-index: 3;
   width: 100%;
+  height: 441px;
+  margin: 0 auto;
+}
+
+.element {
+  top: 0;
+  left: 0;
 }
 
 .github {
   display: block;
   position: absolute;
-  top: 396px;
-  left: 30.3997395833%;
-  z-index: 11;
-  width: 13.5833333333%;
+  top: 107px;
   height: 67px;
   border-radius: 3px;
-  background: url('../images/github.png') rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
+  background-color: rgb(124, 139, 169);
   font-size: 1.667em;
   line-height: 3.5;
   text-align: center;
@@ -68,13 +104,13 @@ body {
 .google {
   display: block;
   position: absolute;
-  top: 289px;
-  left: 30.3997395833%;
-  z-index: 10;
-  width: 13.5833333333%;
+  top: 0;
+  left: 27.5%;
+  z-index: 9;
+  width: 16.9791666666%;
   height: 67px;
   border-radius: 3px;
-  background: url('../images/google.png') rgb(255, 255, 255);
+  background: url('../images/google.png') rgb(124, 139, 169);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -83,35 +119,51 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.head {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+
+.head .bottom {
+  top: 167px;
+  height: 30px;
+  background-color: rgb(133, 145, 172);
+}
+
 .home {
-  left: 42.3333333333%;
-  z-index: 5;
-  width: 6.8333333333%;
-  height: 102px;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 24;
+  width: 14.3356643356%;
+  height: 70px;
+  border-radius: 3px;
+  background-color: rgb(81, 94, 123);
+  font-size: 2.333em;
+  text-align: center;
+  color: rgb(255, 255, 255);
   white-space: nowrap;
 }
 
 .image {
   display: block;
-  position: absolute;
-  top: 20px;
-  left: 1.6666666666%;
-  z-index: 8;
+  left: 0;
+  z-index: 19;
   width: 100px;
   height: auto;
-  overflow: hidden;
 }
 
 .imooc {
   display: block;
   position: absolute;
-  top: 289px;
-  left: 76.3893229166%;
-  z-index: 13;
-  width: 13.5833333333%;
+  top: 0;
+  left: 83.0283788404%;
+  z-index: 12;
+  width: 16.9791666666%;
   height: 67px;
   border-radius: 3px;
-  background: url('../images/imooc.png') rgb(255, 255, 255);
+  background: url('../images/imooc.png') rgb(124, 139, 169);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -121,13 +173,27 @@ body {
 }
 
 .index {
-  top: 1966px;
+  position: absolute;
+}
+
+.index .black {
+  z-index: 17;
+  height: 135px;
+  border: 1px solid rgba(0, 0, 0, 0.21);
+  background-color: rgba(0, 0, 0, 0.49);
 }
 
 .link {
-  display: block;
   position: absolute;
-  top: 52px;
+}
+
+.linux {
+  display: block;
+  top: 0;
+  left: 57.2006118881%;
+  z-index: 22;
+  width: 14.1608391608%;
+  height: 35px;
   border-radius: 3px;
   background-color: rgb(81, 94, 123);
   font-size: 2.333em;
@@ -135,47 +201,55 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.linux {
-  left: 69.6%;
-  z-index: 3;
-  width: 6.75%;
-  height: 36px;
-}
-
-.lstwwa {
-  top: 40px;
-  left: 15.1666666666%;
-  z-index: 1;
-  width: 27.1666666666%;
+.lstwwa .text {
+  position: absolute;
+  top: 23px;
+  left: 33.1967213114%;
+  z-index: 18;
+  width: 66.8032786885%;
   min-width: 98px;
   font-size: 1.333em;
   color: rgb(255, 255, 255);
 }
 
 .resources {
-  left: 83.1666666666%;
-  z-index: 4;
-  width: 6.8333333333%;
-  height: 36px;
+  display: block;
+  top: 0;
+  left: 85.6643356643%;
+  z-index: 23;
+  width: 14.3356643356%;
+  height: 35px;
+  border-radius: 3px;
+  background-color: rgb(81, 94, 123);
+  font-size: 2.333em;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .resume {
-  left: 56%;
-  z-index: 2;
-  width: 6.8333333333%;
-  height: 36px;
+  display: block;
+  top: 0;
+  left: 28.6713286713%;
+  z-index: 21;
+  width: 14.3356643356%;
+  height: 35px;
+  border-radius: 3px;
+  background-color: rgb(81, 94, 123);
+  font-size: 2.333em;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .sina {
   display: block;
   position: absolute;
-  top: 289px;
-  left: 55.9986979166%;
-  z-index: 14;
-  width: 13.1666666666%;
+  top: 0;
+  right: 27.5%;
+  z-index: 13;
+  width: 16.4583333333%;
   height: 67px;
   border-radius: 3px;
-  background: url('../images/sina-logo-white-744x430.png') rgb(255, 255, 255);
+  background: url('../images/sina-logo-white-744x430(%E5%B7%B2%E5%8E%BB%E5%BA%95).png') rgb(124, 139, 169);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -184,96 +258,106 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.text {
-  position: absolute;
-}
-
-.text p {
-  margin-bottom: 1em;
-}
-
-._button {
-  display: block;
-  position: absolute;
-  border-radius: 3px;
-  font-size: 1.333em;
-  text-align: center;
-}
-
-._input {
-  display: block;
-  position: absolute;
-  top: 166px;
-  left: 50%;
-  z-index: 18;
-  width: 33.1666666666%;
-  height: 40px;
-  padding: 0 10px;
-  background-color: rgb(41, 47, 62);
-  font-size: 1.083em;
-  color: rgb(255, 255, 255);
-  white-space: normal;
-}
-
-.element-1 {
-  top: 488px;
-  z-index: 16;
-  height: 28px;
+.top {
+  height: 30px;
   background-color: rgb(133, 145, 172);
 }
 
-.element-2 {
-  top: 238px;
-  z-index: 15;
-  height: 28px;
-  background-color: rgb(133, 145, 172);
-}
-
-.element-4 {
-  top: 0;
-  height: 135px;
-  border: 1px solid rgba(0, 0, 0, 0.21);
-  background-color: rgba(0, 0, 0, 0.49);
-}
-
-.index-1 {
-  left: 0;
-  z-index: 7;
-  width: 81%;
-  min-height: 68px;
-  font-size: 1em;
-  color: rgba(255, 255, 255, 0.35);
-}
-
-.index-2 {
-  z-index: 6;
-  height: 89px;
-  background-color: #000000;
-}
-
-._button-1 {
-  top: 500px;
+.url {
+  position: absolute;
+  top: 217px;
   left: 0;
   right: 0;
-  z-index: 19;
-  width: 26.4166666666%;
-  height: 208px;
+  z-index: 16;
+  width: 79.97265625%;
+  height: 174px;
   margin: 0 auto;
-  background: url('../images/construction.png') rgba(222, 222, 222, 0);
+}
+
+._select {
+  display: block;
+  position: absolute;
+  top: 29px;
+  left: 89.97265625%;
+  z-index: 6;
+  width: 6.4166666666%;
+  height: 33px;
+  padding-left: 10px;
+  border: 1px solid rgb(119, 119, 119);
+  border-radius: 3px;
+  background: url('../images/select-arrows.svg') rgb(81, 94, 123);
   background-repeat: no-repeat;
   background-size: auto auto;
-  background-position: center center;
+  background-position: right center;
+  font-size: 1.083em;
   color: rgb(0, 0, 0);
 }
 
-._button-2 {
-  top: 166px;
-  left: 84.8203125%;
-  z-index: 17;
-  width: 5.1666666666%;
-  height: 40px;
-  background-color: rgb(41, 47, 62);
-  color: rgb(255, 255, 255);
+.black-2 {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+.black-3 {
+  top: 411px;
+  left: 0;
+  z-index: 1;
+}
+
+.github-1 {
+  left: 83.0283788404%;
+  z-index: 15;
+  width: 16.9784594343%;
+  background-image: url('../images/bilibili(%E5%B7%B2%E5%8E%BB%E5%BA%95).png');
+}
+
+.github-2 {
+  left: 56.0429183151%;
+  z-index: 14;
+  width: 16.9784594343%;
+  background-image: url('../images/timg(%E5%B7%B2%E5%8E%BB%E5%BA%95).png');
+}
+
+.github-3 {
+  left: 27.5%;
+  z-index: 10;
+  width: 16.9791666666%;
+  background-image: url('../images/github.png');
+}
+
+.index-1 {
+  top: 31px;
+  left: 0;
+  z-index: 26;
+  width: 100%;
+  height: 135px;
+}
+
+.index-2 {
+  top: 2005px;
+  z-index: 7;
+  width: 100%;
+  height: 89px;
+}
+
+.link-1 {
+  top: 48px;
+  left: 42.1666666666%;
+  z-index: 25;
+  width: 47.6666666666%;
+  height: 70px;
+}
+
+.lstwwa-2 {
+  position: absolute;
+  top: 17px;
+  left: 1.5%;
+  z-index: 20;
+  width: 40.6666666666%;
+  height: 100px;
 }
 
 @media(max-width: 1100px) {
@@ -281,156 +365,278 @@ body {
     font-size: 0.625em;
   }
 
-  .baidu {
-    width: 18.6666666666%;
-    font-size: 1.6em;
+  .bottom {
+    top: auto;
   }
 
-  .csdn {
-    width: 18.5%;
-    font-size: 1.6em;
+  .bottom .text {
+    font-size: 10px;
   }
 
-  .github {
-    left: 40.03125%;
-    width: 19.3333333333%;
-    font-size: 2em;
+  .cut {
+    top: -1px;
+    right: auto;
   }
 
-  .google {
-    left: 40.03125%;
-    width: 19.5%;
-    font-size: 1.6em;
+  .head {
+    left: 0;
+    height: 453px;
   }
 
-  .home {
-    left: 42.4%;
-    width: 6.8181818181%;
+  .head .bottom {
+    top: 173px;
+  }
+
+  .index .black {
+    top: 10px;
+    width: 81.7438692098%;
+  }
+
+  .link .home {
+    left: -0.0406598514%;
+    width: 14.3192379182%;
     height: 100px;
   }
 
-  .image {
-    left: 2%;
-    width: 90px;
-    height: auto;
-  }
-
-  .imooc {
-    top: 396px;
-    left: 71.1666666666%;
-    width: 18.6666666666%;
-    font-size: 1.6em;
-  }
-
-  .link {
+  .link .link {
     min-width: 0;
     min-height: 0;
     font-size: 2.6em;
   }
 
-  .linux {
-    width: 6.8%;
+  .link .linux {
+    left: 57.0841078066%;
+    width: 14.2785780669%;
+    height: 20px;
+  }
+
+  .link .resources {
+    left: 85.6110594795%;
+    width: 14.3192379182%;
+    height: 20px;
+  }
+
+  .link .resume {
+    left: 28.5223048327%;
+    width: 14.3192379182%;
+    height: 20px;
   }
 
   .lstwwa {
-    left: 15%;
-    width: 27.1818181818%;
+    top: auto;
+    left: auto;
+    width: 122.3333333333%;
+  }
+
+  .lstwwa .image {
+    left: -0.0173290204%;
+    width: 90px;
+    height: auto;
+  }
+
+  .lstwwa .text {
+    top: 20px;
+    left: 32.3186229205%;
+    width: 67.609172828%;
     min-width: 0;
     min-height: 0;
     font-size: 1.5em;
   }
 
-  .resources {
-    left: 83.1818181818%;
-    width: 6.8181818181%;
+  .url {
+    left: 0;
+    right: auto;
+    width: 79.8323863636%;
+    height: 160px;
   }
 
-  .resume {
-    width: 6.8181818181%;
-  }
-
-  .sina {
-    left: 71.1666666666%;
-    width: 18.8333333333%;
+  .url .baidu {
+    width: 23.3592861205%;
+    height: 40px;
     font-size: 1.6em;
   }
 
-  ._input {
-    width: 33.1818181818%;
+  .url .csdn {
+    width: 23.1513083048%;
+    height: 40px;
+    font-size: 1.6em;
+  }
+
+  .url .github {
+    width: 24.1929749715%;
+    height: 40px;
+    font-size: 2em;
+  }
+
+  .url .google {
+    left: 37.5817690557%;
+    width: 24.4027303754%;
+    height: 40px;
+    font-size: 1.6em;
+  }
+
+  .url .imooc {
+    top: 107px;
+    left: 76.5447241183%;
+    width: 23.3592861205%;
+    height: 40px;
+    font-size: 1.6em;
+  }
+
+  .url .sina {
+    right: 25.9581200227%;
+    width: 23.5672639362%;
+    height: 40px;
+    font-size: 1.6em;
+  }
+
+  .index ._select {
+    top: -9px;
+    left: 89.971590909%;
+    width: 6.4161931818%;
     font-size: 1.3em;
   }
 
-  .index-1 {
-    top: 1466px;
-    font-size: 10px;
-  }
-
-  ._button-1 {
-    top: 617px;
+  .head .black-2 {
     left: 0;
     right: 0;
-    width: 48.4431818181%;
     margin-right: auto;
     margin-left: auto;
-    font-size: 1.6em;
   }
 
-  ._button-2 {
-    left: 84.8181818181%;
-    width: 5%;
-    font-size: 1.2em;
+  .head .black-3 {
+    top: 423px;
+  }
+
+  .index .link-1 {
+    top: auto;
+    left: auto;
+    width: 99.9222033858%;
+    height: 100px;
+  }
+
+  .index .lstwwa-2 {
+    top: auto;
+    left: auto;
+    width: 40.1813706137%;
+    height: 90px;
+  }
+
+  .index-1 {
+    height: 158px;
+  }
+
+  .index-2 {
+    left: auto;
+  }
+
+  .url .github-3 {
+    left: 37.5817690557%;
   }
 }
 
 @media(max-width: 1000px) {
-  .home {
-    width: 6.8%;
+  .index .black {
+    top: 6px;
+  }
+
+  .link .home {
+    left: 0;
+    width: 14.2744076797%;
     height: 88px;
     font-size: 2.2em;
   }
 
-  .image {
-    top: 24px;
+  .link .linux {
+    left: 57.1103962418%;
+    width: 14.3446180555%;
+    font-size: 2.2em;
+  }
+
+  .link .resources {
+    left: 85.666870915%;
+    width: 14.2744076797%;
+    font-size: 2.4em;
+  }
+
+  .link .resume {
+    left: 28.5539215686%;
+    width: 14.2744076797%;
+    font-size: 2.2em;
+  }
+
+  .lstwwa .image {
+    left: -0.1060379242%;
     width: 80px;
     height: auto;
   }
 
-  .linux {
-    width: 6.8333333333%;
-    font-size: 2.2em;
-  }
-
-  .lstwwa {
-    width: 27.9%;
+  .lstwwa .text {
+    top: 16px;
+    left: 31.6367265469%;
+    width: 68.1231287425%;
     font-size: 1.4em;
   }
 
-  .resources {
-    left: 83.2%;
-    width: 6.8%;
-    font-size: 2.4em;
+  .url {
+    width: 79.83125%;
   }
 
-  .resume {
-    width: 6.8%;
-    font-size: 2.2em;
+  .url .baidu {
+    width: 23.3612327909%;
   }
 
-  ._input {
-    width: 26.5%;
+  .url .csdn {
+    width: 23.153942428%;
   }
 
-  ._button-1 {
+  .url .github {
+    width: 24.1962609511%;
+  }
+
+  .url .google {
+    left: 37.5860450563%;
+    width: 24.4055068836%;
+  }
+
+  .url .imooc {
+    left: 76.5527221526%;
+    width: 23.3612327909%;
+  }
+
+  .url .sina {
+    right: 25.9504067584%;
+    width: 23.5704787234%;
+  }
+
+  .index ._select {
+    left: 89.971875%;
+    width: 6.4156249999%;
+  }
+
+  .head .black-2 {
     left: 0;
     right: 0;
-    width: 73.5%;
     margin-right: auto;
     margin-left: auto;
   }
 
-  ._button-2 {
-    left: 78%;
-    width: 12%;
+  .index .link-1 {
+    width: 99.9961682398%;
+    height: 88px;
+  }
+
+  .index .lstwwa-2 {
+    width: 40.8989309389%;
+    height: 80px;
+  }
+
+  .index-1 {
+    height: 142px;
+  }
+
+  .url .github-3 {
+    left: 37.5860450563%;
   }
 }
 
@@ -439,102 +645,202 @@ body {
     font-size: 0.625em;
   }
 
-  .home {
-    width: 7.1111111111%;
+  .link .home {
+    left: -0.0028409091%;
+    width: 14.9318181818%;
     height: 96px;
     font-size: 2em;
   }
 
-  .image {
-    top: 30px;
+  .link .linux {
+    left: 57.0170454545%;
+    width: 14.4644886363%;
+    font-size: 2em;
+  }
+
+  .link .resources {
+    left: 85.7144886363%;
+    width: 14.2315340909%;
+    font-size: 2.2em;
+  }
+
+  .link .resume {
+    left: 28.5539772727%;
+    width: 14.2727272727%;
+  }
+
+  .lstwwa .image {
+    left: -0.223721591%;
     width: 70px;
     min-width: 0;
     height: auto;
   }
 
-  .linux {
-    left: 69.5555555555%;
-    width: 6.8888888888%;
-    font-size: 2em;
-  }
-
-  .lstwwa {
-    width: 26.8888888888%;
+  .lstwwa .text {
+    top: 10px;
+    left: 32.3046875%;
+    width: 67.2798295454%;
     font-size: 1.3em;
   }
 
-  .resources {
-    left: 83.2222222222%;
-    width: 6.7777777777%;
-    font-size: 2.2em;
+  .url {
+    width: 79.8315972222%;
   }
 
-  ._input {
-    width: 26.4444444444%;
+  .url .baidu {
+    width: 23.3657858136%;
   }
 
-  ._button-1 {
+  .url .csdn {
+    width: 23.157162726%;
+  }
+
+  .url .github {
+    width: 24.2002781641%;
+  }
+
+  .url .google {
+    left: 37.5912726008%;
+    width: 24.4089012517%;
+  }
+
+  .url .imooc {
+    left: 76.5625%;
+    width: 23.3657858136%;
+  }
+
+  .url .sina {
+    right: 25.9388038942%;
+    width: 23.5744089012%;
+  }
+
+  .index ._select {
+    left: 89.9722222222%;
+    width: 6.4166666666%;
+  }
+
+  .head .black-2 {
     left: 0;
     right: 0;
     margin-right: auto;
     margin-left: auto;
   }
 
-  ._button-2 {
-    width: 12.25%;
+  .index .link-1 {
+    width: 99.8580835603%;
+    height: 96px;
+  }
+
+  .index .lstwwa-2 {
+    width: 39.887034514%;
+    height: 70px;
+  }
+
+  .index-1 {
+    height: 144px;
+  }
+
+  .url .github-3 {
+    left: 37.5912726008%;
   }
 }
 
 @media(max-width: 800px) {
-  .home {
-    left: 42.25%;
-    width: 6.75%;
+  .link .home {
+    left: 0;
+    width: 14.0912282941%;
     height: 93px;
   }
 
-  .image {
-    top: 33px;
-    left: 2.5%;
+  .link .linux {
+    left: 57.1581332992%;
+    width: 14.0912282941%;
+  }
+
+  .link .resources {
+    left: 85.6071246169%;
+    width: 14.3529749744%;
+    font-size: 2em;
+  }
+
+  .link .resume {
+    left: 28.7075459652%;
+    width: 14.1949693564%;
+    font-size: 2em;
+  }
+
+  .lstwwa .image {
+    left: -0.140224359%;
     width: 60px;
     height: auto;
   }
 
-  .linux {
-    left: 69.625%;
-    width: 6.75%;
-  }
-
-  .lstwwa {
-    top: 44px;
-    left: 12%;
-    width: 30.25%;
+  .lstwwa .text {
+    top: 11px;
+    left: 23.7019230769%;
+    width: 75.9054487179%;
     font-size: 1.2em;
   }
 
-  .resources {
-    left: 83.25%;
-    width: 6.875%;
-    font-size: 2em;
+  .url {
+    width: 79.83203125%;
   }
 
-  .resume {
-    left: 55.9999999999%;
-    font-size: 2em;
+  .url .baidu {
+    width: 23.3690336463%;
   }
 
-  ._input {
-    width: 26.375%;
+  .url .csdn {
+    width: 23.1611893583%;
   }
 
-  ._button-1 {
+  .url .github {
+    width: 24.202856025%;
+  }
+
+  .url .google {
+    left: 37.5978090766%;
+    width: 24.4131455399%;
+  }
+
+  .url .imooc {
+    left: 76.5771713615%;
+    width: 23.3690336463%;
+  }
+
+  .url .sina {
+    right: 25.9267410015%;
+    width: 23.5768779342%;
+  }
+
+  .index ._select {
+    left: 89.97265625%;
+    width: 6.416015625%;
+  }
+
+  .head .black-2 {
     left: 0;
     right: 0;
     margin-right: auto;
     margin-left: auto;
   }
 
-  ._button-2 {
-    width: 11.875%;
+  .index .link-1 {
+    width: 99.9952102691%;
+    height: 93px;
+  }
+
+  .index .lstwwa-2 {
+    width: 39.7499760513%;
+    height: 60px;
+  }
+
+  .index-1 {
+    height: 141px;
+  }
+
+  .url .github-3 {
+    left: 37.5978090766%;
   }
 }
 
@@ -543,73 +849,113 @@ body {
     font-size: 0.563em;
   }
 
-  .baidu,
-  .csdn,
-  .google,
-  .imooc,
-  .sina {
-    font-size: 1.778em;
+  .bottom .text {
+    font-size: 9px;
   }
 
-  .github {
-    font-size: 2.222em;
-  }
-
-  .home {
-    left: 42.4285714285%;
-    width: 6.7142857142%;
+  .link .home {
+    width: 14.091739766%;
     height: 92px;
   }
 
-  .image {
-    top: 38px;
-    left: 2%;
+  .link .link {
+    font-size: 18px;
+  }
+
+  .link .linux {
+    left: 57.033991228%;
+    width: 14.1666666666%;
+  }
+
+  .link .resources {
+    left: 85.5116959064%;
+    width: 14.4298245614%;
+  }
+
+  .link .resume {
+    left: 28.490497076%;
+    width: 14.2690058479%;
+  }
+
+  .lstwwa .image {
+    left: -0.2485795455%;
     width: 50px;
     height: auto;
   }
 
-  .link {
-    font-size: 18px;
-  }
-
-  .linux {
-    left: 69.6%;
-  }
-
-  .lstwwa {
-    width: 31%;
+  .lstwwa .text {
+    top: 6px;
+    left: 24.0767045454%;
+    width: 75.4128196022%;
     font-size: 1.222em;
   }
 
-  .resources {
-    left: 83.1651785714%;
+  .url {
+    width: 79.8303571428%;
   }
 
-  .resume {
-    left: 56%;
+  .url .baidu {
+    width: 23.3738644304%;
+    font-size: 1.778em;
   }
 
-  ._input {
-    left: 10%;
-    width: 65.7142857142%;
+  .url .csdn {
+    width: 23.1670160726%;
+    font-size: 1.778em;
+  }
+
+  .url .github {
+    width: 24.2096436058%;
+    font-size: 2.222em;
+  }
+
+  .url .google {
+    left: 37.607267645%;
+    width: 24.4192872117%;
+    font-size: 1.778em;
+  }
+
+  .url .imooc {
+    left: 76.5953878406%;
+    width: 23.3738644304%;
+    font-size: 1.778em;
+  }
+
+  .url .sina {
+    right: 25.9063591893%;
+    width: 23.5835080363%;
+    font-size: 1.778em;
+  }
+
+  .index ._select {
+    left: 89.9709821428%;
+    width: 6.4151785714%;
     font-size: 1.444em;
   }
 
-  .index-1 {
-    font-size: 9px;
-  }
-
-  ._button-1 {
+  .head .black-2 {
     left: 0;
     right: 0;
     margin-right: auto;
     margin-left: auto;
-    font-size: 1.778em;
   }
 
-  ._button-2 {
-    width: 12%;
-    font-size: 1.333em;
+  .index .link-1 {
+    width: 99.7865158288%;
+    height: 92px;
+  }
+
+  .index .lstwwa-2 {
+    width: 40.9980841164%;
+    height: 50px;
+  }
+
+  .index-1 {
+    height: 140px;
+  }
+
+  .url .github-3 {
+    left: 37.607267645%;
   }
 }
 
@@ -618,77 +964,114 @@ body {
     font-size: 0.5em;
   }
 
-  .baidu,
-  .csdn,
-  .google,
-  .imooc,
-  .sina {
-    font-size: 2em;
+  .bottom .text {
+    font-size: 8px;
   }
 
-  .github {
-    font-size: 2.5em;
-  }
-
-  .home {
-    left: 42.3333333333%;
+  .link .home {
     height: 47px;
     font-size: 16px;
   }
 
-  .image {
-    top: 33px;
-    height: auto;
+  .link .link {
+    width: 14.3328508174%;
   }
 
-  .link {
-    top: 93px;
-    width: 6.8333333333%;
-  }
-
-  .linux {
-    left: 69.6666666666%;
+  .link .linux {
+    left: 57.3399182561%;
     height: 24px;
     font-size: 1.875em;
   }
 
-  .lstwwa {
-    top: 41px;
-    left: 14%;
+  .link .resources {
+    left: 85.6628916893%;
+    height: 24px;
+    font-size: 16px;
+  }
+
+  .link .resume {
+    left: 28.6678303814%;
+    height: 24px;
+    font-size: 16px;
+  }
+
+  .lstwwa .image {
+    left: -0.10384216%;
+    height: auto;
+  }
+
+  .lstwwa .text {
+    top: 8px;
+    left: 27.7703604806%;
+    width: 72.0071206052%;
     font-size: 1.25em;
   }
 
-  .resources {
-    left: 83.1666666666%;
-    height: 24px;
-    font-size: 16px;
+  .url {
+    width: 79.8333333333%;
   }
 
-  .resume {
-    height: 24px;
-    font-size: 16px;
+  .url .baidu {
+    width: 23.382045929%;
+    font-size: 2em;
   }
 
-  ._input {
-    width: 66.3333333333%;
+  .url .csdn {
+    width: 23.1732776617%;
+    font-size: 2em;
+  }
+
+  .url .github {
+    width: 24.2171189979%;
+    font-size: 2.5em;
+  }
+
+  .url .google {
+    left: 37.6174321503%;
+    width: 24.4258872651%;
+    font-size: 2em;
+  }
+
+  .url .imooc {
+    left: 76.6179540709%;
+    width: 23.382045929%;
+    font-size: 2em;
+  }
+
+  .url .sina {
+    right: 25.8872651356%;
+    width: 23.5908141962%;
+    font-size: 2em;
+  }
+
+  .index ._select {
+    left: 89.9713541666%;
+    width: 6.4166666666%;
     font-size: 1.625em;
   }
 
-  .index-1 {
-    font-size: 8px;
-  }
-
-  ._button-1 {
-    top: 597px;
+  .head .black-2 {
     left: 0;
     right: 0;
     margin-right: auto;
     margin-left: auto;
-    font-size: 2em;
   }
 
-  ._button-2 {
-    font-size: 1.5em;
+  .index .link-1 {
+    width: 99.9957425068%;
+    height: 47px;
+  }
+
+  .index .lstwwa-2 {
+    width: 42.9985524523%;
+  }
+
+  .index-1 {
+    height: 135px;
+  }
+
+  .url .github-3 {
+    left: 37.6174321503%;
   }
 }
 
@@ -697,78 +1080,122 @@ body {
     font-size: 0.438em;
   }
 
-  .baidu,
-  .csdn,
-  .google,
-  .imooc,
-  .sina {
-    font-size: 2.286em;
+  .bottom .text {
+    font-size: 7px;
   }
 
-  .github {
-    font-size: 2.857em;
+  .index .black {
+    top: 14px;
+    width: 81.8330605564%;
   }
 
-  .home {
-    left: 10%;
-    width: 13.6%;
+  .link .home {
+    width: 17%;
   }
 
-  .image {
-    top: 16px;
-    left: 10%;
-    height: auto;
-  }
-
-  .link {
+  .link .link {
     font-size: 2.143em;
   }
 
-  .linux {
+  .link .linux {
     left: auto;
-    right: 32%;
-    width: 13.5%;
+    right: 27.5%;
+    width: 16.875%;
+    height: 22px;
+  }
+
+  .link .resources {
+    left: 83%;
+    width: 16.875%;
+    height: 23px;
+  }
+
+  .link .resume {
+    left: 27.5%;
+    width: 16.875%;
     height: 22px;
   }
 
   .lstwwa {
-    top: 26px;
-    left: 23%;
-    width: 69.8%;
+    width: 122.2%;
+  }
+
+  .lstwwa .image {
+    left: 0;
+    height: auto;
+  }
+
+  .lstwwa .text {
+    top: 10px;
+    left: 15.7004830917%;
+    width: 84.2995169082%;
     font-size: 1.286em;
   }
 
-  .resources {
-    left: 76.4%;
-    width: 13.5%;
-    height: 23px;
+  .url {
+    width: 79.83125%;
   }
 
-  .resume {
-    left: 32%;
-    width: 13.5%;
-    height: 22px;
+  .url .baidu {
+    width: 23.33203125%;
+    font-size: 2.286em;
   }
 
-  ._input {
-    width: 66.4%;
+  .url .csdn {
+    width: 23.125%;
+    font-size: 2.286em;
+  }
+
+  .url .github {
+    width: 24.1640625%;
+    font-size: 2.857em;
+  }
+
+  .url .google {
+    left: 37.5390625%;
+    width: 24.375%;
+    font-size: 2.286em;
+  }
+
+  .url .imooc {
+    left: 76.45703125%;
+    width: 23.33203125%;
+    font-size: 2.286em;
+  }
+
+  .url .sina {
+    right: 26.04296875%;
+    width: 23.5390625%;
+    font-size: 2.286em;
+  }
+
+  .index ._select {
+    left: 89.971875%;
+    width: 6.4156249999%;
     font-size: 1.857em;
   }
 
-  .index-1 {
-    font-size: 7px;
-  }
-
-  ._button-1 {
+  .head .black-2 {
     left: 0;
     right: 0;
     margin-right: auto;
     margin-left: auto;
-    font-size: 2.286em;
   }
 
-  ._button-2 {
-    font-size: 2em;
+  .index .link-1 {
+    width: 81.7307692307%;
+  }
+
+  .index .lstwwa-2 {
+    width: 67.7577741407%;
+  }
+
+  .index-1 {
+    height: 149px;
+  }
+
+  .url .github-3 {
+    left: 37.5390625%;
   }
 }
 
@@ -777,73 +1204,111 @@ body {
     font-size: 0.375em;
   }
 
-  .baidu,
-  .csdn,
-  .google,
-  .imooc,
-  .sina {
-    font-size: 2.667em;
-  }
-
-  .github {
-    font-size: 3.333em;
-  }
-
-  .home {
-    width: 13.5%;
-    font-size: 2.5em;
-  }
-
-  .image {
-    top: 22px;
-    height: auto;
-  }
-
-  .linux {
-    height: 20px;
-    font-size: 2.5em;
-  }
-
-  .lstwwa {
-    top: 30px;
-    left: 28%;
-    width: 64.75%;
-    font-size: 1.667em;
-  }
-
-  .resources {
-    left: 76.5%;
-    height: 20px;
-    font-size: 2.167em;
-  }
-
-  .resume {
-    height: 20px;
-    font-size: 2.167em;
-  }
-
-  ._input {
-    width: 61.25%;
-    font-size: 2.167em;
-  }
-
-  .index-1 {
+  .bottom .text {
     font-size: 6px;
   }
 
-  ._button-1 {
+  .index .black {
+    top: 0;
+    width: 81.799591002%;
+  }
+
+  .link .home {
+    width: 16.875%;
+    font-size: 2.5em;
+  }
+
+  .link .linux {
+    right: 27.49609375%;
+    height: 20px;
+    font-size: 2.5em;
+  }
+
+  .link .resources {
+    left: 83.125%;
+    height: 20px;
+    font-size: 2.167em;
+  }
+
+  .link .resume {
+    height: 20px;
+    font-size: 2.167em;
+  }
+
+  .lstwwa {
+    width: 122.2499999999%;
+  }
+
+  .lstwwa .image {
+    height: auto;
+  }
+
+  .lstwwa .text {
+    top: 8px;
+    left: 21.752265861%;
+    width: 78.2477341389%;
+    font-size: 1.667em;
+  }
+
+  .url {
+    width: 79.828125%;
+  }
+
+  .url .baidu {
+    width: 23.330078125%;
+    font-size: 2.667em;
+  }
+
+  .url .csdn {
+    width: 37.9166666666%;
+    font-size: 2.667em;
+  }
+
+  .url .github {
+    width: 24.1650390625%;
+    font-size: 3.333em;
+  }
+
+  .url .google {
+    width: 39.5833333333%;
+    font-size: 2.667em;
+  }
+
+  .url .imooc {
+    left: 76.455078125%;
+    width: 23.330078125%;
+    font-size: 2.667em;
+  }
+
+  .url .sina {
+    right: 26.0400390624%;
+    width: 23.5400390625%;
+    font-size: 2.667em;
+  }
+
+  .index ._select {
+    left: 89.97265625%;
+    width: 6.4140625%;
+    font-size: 2.167em;
+  }
+
+  .head .black-2 {
     left: 0;
     right: 0;
     margin-right: auto;
     margin-left: auto;
-    background-size: contain;
-    font-size: 2.667em;
   }
 
-  ._button-2 {
-    left: 77.9999999999%;
-    width: 12.25%;
-    font-size: 12px;
+  .index .link-1 {
+    width: 81.799591002%;
+  }
+
+  .index .lstwwa-2 {
+    width: 67.6891615541%;
+  }
+
+  .index-1 {
+    height: 135px;
   }
 }
 
@@ -852,100 +1317,111 @@ body {
     font-size: 0.313em;
   }
 
-  .baidu {
-    top: 300px;
-    width: 32.3333333333%;
-    height: 40px;
-    font-size: 3.2em;
+  .bottom .text {
+    font-size: 5px;
   }
 
-  .csdn {
-    top: 360px;
-    left: 57.6666666666%;
-    width: 30.3333333333%;
-    height: 40px;
-    font-size: 3.2em;
+  .index .black {
+    width: 81.7438692098%;
   }
 
-  .github {
-    top: 420px;
-    left: 10%;
-    width: 32.3333333333%;
-    height: 40px;
-    font-size: 4em;
-  }
-
-  .google {
-    top: 300px;
-    left: 57.6666666666%;
-    width: 31.6666666666%;
-    height: 40px;
-    font-size: 3.2em;
-  }
-
-  .image {
-    height: auto;
-  }
-
-  .imooc {
-    top: 420px;
-    left: 57.6666666666%;
-    width: 32.3333333333%;
-    height: 40px;
-    font-size: 3.2em;
-  }
-
-  .link {
+  .link .link {
+    width: 16.875878952%;
     font-size: 2.4em;
     line-height: 1.7;
   }
 
+  .link .linux {
+    right: 27.4962237616%;
+  }
+
+  .link .resources {
+    left: auto;
+    right: 0.1145893015%;
+  }
+
+  .link .resume {
+    left: 27.5014323662%;
+  }
+
   .lstwwa {
-    top: 34px;
-    left: 30%;
-    width: 60%;
+    width: 122.3333333333%;
+  }
+
+  .lstwwa .image {
+    height: auto;
+  }
+
+  .lstwwa .text {
+    top: 12px;
+    left: 25%;
+    width: 75%;
     font-size: 1.6em;
   }
 
-  .resources {
-    left: auto;
-    right: 10.0999999999%;
+  .url {
+    width: 80%;
   }
 
-  .sina {
-    top: 360px;
-    left: 10%;
-    width: 32.3333333333%;
-    height: 40px;
+  .url .baidu {
+    width: 40.4166666666%;
     font-size: 3.2em;
   }
 
-  ._input {
-    width: 54.3333333333%;
-    height: 25px;
-    font-size: 2em;
+  .url .csdn {
+    top: 60px;
+    left: 59.5833333333%;
+    font-size: 3.2em;
   }
 
-  .index-1 {
-    font-size: 5px;
+  .url .github {
+    width: 40.4166666666%;
+    font-size: 4em;
   }
 
-  ._button-1 {
-    top: 672px;
+  .url .google {
+    left: 59.5833333333%;
+    font-size: 3.2em;
+  }
+
+  .url .imooc {
+    top: 120px;
+    left: 59.5833333333%;
+    width: 40.4166666666%;
+    font-size: 3.2em;
+  }
+
+  .url .sina {
+    top: 60px;
+    right: 26.0416666666%;
+    width: 40.4166666666%;
+    font-size: 3.2em;
+  }
+
+  .index ._select {
+    left: 89.96875%;
+    width: 6.4166666666%;
+    font-size: 2.6em;
+  }
+
+  .head .black-2 {
     left: 0;
     right: 0;
-    width: 74.6666666666%;
-    height: 133px;
     margin-right: auto;
     margin-left: auto;
-    font-size: 3.2em;
   }
 
-  ._button-2 {
-    left: 71.3333333333%;
-    width: 19%;
-    height: 25px;
-    font-size: 10px;
+  .index .link-1 {
+    width: 81.6459468664%;
+  }
+
+  .index .lstwwa-2 {
+    width: 65.3950953678%;
+  }
+
+  .url .github-3 {
+    top: 120px;
+    left: 0;
   }
 }
 
@@ -954,71 +1430,184 @@ body {
     font-size: 0.25em;
   }
 
-  .baidu,
-  .csdn,
-  .google,
-  .imooc,
-  .sina {
-    font-size: 4em;
+  .bottom {
+    top: 2211px;
   }
 
-  .github {
-    font-size: 5em;
+  .bottom .text {
+    font-size: 4px;
   }
 
-  .home {
-    height: 49px;
+  .head {
+    height: 122px;
+  }
+
+  .head .bottom {
+    top: 112px;
+    height: 10px;
+  }
+
+  .index .black {
+    width: 100%;
+    height: 100px;
+  }
+
+  .link .home {
+    height: 25px;
     line-height: 2;
   }
 
-  .image {
-    top: 30px;
+  .link .link {
+    width: 16.6219325153%;
+    font-size: 2em;
+  }
+
+  .link .linux {
+    right: 28.5563650306%;
+    height: 15px;
+    line-height: 2;
+  }
+
+  .link .resources {
+    right: 0.5943251533%;
+    height: 15px;
+  }
+
+  .link .resume {
+    left: 27.0897239263%;
+    height: 15px;
+    line-height: 2;
+  }
+
+  .lstwwa {
+    top: 10px;
+    left: 0;
+    width: 100%;
+  }
+
+  .lstwwa .image {
+    left: -0.5357142858%;
     width: 40px;
     height: auto;
   }
 
-  .link {
-    font-size: 2em;
-  }
-
-  .lstwwa {
-    top: 40px;
-    left: 36%;
+  .lstwwa .text {
+    top: 10px;
+    left: 29.6651785714%;
+    width: 69.6763392857%;
     font-size: 1.5em;
   }
 
-  .resources {
-    right: 9.3%;
-  }
-
-  .linux,
-  .resume {
-    line-height: 2;
-  }
-
-  ._input {
-    top: 150px;
-    width: 54.5%;
-    font-size: 8px;
-  }
-
-  .index-1 {
-    font-size: 4px;
-  }
-
-  ._button-1 {
+  .url {
+    top: 145px;
     left: 0;
     right: 0;
-    width: 74.6640625%;
+    height: 180px;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .url .baidu {
+    width: 40%;
+    height: 30px;
     font-size: 4em;
   }
 
-  ._button-2 {
+  .url .csdn {
+    top: 100px;
+    left: 0;
+    width: 40%;
+    height: 30px;
+    font-size: 4em;
+  }
+
+  .url .github {
+    width: 40%;
+    height: 30px;
+    font-size: 5em;
+  }
+
+  .url .google {
+    left: 60.205078125%;
+    width: 40%;
+    height: 30px;
+    font-size: 4em;
+  }
+
+  .url .imooc {
+    top: 50px;
+    left: 60.205078125%;
+    width: 40%;
+    height: 30px;
+    font-size: 4em;
+  }
+
+  .url .sina {
+    top: 50px;
+    right: 60.21484375%;
+    width: 40%;
+    height: 30px;
+    font-size: 4em;
+  }
+
+  .index ._select {
+    width: 6.4140625%;
+    font-size: 3.25em;
+  }
+
+  .head .black-2 {
+    left: 0;
+    right: 0;
+    height: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .head .black-3 {
+    left: 115.9999999999%;
+    height: 15px;
+  }
+
+  .index .link-1 {
+    top: 65px;
+    left: 0;
+    right: 0;
+    width: 81%;
+    height: 25px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .index .lstwwa-2 {
+    top: 15px;
+    left: 0;
+    right: 0;
+    width: 81%;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .index-1 {
+    height: 100px;
+  }
+
+  .index-2 {
+    left: -4%;
+  }
+
+  .url .github-1 {
     top: 150px;
-    left: 76.3999999999%;
-    width: 13.5%;
-    font-size: 8px;
+    left: 59.7460937499%;
+  }
+
+  .url .github-2 {
+    top: 150px;
+    left: 0;
+  }
+
+  .url .github-3 {
+    top: 100px;
+    left: 60%;
   }
 }
