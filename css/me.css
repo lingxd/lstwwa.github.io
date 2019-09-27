@@ -70,7 +70,7 @@ body {
   width: 14.3356643356%;
   height: 35px;
   border-radius: 3px;
-  background-color: rgb(81, 94, 123);
+  background-color: #bfb1cc;
   font-size: 1.75em;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -114,7 +114,7 @@ body {
   width: 14.1608391608%;
   height: 35px;
   border-radius: 3px;
-  background-color: rgb(81, 94, 123);
+  background-color: #debdb6;
   font-size: 1.75em;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -157,7 +157,7 @@ body {
   width: 14.3356643356%;
   height: 35px;
   border-radius: 3px;
-  background-color: rgb(81, 94, 123);
+  background-color: #d9bdc5;
   font-size: 1.75em;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -171,7 +171,7 @@ body {
   width: 14.3356643356%;
   height: 35px;
   border-radius: 3px;
-  background-color: rgb(81, 94, 123);
+  background-color: #adc7af;
   font-size: 1.75em;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -202,6 +202,33 @@ body {
   z-index: 6;
   width: 40.6666666666%;
   height: 100px;
+}
+
+.text a {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: NaN;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
 }
 
 @media(max-width: 1100px) {

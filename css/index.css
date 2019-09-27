@@ -17,7 +17,7 @@ body {
   width: 16.9791666666%;
   height: 67px;
   border-radius: 3px;
-  background: url('../images/baidu.png') rgb(154, 172, 210);
+  background: url('../images/baidu.png') rgb(165, 187, 201);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -66,7 +66,7 @@ body {
   width: 16.9791666666%;
   height: 67px;
   border-radius: 3px;
-  background: url('../images/csdn.jpg') rgb(154, 172, 210);
+  background: url('../images/csdn.jpg') rgb(165, 187, 201);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -96,7 +96,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
-  background-color: rgb(154, 172, 210);
+  background-color: rgb(165, 187, 201);
   font-size: 1.25em;
   line-height: 3.5;
   text-align: center;
@@ -112,7 +112,7 @@ body {
   width: 16.9791666666%;
   height: 67px;
   border-radius: 3px;
-  background: url('../images/google.png') rgb(154, 172, 210);
+  background: url('../images/google.png') rgb(165, 187, 201);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -128,10 +128,7 @@ body {
   z-index: 23;
   height: 135px;
   margin: 0 auto;
-  background: url('../images/ac5afa59ada34de634b6be4db5a59b24(5).png') rgba(0, 0, 0, 0.3);
-  background-repeat: repeat-x;
-  background-size: contain;
-  background-position: center bottom;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .home {
@@ -142,7 +139,7 @@ body {
   width: 14.3356643356%;
   height: 70px;
   border-radius: 3px;
-  background-color: rgb(81, 94, 123);
+  background-color: rgb(132, 146, 174);
   font-size: 1.75em;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -169,7 +166,7 @@ body {
   width: 16.9791666666%;
   height: 67px;
   border-radius: 3px;
-  background: url('../images/imooc.png') rgb(154, 172, 210);
+  background: url('../images/imooc.png') rgb(165, 187, 201);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -202,7 +199,7 @@ body {
   width: 14.1608391608%;
   height: 35px;
   border-radius: 3px;
-  background-color: rgb(81, 94, 123);
+  background-color: rgb(132, 146, 174);
   font-size: 1.75em;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -245,7 +242,7 @@ body {
   width: 14.3356643356%;
   height: 35px;
   border-radius: 3px;
-  background-color: rgb(81, 94, 123);
+  background-color: rgb(132, 146, 174);
   font-size: 1.75em;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -259,7 +256,7 @@ body {
   width: 14.3356643356%;
   height: 35px;
   border-radius: 3px;
-  background-color: rgb(81, 94, 123);
+  background-color: rgb(132, 146, 174);
   font-size: 1.75em;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -274,7 +271,7 @@ body {
   width: 16.4583333333%;
   height: 67px;
   border-radius: 3px;
-  background: url('../images/sina-logo-white-744x430(%E5%B7%B2%E5%8E%BB%E5%BA%95).png') rgb(154, 172, 210);
+  background: url('../images/sina-logo-white-744x430(%E5%B7%B2%E5%8E%BB%E5%BA%95).png') rgb(165, 187, 201);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
