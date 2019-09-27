@@ -1,11 +1,11 @@
 body {
-  background-color: rgb(81, 94, 123);
+  background-color: #aec6d4;
   font: 400 1em/1.38 Helvetica;
   color: rgb(255, 255, 255);
 }
 
-.index-2 p,
-.lstwwa-2 p {
+.lstwwa-2 p,
+.lstwwa-4 p {
   margin-bottom: 1em;
 }
 
@@ -17,7 +17,7 @@ body {
   width: 16.9791666666%;
   height: 67px;
   border-radius: 3px;
-  background: url('../images/baidu.png') rgb(124, 139, 169);
+  background: url('../images/baidu.png') rgb(154, 172, 210);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -34,7 +34,7 @@ body {
   position: absolute;
   top: 165px;
   left: 0;
-  z-index: 12;
+  z-index: 13;
   height: 30px;
   background-color: rgba(162, 173, 197, 0.54);
 }
@@ -43,23 +43,13 @@ body {
   position: absolute;
   top: 1400px;
   left: 0;
-  z-index: 11;
+  z-index: 12;
   height: 50px;
-}
-
-.buttom .black {
-  bottom: 0;
-  z-index: 9;
-  height: 50px;
-  background-color: rgb(41, 47, 62);
-}
-
-.buttom .lstwwa {
-  left: 0.0833333333%;
 }
 
 .buttom .text {
   bottom: 11px;
+  left: 0.0833333333%;
   z-index: 10;
   width: 40.75%;
   height: 34px;
@@ -76,7 +66,7 @@ body {
   width: 16.9791666666%;
   height: 67px;
   border-radius: 3px;
-  background: url('../images/csdn.jpg') rgb(124, 139, 169);
+  background: url('../images/csdn.jpg') rgb(154, 172, 210);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -90,25 +80,11 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 25;
+  z-index: 24;
   width: 100%;
-  height: 193px;
+  height: 195px;
   margin: 0 auto;
-  background-image: url('../images/ac5afa59ada34de634b6be4db5a59b24.png');
-  background-repeat: repeat-x;
-  background-size: contain;
-  background-position: center bottom;
   overflow: hidden;
-}
-
-.element {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 14;
-  height: 135px;
-  border: 1px solid rgba(0, 0, 0, 0.21);
-  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .github {
@@ -120,7 +96,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
-  background-color: rgb(124, 139, 169);
+  background-color: rgb(154, 172, 210);
   font-size: 1.25em;
   line-height: 3.5;
   text-align: center;
@@ -136,7 +112,7 @@ body {
   width: 16.9791666666%;
   height: 67px;
   border-radius: 3px;
-  background: url('../images/google.png') rgb(124, 139, 169);
+  background: url('../images/google.png') rgb(154, 172, 210);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -152,6 +128,10 @@ body {
   z-index: 23;
   height: 135px;
   margin: 0 auto;
+  background: url('../images/ac5afa59ada34de634b6be4db5a59b24(5).png') rgba(0, 0, 0, 0.3);
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center bottom;
 }
 
 .home {
@@ -189,7 +169,7 @@ body {
   width: 16.9791666666%;
   height: 67px;
   border-radius: 3px;
-  background: url('../images/imooc.png') rgb(124, 139, 169);
+  background: url('../images/imooc.png') rgb(154, 172, 210);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -200,6 +180,14 @@ body {
 
 .index {
   width: 100%;
+}
+
+.index .black {
+  bottom: 0;
+  left: 0.0833333333%;
+  z-index: 9;
+  height: 50px;
+  background-color: rgb(41, 47, 62);
 }
 
 .link {
@@ -237,11 +225,11 @@ body {
 .me {
   display: block;
   position: absolute;
-  top: 28px;
-  left: 94.1666666666%;
-  z-index: 24;
-  width: 5.8333333333%;
-  height: 34px;
+  top: 15px;
+  left: 90%;
+  z-index: 11;
+  width: 5.1666666666%;
+  height: 25px;
   border-radius: 3px;
   background-color: rgb(133, 145, 172);
   font-size: 1em;
@@ -286,7 +274,7 @@ body {
   width: 16.4583333333%;
   height: 67px;
   border-radius: 3px;
-  background: url('../images/sina-logo-white-744x430(%E5%B7%B2%E5%8E%BB%E5%BA%95).png') rgb(124, 139, 169);
+  background: url('../images/sina-logo-white-744x430(%E5%B7%B2%E5%8E%BB%E5%BA%95).png') rgb(154, 172, 210);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -300,15 +288,15 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 13;
+  z-index: 14;
   height: 30px;
   margin: 0 auto;
-  background-color: rgb(133, 145, 172);
+  background-color: rgba(162, 173, 197, 0.54);
 }
 
 .url {
   position: absolute;
-  top: 217px;
+  top: 240px;
   left: 0;
   right: 0;
   z-index: 8;
@@ -370,30 +358,23 @@ body {
 
   .head {
     left: 0;
-    height: 189px;
+    height: 190px;
   }
 
-  .head .bottom {
+  .head .black {
     height: 25px;
-  }
-
-  .head .button {
-    left: 94.1661931818%;
-    width: 5.8323863636%;
-    font-size: 1.067em;
   }
 
   .head .index {
     top: 25px;
     left: 0;
     right: auto;
-    height: 139px;
+    height: 140px;
   }
 
   .head .top {
     left: 0;
     right: 0;
-    height: 25px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -403,8 +384,10 @@ body {
     left: auto;
   }
 
-  .index .element {
-    height: 140px;
+  .index .button {
+    left: 89.9999999999%;
+    width: 5.8323863636%;
+    font-size: 1.067em;
   }
 
   .link .home {
@@ -541,10 +524,8 @@ body {
     top: 180px;
   }
 
-  .head .button {
-    left: 94.1656249999%;
-    width: 5.8328125%;
-    font-size: 1.143em;
+  .head .index {
+    height: 155px;
   }
 
   .head .top {
@@ -554,9 +535,10 @@ body {
     margin-left: auto;
   }
 
-  .head .index,
-  .index .element {
-    height: 155px;
+  .index .button {
+    left: 90%;
+    width: 5.8328125%;
+    font-size: 1.143em;
   }
 
   .link .home {
@@ -680,13 +662,11 @@ body {
   }
 
   .head {
-    height: 204px;
+    height: 210px;
   }
 
-  .head .button {
-    left: 94.1666666666%;
-    width: 5.8333333333%;
-    font-size: 1.231em;
+  .head .bottom {
+    top: 185px;
   }
 
   .head .index {
@@ -700,8 +680,9 @@ body {
     margin-left: auto;
   }
 
-  .index .element {
-    width: 100.1111111111%;
+  .index .button {
+    width: 5.8333333333%;
+    font-size: 1.231em;
   }
 
   .link .home {
@@ -809,24 +790,6 @@ body {
     font-size: 0.5em;
   }
 
-  .head {
-    height: 209px;
-  }
-
-  .head .bottom {
-    top: 185px;
-  }
-
-  .head .button {
-    left: 94.166015625%;
-    width: 5.83203125%;
-    font-size: 1.333em;
-  }
-
-  .head .index {
-    height: 159px;
-  }
-
   .head .top {
     left: 0;
     right: 0;
@@ -834,9 +797,10 @@ body {
     margin-left: auto;
   }
 
-  .index .element {
-    width: 100%;
-    height: 159px;
+  .index .button {
+    left: 89.9999999999%;
+    width: 5.83203125%;
+    font-size: 1.333em;
   }
 
   .link .home {
@@ -874,6 +838,10 @@ body {
     left: 32.96875%;
     width: 67.03125%;
     font-size: 12px;
+  }
+
+  .url {
+    height: 110px;
   }
 
   .url .baidu,
@@ -941,12 +909,6 @@ body {
     top: 165px;
   }
 
-  .head .button {
-    left: 94.1651785714%;
-    width: 5.8325892857%;
-    font-size: 1.455em;
-  }
-
   .head .index {
     left: 0;
     right: 0;
@@ -962,8 +924,10 @@ body {
     margin-left: auto;
   }
 
-  .index .element {
-    height: 140px;
+  .index .button {
+    left: 90%;
+    width: 5.8325892857%;
+    font-size: 1.455em;
   }
 
   .link .home {
@@ -1009,7 +973,6 @@ body {
     top: 205px;
     left: 0;
     right: 0;
-    height: 110px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1071,17 +1034,11 @@ body {
   }
 
   .head {
-    height: 184px;
+    height: 185px;
   }
 
   .head .bottom {
     top: 160px;
-  }
-
-  .head .button {
-    left: 94.1666666666%;
-    width: 5.8333333333%;
-    font-size: 1.6em;
   }
 
   .head .index {
@@ -1102,9 +1059,11 @@ body {
     left: auto;
   }
 
-  .index .element {
-    top: -1px;
-    height: 136px;
+  .index .button {
+    top: 3px;
+    width: 4.8333333333%;
+    height: 44px;
+    font-size: 1.6em;
   }
 
   .link .home {
@@ -1213,16 +1172,6 @@ body {
     font-size: 0.667em;
   }
 
-  .head {
-    height: 185px;
-  }
-
-  .head .button {
-    left: 94.1656249999%;
-    width: 5.83125%;
-    font-size: 1.778em;
-  }
-
   .head .top {
     left: 0;
     right: 0;
@@ -1230,12 +1179,9 @@ body {
     margin-left: auto;
   }
 
-  .index .element {
-    top: 0;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
+  .index .button {
+    width: 5.8%;
+    font-size: 1.778em;
   }
 
   .link .home {
@@ -1361,31 +1307,26 @@ body {
     font-size: 0.625em;
   }
 
+  .buttom {
+    left: auto;
+  }
+
   .buttom .text {
     width: 40.78515625%;
     font-size: 0.6em;
   }
 
-  .head {
-    height: 184px;
-  }
-
-  .head .button {
-    left: 94.1640625%;
-    width: 5.83203125%;
-    font-size: 1.6em;
-  }
-
-  .head .index {
-    top: 24px;
-  }
-
-  .head .top,
-  .index .element {
+  .head .top {
     left: 0;
     right: 0;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .index .button {
+    left: 89.9999999999%;
+    width: 5.83203125%;
+    font-size: 1.6em;
   }
 
   .link .home {
@@ -1513,25 +1454,21 @@ body {
   }
 
   .head {
-    height: 159px;
+    height: 165px;
   }
 
-  .head .bottom {
-    top: 135px;
+  .head .black {
     left: 0;
     right: 0;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .head .button {
-    left: 94.1666666666%;
-    width: 5.8333333333%;
-    font-size: 2em;
+  .head .bottom {
+    top: 140px;
   }
 
   .head .index {
-    top: 25px;
     left: 0;
     right: 0;
     height: 116px;
@@ -1539,19 +1476,10 @@ body {
     margin-left: auto;
   }
 
-  .head .top {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .index .element {
-    left: 0;
-    right: 0;
-    height: 109px;
-    margin-right: auto;
-    margin-left: auto;
+  .index .button {
+    left: 90%;
+    width: 5.8333333333%;
+    font-size: 2em;
   }
 
   .link .home {
@@ -1673,8 +1601,7 @@ body {
     height: 120px;
   }
 
-  .head .bottom {
-    top: 110px;
+  .head .black {
     left: 0;
     right: 0;
     height: 10px;
@@ -1682,10 +1609,8 @@ body {
     margin-left: auto;
   }
 
-  .head .button {
-    left: 94.1640625%;
-    width: 5.828125%;
-    font-size: 2.667em;
+  .head .bottom {
+    top: 110px;
   }
 
   .head .index {
@@ -1695,20 +1620,10 @@ body {
     height: 100px;
   }
 
-  .head .top {
-    left: 0;
-    right: 0;
-    height: 10px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .index .element {
-    left: 0;
-    right: 0;
-    height: 100px;
-    margin-right: auto;
-    margin-left: auto;
+  .index .button {
+    left: 94.1640625%;
+    width: 5.828125%;
+    font-size: 2.667em;
   }
 
   .link .home {

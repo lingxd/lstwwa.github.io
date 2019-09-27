@@ -1,12 +1,12 @@
 body {
-  background-color: rgb(81, 94, 123);
+  background-color: #aec6d4;
   font: 400 1em/1.38 Helvetica;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .index-2 p,
 .lstwwa-2 p,
-.text-2 p {
+.text-1 p {
   margin-bottom: 1em;
 }
 
@@ -40,34 +40,15 @@ body {
   color: rgba(255, 255, 255, 0.51);
 }
 
-.button {
-  display: block;
-  position: absolute;
-  top: 30px;
-  left: 94.1666666666%;
-  z-index: 14;
-  width: 5.8333333333%;
-  height: 34px;
-  border-radius: 3px;
-  background-color: rgb(133, 145, 172);
-  font-size: 1em;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
 .cut {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 15;
+  z-index: 14;
   width: 100%;
-  height: 192px;
+  height: 195px;
   margin: 0 auto;
-  background-image: url('../images/ac5afa59ada34de634b6be4db5a59b24(4).png');
-  background-repeat: repeat-x;
-  background-size: contain;
-  background-position: center center;
   overflow: hidden;
 }
 
@@ -75,7 +56,10 @@ body {
   top: 30px;
   z-index: 12;
   height: 135px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background: url('../images/ac5afa59ada34de634b6be4db5a59b24(9).png') rgba(0, 0, 0, 0.3);
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center bottom;
 }
 
 .home {
@@ -150,13 +134,28 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.no {
+  position: absolute;
+  top: 270px;
+  left: 0;
+  right: 0;
+  z-index: 15;
+  width: 80.0833333333%;
+  min-height: 507px;
+  margin: 0 auto;
+  background-color: #d6c9ad;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
 .resources {
   display: block;
   top: 0;
   left: 85.6643356643%;
   z-index: 9;
   width: 14.3356643356%;
-  height: 70px;
+  height: 35px;
   border-radius: 3px;
   background-color: rgb(81, 94, 123);
   font-size: 1.75em;
@@ -186,22 +185,7 @@ body {
   z-index: 13;
   height: 30px;
   margin: 0 auto;
-  background-color: rgb(133, 145, 172);
-}
-
-._text {
-  position: absolute;
-  top: 270px;
-  left: 0;
-  right: 0;
-  z-index: 16;
-  width: 54.3997395833%;
-  min-height: 507px;
-  margin: 0 auto;
-  background-color: rgb(255, 255, 255);
-  font-size: 1em;
-  text-align: center;
-  color: rgb(0, 0, 0);
+  background-color: rgba(162, 173, 197, 0.54);
 }
 
 .link-1 {
@@ -231,22 +215,18 @@ body {
 
   .head {
     left: 0;
-    height: 375px;
+    height: 190px;
   }
 
   .head .black {
     height: 25px;
   }
 
-  .head .button {
-    width: 5.8323863636%;
-  }
-
   .head .index {
     top: 25px;
     left: 0;
     right: auto;
-    height: 139px;
+    height: 140px;
   }
 
   .head .top {
@@ -303,14 +283,14 @@ body {
     font-size: 0.938em;
   }
 
-  .text {
-    left: 0;
-  }
-
-  ._text {
+  .no {
     right: 0;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .text {
+    left: 0;
   }
 
   .index .link-1 {
@@ -337,15 +317,11 @@ body {
   }
 
   .head {
-    height: 370px;
+    height: 205px;
   }
 
   .head .bottom {
     top: 180px;
-  }
-
-  .head .button {
-    width: 5.8328125%;
   }
 
   .head .index {
@@ -390,8 +366,8 @@ body {
     font-size: 0.875em;
   }
 
-  ._text,
-  .head .top {
+  .head .top,
+  .no {
     left: 0;
     right: 0;
     margin-right: auto;
@@ -419,11 +395,11 @@ body {
   }
 
   .head {
-    height: 400px;
+    height: 210px;
   }
 
-  .head .button {
-    width: 5.8333333333%;
+  .head .bottom {
+    top: 185px;
   }
 
   .head .index {
@@ -467,8 +443,8 @@ body {
     font-size: 0.813em;
   }
 
-  ._text,
-  .head .top {
+  .head .top,
+  .no {
     left: 0;
     right: 0;
     margin-right: auto;
@@ -496,22 +472,6 @@ body {
 
   .buttom .text {
     width: 40.78515625%;
-  }
-
-  .head {
-    height: 365px;
-  }
-
-  .head .bottom {
-    top: 185px;
-  }
-
-  .head .button {
-    width: 5.83203125%;
-  }
-
-  .head .index {
-    height: 159px;
   }
 
   .link .home {
@@ -549,8 +509,8 @@ body {
     font-size: 0.75em;
   }
 
-  ._text,
-  .head .top {
+  .head .top,
+  .no {
     left: 0;
     right: 0;
     margin-right: auto;
@@ -581,15 +541,11 @@ body {
   }
 
   .head {
-    height: 355px;
+    height: 190px;
   }
 
   .head .bottom {
     top: 165px;
-  }
-
-  .head .button {
-    width: 5.8325892857%;
   }
 
   .head .index {
@@ -639,8 +595,8 @@ body {
     font-size: 0.688em;
   }
 
-  ._text,
-  .head .top {
+  .head .top,
+  .no {
     left: 0;
     right: 0;
     margin-right: auto;
@@ -675,15 +631,11 @@ body {
   }
 
   .head {
-    height: 339px;
+    height: 185px;
   }
 
   .head .bottom {
     top: 160px;
-  }
-
-  .head .button {
-    width: 5.8333333333%;
   }
 
   .head .index {
@@ -732,9 +684,9 @@ body {
     font-size: 0.625em;
   }
 
-  ._text,
   .head .top,
-  .index .lstwwa-2 {
+  .index .lstwwa-2,
+  .no {
     left: 0;
     right: 0;
     margin-right: auto;
@@ -754,14 +706,6 @@ body {
 @media(max-width: 500px) {
   .buttom .text {
     width: 40.784375%;
-  }
-
-  .head {
-    height: 405px;
-  }
-
-  .head .button {
-    width: 5.83125%;
   }
 
   .link .home {
@@ -802,8 +746,8 @@ body {
     font-size: 0.563em;
   }
 
-  ._text,
-  .head .top {
+  .head .top,
+  .no {
     left: 0;
     right: 0;
     margin-right: auto;
@@ -838,18 +782,6 @@ body {
     width: 40.78515625%;
   }
 
-  .head {
-    height: 463px;
-  }
-
-  .head .button {
-    width: 5.83203125%;
-  }
-
-  .head .index {
-    top: 24px;
-  }
-
   .link .home {
     width: 16.875%;
     height: 25px;
@@ -882,8 +814,8 @@ body {
     font-size: 0.625em;
   }
 
-  ._text,
-  .head .top {
+  .head .top,
+  .no {
     left: 0;
     right: 0;
     margin-right: auto;
@@ -916,7 +848,7 @@ body {
   }
 
   .head {
-    height: 435px;
+    height: 165px;
   }
 
   .head .black {
@@ -927,15 +859,10 @@ body {
   }
 
   .head .bottom {
-    top: 135px;
-  }
-
-  .head .button {
-    width: 5.8333333333%;
+    top: 140px;
   }
 
   .head .index {
-    top: 25px;
     left: 0;
     right: 0;
     height: 116px;
@@ -979,14 +906,14 @@ body {
     font-size: 0.5em;
   }
 
-  .text {
-    left: 0;
-  }
-
-  ._text {
+  .no {
     right: 0;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .text {
+    left: 0;
   }
 
   .index .link-1 {
@@ -1019,7 +946,7 @@ body {
   }
 
   .head {
-    height: 340px;
+    height: 120px;
   }
 
   .head .black {
@@ -1032,10 +959,6 @@ body {
 
   .head .bottom {
     top: 110px;
-  }
-
-  .head .button {
-    width: 5.828125%;
   }
 
   .head .index {
@@ -1083,7 +1006,7 @@ body {
     font-size: 0.375em;
   }
 
-  ._text {
+  .no {
     left: 0;
     right: 0;
     margin-right: auto;

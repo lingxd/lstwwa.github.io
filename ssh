@@ -1,4 +1,0 @@
-# Nmap 7.70 scan initiated Wed Sep 25 14:10:39 2019 as: nmap -sV -p* -oG ssh 192.168.18.77
-Host: 192.168.18.77 ()	Status: Up
-Host: 192.168.18.77 ()	Status: Up
-# Nmap done at Wed Sep 25 14:10:40 2019 -- 1 IP address (1 host up) scanned in 0.87 seconds
