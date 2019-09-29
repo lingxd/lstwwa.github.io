@@ -1,7 +1,7 @@
 body {
   background-color: #aec6d4;
   font: 400 1em/1.38 Helvetica;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .index-1 p,
@@ -243,6 +243,21 @@ body {
   background-position: center center;
 }
 
+._button {
+  display: block;
+  position: fixed;
+  top: 208px;
+  right: 1%;
+  z-index: 29;
+  width: 17.2994791666%;
+  height: 91px;
+  border-radius: 3px;
+  background-color: #debdb6;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
 .rongyu ._1 {
   left: 10%;
   z-index: 3;
@@ -374,7 +389,7 @@ body {
   }
 
   .index {
-    top: 1365px;
+    top: 1570px;
     left: 0;
     right: auto;
   }
@@ -421,14 +436,15 @@ body {
   }
 
   .zhengshu {
-    top: auto;
-    left: auto;
+    top: 231px;
   }
 
-  .container ._1,
-  .rongyu ._2,
-  .zhengshu ._3 {
+  .container ._1 {
     width: 20.4161931818%;
+  }
+
+  .container ._2 {
+    height: 195px;
   }
 
   .container ._4 {
@@ -438,7 +454,33 @@ body {
     margin-left: auto;
   }
 
+  .rongyu ._1 {
+    height: 273px;
+  }
+
+  .rongyu ._2 {
+    width: 20.4161931818%;
+  }
+
   .rongyu ._3 {
+    left: 0;
+    right: 0;
+    width: 20.8323863636%;
+    height: 203px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .rongyu ._4 {
+    width: 20.9161931818%;
+    height: 203px;
+  }
+
+  .zhengshu ._1 {
+    height: 100px;
+  }
+
+  .zhengshu ._2 {
     left: 0;
     right: 0;
     width: 20.8323863636%;
@@ -446,18 +488,22 @@ body {
     margin-left: auto;
   }
 
-  .rongyu ._4 {
-    width: 20.9161931818%;
-  }
-
-  .zhengshu ._2 {
-    left: 0;
-    right: auto;
-    width: 20.8323863636%;
+  .zhengshu ._3 {
+    width: 20.4161931818%;
+    height: 100px;
   }
 
   .zhengshu ._4 {
     width: 20.8323863636%;
+    height: 112px;
+  }
+
+  .container-1 {
+    height: 493px;
+  }
+
+  .container-6 {
+    height: 499px;
   }
 
   .index .link-1 {
@@ -477,6 +523,10 @@ body {
 @media(max-width: 1000px) {
   body {
     font-size: 1em;
+  }
+
+  .buttom {
+    top: 1559px;
   }
 
   .buttom .text {
@@ -541,10 +591,8 @@ body {
     font-size: 0.875em;
   }
 
-  .container ._1,
-  .rongyu ._2,
-  .zhengshu ._3 {
-    width: 20.415625%;
+  .zhengshu {
+    left: auto;
   }
 
   .container ._4 {
@@ -554,10 +602,22 @@ body {
     margin-left: auto;
   }
 
+  .rongyu ._1 {
+    top: 98px;
+    width: 20.4%;
+    height: 209px;
+  }
+
+  .rongyu ._2 {
+    width: 20.415625%;
+    height: 171px;
+  }
+
   .rongyu ._3 {
     left: 0;
     right: 0;
     width: 20.8328125%;
+    height: 176px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -567,11 +627,27 @@ body {
   }
 
   .zhengshu ._2 {
+    left: 0;
+    right: 0;
     width: 20.8328125%;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .zhengshu ._1,
+  .zhengshu ._3 {
+    width: 20.415625%;
   }
 
   .zhengshu ._4 {
     width: 20.8328125%;
+    height: 100px;
+  }
+
+  .container-1 {
+    top: auto;
+    height: 335px;
   }
 
   .index .link-1 {
@@ -590,6 +666,10 @@ body {
 }
 
 @media(max-width: 900px) {
+  .buttom {
+    top: 1546px;
+  }
+
   .buttom .text {
     width: 40.7864583333%;
   }
@@ -651,9 +731,7 @@ body {
     font-size: 0.813em;
   }
 
-  .container ._1,
-  .rongyu ._2,
-  .zhengshu ._3 {
+  .container ._1 {
     width: 20.4166666666%;
   }
 
@@ -664,7 +742,18 @@ body {
     margin-left: auto;
   }
 
-  .rongyu ._3 {
+  .rongyu ._1 {
+    top: 118px;
+    height: 171px;
+  }
+
+  .rongyu ._2,
+  .zhengshu ._3 {
+    width: 20.4166666666%;
+  }
+
+  .rongyu ._3,
+  .zhengshu ._2 {
     left: 0;
     right: 0;
     width: 20.8333333333%;
@@ -674,10 +763,6 @@ body {
 
   .rongyu ._4 {
     width: 20.9166666666%;
-  }
-
-  .zhengshu ._2 {
-    width: 20.8333333333%;
   }
 
   .zhengshu ._4 {
@@ -701,6 +786,10 @@ body {
 @media(max-width: 800px) {
   body {
     font-size: 1em;
+  }
+
+  .buttom {
+    top: 1527px;
   }
 
   .buttom .text {
@@ -750,9 +839,7 @@ body {
     font-size: 0.75em;
   }
 
-  .container ._1,
-  .rongyu ._2,
-  .zhengshu ._3 {
+  .container ._1 {
     width: 20.416015625%;
   }
 
@@ -763,7 +850,17 @@ body {
     margin-left: auto;
   }
 
-  .rongyu ._3 {
+  .rongyu ._1 {
+    top: 127px;
+  }
+
+  .rongyu ._2,
+  .zhengshu ._3 {
+    width: 20.416015625%;
+  }
+
+  .rongyu ._3,
+  .zhengshu ._2 {
     left: 0;
     right: 0;
     width: 20.83203125%;
@@ -775,8 +872,9 @@ body {
     width: 20.916015625%;
   }
 
-  .zhengshu ._2 {
-    width: 20.83203125%;
+  .zhengshu ._1 {
+    top: 109px;
+    right: 9.983984375%;
   }
 
   .zhengshu ._4 {
@@ -802,6 +900,10 @@ body {
 }
 
 @media(max-width: 700px) {
+  .buttom {
+    top: 1365px;
+  }
+
   .buttom .text {
     width: 40.7857142857%;
   }
@@ -869,37 +971,69 @@ body {
     font-size: 0.688em;
   }
 
-  .container ._1,
-  .rongyu ._2,
-  .zhengshu ._3 {
-    width: 20.4151785714%;
+  .rongyu {
+    top: 597px;
   }
 
   .container ._4 {
     left: 0;
     right: 0;
+    width: 20.8571428571%;
     margin-right: auto;
     margin-left: auto;
   }
 
+  .rongyu ._1 {
+    top: 75px;
+    width: 20.4285714285%;
+  }
+
+  .rongyu ._2 {
+    top: 81px;
+    right: 9.9714285714%;
+    width: 20.4285714285%;
+  }
+
   .rongyu ._3 {
+    top: 81px;
     left: 0;
     right: 0;
-    width: 20.8325892857%;
+    width: 20.8571428571%;
     margin-right: auto;
     margin-left: auto;
   }
 
   .rongyu ._4 {
-    width: 20.9151785714%;
+    top: 321px;
+  }
+
+  .zhengshu ._1 {
+    top: 71px;
+    right: 9.9848214285%;
+    width: 20.4151785714%;
   }
 
   .zhengshu ._2 {
-    width: 20.8325892857%;
+    top: 31px;
+    left: 0;
+    right: 0;
+    width: 20.8571428571%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .zhengshu ._3 {
+    top: 31px;
+    width: 20.4151785714%;
   }
 
   .zhengshu ._4 {
-    width: 20.8325892857%;
+    top: 221px;
+  }
+
+  .container-1 {
+    top: 230px;
+    left: 0;
   }
 
   .index .link-1 {
@@ -923,6 +1057,10 @@ body {
 @media(max-width: 600px) {
   body {
     font-size: 1em;
+  }
+
+  .buttom {
+    top: 1140px;
   }
 
   .buttom .text {
@@ -988,10 +1126,8 @@ body {
     font-size: 0.625em;
   }
 
-  .container ._1,
-  .rongyu ._2,
-  .zhengshu ._3 {
-    width: 20.4166666666%;
+  .container ._2 {
+    top: 75px;
   }
 
   .container ._4 {
@@ -1001,7 +1137,17 @@ body {
     margin-left: auto;
   }
 
+  .rongyu ._1 {
+    width: 20.5%;
+  }
+
+  .rongyu ._2 {
+    right: 9.8333333333%;
+    width: 20.5%;
+  }
+
   .rongyu ._3 {
+    top: 70px;
     left: 0;
     right: 0;
     width: 20.8333333333%;
@@ -1010,15 +1156,36 @@ body {
   }
 
   .rongyu ._4 {
+    top: 263px;
     width: 20.9166666666%;
   }
 
+  .zhengshu ._1 {
+    top: 75px;
+    right: 10%;
+    width: 20.4166666666%;
+  }
+
   .zhengshu ._2 {
+    left: 0;
+    right: 0;
     width: 20.8333333333%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .zhengshu ._3 {
+    top: 75px;
+    width: 20.4166666666%;
   }
 
   .zhengshu ._4 {
+    top: 217px;
     width: 20.8333333333%;
+  }
+
+  .container-6 {
+    top: 565px;
   }
 
   .index .link-1 {
@@ -1032,6 +1199,10 @@ body {
 }
 
 @media(max-width: 500px) {
+  .buttom {
+    top: 1136px;
+  }
+
   .buttom .text {
     width: 40.784375%;
   }
@@ -1083,7 +1254,6 @@ body {
   }
 
   .container ._1,
-  .rongyu ._2,
   .zhengshu ._3 {
     width: 20.415625%;
   }
@@ -1095,7 +1265,13 @@ body {
     margin-left: auto;
   }
 
+  .rongyu ._2 {
+    right: 10%;
+    width: 20.415625%;
+  }
+
   .rongyu ._3 {
+    top: 75px;
     left: 0;
     right: 0;
     width: 20.83125%;
@@ -1108,11 +1284,25 @@ body {
   }
 
   .zhengshu ._2 {
+    left: 0;
+    right: 0;
     width: 20.83125%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .zhengshu ._4 {
+    top: 200px;
     width: 20.83125%;
+  }
+
+  .container-1 {
+    top: auto;
+    left: auto;
+  }
+
+  .container-6 {
+    top: 595px;
   }
 
   .index .link-1 {
@@ -1137,6 +1327,10 @@ body {
 @media(max-width: 400px) {
   body {
     font-size: 1em;
+  }
+
+  .buttom {
+    top: 1137px;
   }
 
   .buttom .text {
@@ -1196,7 +1390,8 @@ body {
     margin-left: auto;
   }
 
-  .rongyu ._3 {
+  .rongyu ._3,
+  .zhengshu ._2 {
     left: 0;
     right: 0;
     width: 20.83203125%;
@@ -1205,15 +1400,17 @@ body {
   }
 
   .rongyu ._4 {
+    top: 272px;
     width: 20.9140625%;
   }
 
-  .zhengshu ._2 {
+  .zhengshu ._4 {
+    top: 193px;
     width: 20.83203125%;
   }
 
-  .zhengshu ._4 {
-    width: 20.83203125%;
+  .container-6 {
+    top: 599px;
   }
 
   .index .link-1 {
@@ -1236,6 +1433,10 @@ body {
 }
 
 @media(max-width: 300px) {
+  .buttom {
+    top: 1130px;
+  }
+
   .buttom .text {
     left: 0;
     width: 50.3333333333%;
@@ -1246,6 +1447,10 @@ body {
     right: 0;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .container .text {
+    font-size: 0.875em;
   }
 
   .head {
@@ -1320,7 +1525,8 @@ body {
     margin-left: auto;
   }
 
-  .rongyu ._3 {
+  .rongyu ._3,
+  .zhengshu ._2 {
     left: 0;
     right: 0;
     width: 20.8333333333%;
@@ -1329,15 +1535,22 @@ body {
   }
 
   .rongyu ._4 {
+    top: 271px;
     width: 20.9166666666%;
   }
 
-  .zhengshu ._2 {
+  .zhengshu ._4 {
+    top: 197px;
     width: 20.8333333333%;
   }
 
-  .zhengshu ._4 {
-    width: 20.8333333333%;
+  .container-1 {
+    top: 187px;
+    left: 0;
+  }
+
+  .container-6 {
+    top: 593px;
   }
 
   .index .link-1 {
@@ -1362,11 +1575,12 @@ body {
 
 @media(max-width: 200px) {
   body {
-    font-size: 1em;
+    font-size: 0.375em;
   }
 
   .buttom .text {
     width: 56.9999999999%;
+    font-size: 1em;
   }
 
   .container .black {
@@ -1375,6 +1589,10 @@ body {
     height: 10px;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .container .text {
+    font-size: 1em;
   }
 
   .head {
@@ -1400,6 +1618,10 @@ body {
     height: 100px;
   }
 
+  .index {
+    top: 431px;
+  }
+
   .link .home {
     height: 15px;
     line-height: 2;
@@ -1407,7 +1629,7 @@ body {
 
   .link .link {
     width: 16.6219325153%;
-    font-size: 0.5em;
+    font-size: 1.333em;
   }
 
   .link .linux {
@@ -1435,40 +1657,86 @@ body {
   .lstwwa .text {
     top: 10px;
     width: 66.6666666666%;
-    font-size: 0.375em;
+    font-size: 1em;
   }
 
-  .container ._1,
-  .rongyu ._2,
-  .zhengshu ._3 {
-    width: 20.4140625%;
+  ._button {
+    font-size: 2.667em;
+  }
+
+  .container ._1 {
+    width: 20.5%;
   }
 
   .container ._4 {
     left: 0;
     right: 0;
+    width: 21%;
     margin-right: auto;
     margin-left: auto;
   }
 
+  .rongyu ._1 {
+    top: 30px;
+    height: 58px;
+  }
+
+  .rongyu ._2 {
+    top: 30px;
+    right: 9.9%;
+    width: 20.5%;
+    height: 67px;
+  }
+
   .rongyu ._3 {
+    top: 30px;
     left: 0;
     right: 0;
-    width: 20.828125%;
+    width: 21%;
+    height: 71px;
     margin-right: auto;
     margin-left: auto;
   }
 
   .rongyu ._4 {
-    width: 20.9140625%;
+    top: 112px;
+    height: 59px;
+  }
+
+  .zhengshu ._1 {
+    top: 20px;
+    height: 30px;
   }
 
   .zhengshu ._2 {
-    width: 20.828125%;
+    top: 20px;
+    left: 0;
+    right: 0;
+    width: 21%;
+    height: 35px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .zhengshu ._3 {
+    top: 20px;
+    width: 20.5%;
+    height: 37px;
   }
 
   .zhengshu ._4 {
-    width: 20.828125%;
+    top: 57px;
+    height: 40px;
+  }
+
+  .container-1 {
+    top: 136px;
+    height: 104px;
+  }
+
+  .container-6 {
+    top: 240px;
+    height: 191px;
   }
 
   .index .link-1 {
