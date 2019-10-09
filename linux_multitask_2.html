@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>linux_multitask_2</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/linux_multitask_2-grid.css">
+  <link rel="stylesheet" href="css/linux_multitask_2.css">
+</head>
+<body class="body page-linux_multitask_2 clearfix">
+  <div class="style-1 container bottom container-1">
+    <a href="major_linux.html" class="style-1 button liux">返回</a>
+    <div class="style-1 element bottom"></div>
+  </div>
+  <div class="style-1 container tital container-2">
+    <p class="style-1 text tital">网络编程</p>
+    <div class="style-1 element tital"></div>
+  </div>
+  <p class="style-1 text main">关于socket的参数
+domain：
+AF_UNIX / AF_LOCAL ：这代表创建本地域套接字。相当于有名管道。不需要IP
+AF_INET / AF_INET6：分别使用 IPv4 和 IPv6
+AF_XXX 等价于 PF_XXX，这意味着每一种网络层 Protocol 都有对应的一种 Address
+type:
+SOCK_STREAM：流式套接字，数据帧不同步
+SOCK_DGRAM：数据报套接字，数据帧同步
+protocol：
+用于指定传输层协议
+只要指定流式套接字，那么默认就是 TCP 协议，protocol赋0即可。
+只要指定数据报套接字，那么默认就是 UDP 协议，protocol赋0即可。
+
+字节序转换
+从本地主机到网络：htonl() / htons()
+从网络到本地主机：ntohl() / ntohs()
+h代表host，n代表network，l代表long（4字节），s代表short（2字节）
+
+广播与多播（也叫组播）
+只有UDP才有广播与多播
+广播的编码关键：
+发送方：① 使能广播属性；② 发送到广播地址 x.x.x.255
+接收方：无需特殊设定
+多播的编码关键：
+发送方：① 使能广播属性；② 发送到约定的多播组：224.0.0.1 ~ 239.255.255.255
+接收方：加入约定的多播组
+
+TCP特点
+面向连接，相当于打电话
+提供高可靠性通信
+无失序、无重复、无丢失、拥塞控制、半关闭……
+基于效率方面考虑，适用于大量数据的传送
+UDP特点
+无连接，相当于寄信
+提供不可靠通信
+不对传输的数据做任何重复、丢失、失序等判断
+基于效率考虑，适用于传输小尺寸数据
+基于时效考虑，适用于传输流媒体数据
+
+安装wireshark： sudo apt install wireshark
+小任务：直接点击图标，以管理员身份启动wireshark
+
+
+网址结构：
+协议://主机域名/xx/xx/program?arg1=.... arg2=...
+协议://主机域名/xx/xx/file
+
+
+收到的HTTP响应数据: 头部\r\n\r\n正文
+
+1，选择一个合适的 API
+2，正确连接，并得到服务器的响应
+3，下载cJSON 库，解析服务器返回的数据
+
+
+关于断点续传作业要注意的地方
+DNS查询（即gethostbyname()函数）需要时间，建议提供进度显示来展现当前的网络情况
+连接请求（即connect()函数）需要时间，使用超时控制更合理，做法步骤是：
+将套接字sockfd设置为非阻塞
+若没有立即连接成功，则将sockfd置入写就绪描述符集合中，并使用select做超时监听
+请求资源使用的HTTP报文格式如下：
+
+对下载资源要注意的地方
+以追加方式打开文件
+获取文件已有大小，在HTTP请求报文中的Range字段中加以阐明：
+Range: bytes=a-b
+a为起始字节序号，b为终止字节序号（省略意味着文件末尾）
+HTTP响应报文中，状态码为206为支持部分资源获取
+HTTP响应报文中，状态码为200则不支持部分资源获取，只能重新下载
+
+
+智能语音
+</p>
+
+  <script src="js/jquery-min.js"></script>
+</body>
+</html>

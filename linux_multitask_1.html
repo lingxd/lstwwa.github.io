@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>linux_multitask_1</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/linux_multitask_1-grid.css">
+  <link rel="stylesheet" href="css/linux_multitask_1.css">
+</head>
+<body class="body page-linux_multitask_1 clearfix">
+  <div class="container bottom container-1">
+    <a href="major_linux.html" class="button liux">返回</a>
+    <div class="element bottom"></div>
+  </div>
+  <div class="container tital container-2">
+    <p class="text tital">多任务并发</p>
+    <div class="element tital"></div>
+  </div>
+  <div class="text main text-2">
+    <p>1-父子进程是随机运行的，是无序的</p>
+    <p>2- 子进程的内存空间的数据是从父进程处复制而来的。</p>
+    <p>3- 父子进程各自拥有独立的内存空间。</p>
+    <p>4- 对于fork()函数：&nbsp;</p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a- 会在父子进程两处分别返回&nbsp;</p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b- 在父进程处，返回其子进程的PID&nbsp;</p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c- 在子进程处，返回0&nbsp;</p>
+    <p>-</p>
+    <p>&nbsp;使用 pstree 查看系统的进程树状关系：&nbsp;</p>
+    <p><strong>gec@ubuntu:~$ pstree &nbsp;</strong></p>
+    <p>-</p>
+    <p>5-关于wait() / waitpid()</p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a- 等待子进程退出，waitpid()还可以指定等待某个进 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 程 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b- 等到之后，会自动释放子进程的资源，并且还可以 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 获取子进程的退出状态&nbsp;</p>
+    <p>-</p>
+    <p>&nbsp;关于僵尸进程&nbsp;</p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 僵尸态是进程状态的一种，在进程退出之后（不管是正常退出还是异常退出）必然会进入的一种状态，是无法避免的。&nbsp;</p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;但由于僵尸态进程无法被系统调度，白白占用宝贵的系统资源，因此需要及时清理，清理的办法是让其父进程调用 wait()/waitpid()。&nbsp;</p>
+    <p>-</p>
+    <p>&nbsp;kill -9 PID&nbsp;</p>
+    <p>&nbsp;killall&nbsp;进程名字&nbsp;</p>
+    <p>创建多进程的一般步骤：&nbsp;</p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a- fork() 出来一个进程的实体&nbsp;</p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b- 通过exec函数族给新来的子进程指定执行代码&nbsp;</p>
+    <p>&nbsp;进程的返回值&nbsp;</p>
+    <p>&nbsp;成功，返回0&nbsp;</p>
+    <p>&nbsp;失败，返回非0，用各种数值代表各种失败的原因&nbsp;</p>
+    <p>&nbsp;查看上一条命令的返回值： echo $?&nbsp;</p>
+    <p>&nbsp;close(fd) 是安全，不管fd是否是一个打开了的文件</p>
+    <p>&nbsp;fclose(fp) 是不保证安全的，fp必须是一个打开了的文件&nbsp;</p>
+    <p>&nbsp;无名管道：&nbsp;</p>
+    <p>只能用于亲缘关系间的进程通信&nbsp;</p>
+    <p>对多进程同时进行的写操作没有保护，一般用于一对一通信</p>
+    <p>半双工通信，即读写端严格分开，即一个管道文件有两个文件描述符&nbsp;</p>
+    <p>&nbsp;有名管道：&nbsp;</p>
+    <p>能用于任何进程间通信，因为有名字&nbsp;</p>
+    <p>对多进程同时进行的写操作有原子性保护，一般用于一对一或者多对一通信&nbsp;</p>
+    <p>全双工通信，读写端都是同一个文件描述符</p>
+    <p>&nbsp;信号的基本特点&nbsp;</p>
+    <p>响应信号有三种方式：&nbsp;</p>
+    <p>默认（什么都不处理）&nbsp;</p>
+    <p>忽略，即直接丢弃&nbsp;</p>
+    <p>为信号关联一个执行函数&nbsp;</p>
+    <p>信号可以被屏蔽（或称为阻塞）&nbsp;</p>
+    <p>方法: sigprocmask(..);&nbsp;</p>
+    <p>例外: SIGKILL / SIGSTOP 这两个信号不能屏蔽、阻塞、关联函数，也不能忽略&nbsp;</p>
+    <p>-</p>
+    <p>信号大致分成两类：
+普通信号：无执行顺序，重复的信号会被掩盖，在大量信号到达的情形下可能会丢失&nbsp;</p>
+    <p>-</p>
+    <p>实时信号：有执行顺序，重复的信号不会被掩盖，不会丢失</p>
+    <p>-<br></p>
+    <p>&nbsp;几个相关的命令：
+查看系统所有的信号：kill -l
+查看系统信号的帮助：man 7 signal
+    
+    
+    
+sigaction结构体细节
+struct sigaction
+{
+  void (*sa_handler)(int); // 指向标准版的信号响应函数（默认）
+  void (*sa_sigaction)(int, siginfo_t *, void *); // 指向扩展版的信号响应函数
+  sigset_t  sa_mask; // 设置信号临时阻塞掩码
+  int       sa_flags;// 选择信号响应函数的版本
+  void     (*sa_restorer)(void); // 废弃的接口
+};
+    
+    
+跟system-V相关的命令
+ipcs -m： 查看共享内存( memory）
+ipcs -q：查看消息队列（queue）
+ipcs -s：查看信号量（semaphore）
+ipcs -a：查看所有的IPC对象
+    
+ipcrm -M key : 按照共享内存的key来删除SHM
+ipcrm -m id：按照共享内存的id来删除SHM
+    
+ipcrm -Q key : 按照消息队列的key来删除MSQ
+ipcrm -q id：按照消息队列的id来删除MSQ
+    
+ipcrm -S key : 按照信号量的key来删除SEM
+ipcrm -s id：按照信号量的id来删除SEM
+
+
+消息队列：加强版的管道
+
+
+
+
+
+
+所有的线程API的返回值：
+正常执行，一律返回0
+执行失败，一律返回错误码
+
+
+分离线程：
+设置分离属性，来创建线程
+在未分离线程的执行函数中，主动执行分离函数: pthread_detach();
+
+
+信号量：
+system-V 信号量：信号量集合、操作接口比较复杂、功能最全面，主要用于进程间
+POSIX 无名信号量：专门针对线程间
+POSIX 有名信号量：专门针对进程间
+
+
+读写锁：
+区分对资源的读写操作，以此来提高效率
+读锁就是共享锁，允许多个进程、线程同时持有读锁
+写锁就是互斥锁，跟别的读锁、写锁都互斥
+
+
+线程只有处于取消点时，才能被取消:
+取消点，就是一些规定的函数
+当在执行取消点函数时遇到被取消的信号，那么线程会在执行完取消点函数后退出
+如果线程在持有互斥锁之后，被取消，那么会形成死锁
+消解以上死锁的做法：
+pthread_cleanup_push(handler, arg); ==&gt; 准备一个线程被取消之后会自动执行的函数
+pthread_cleanup_pop(0); ==&gt; 万一准备好的函数未被执行，那么将函数清掉
+以上两个函数必须配套使用&nbsp;<br></p>
+</div>
+
+  <script src="js/jquery-min.js"></script>
+</body>
+</html>
