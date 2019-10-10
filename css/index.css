@@ -38,8 +38,7 @@ body {
 
 .buttom {
   position: absolute;
-  top: 1400px;
-  left: 0;
+  top: 1045px;
   z-index: 12;
   height: 50px;
 }
@@ -120,11 +119,8 @@ body {
 
 .head .index {
   top: 0;
-  left: 0;
-  right: 0;
   z-index: 21;
   height: 135px;
-  margin: 0 auto;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   background: url('../images/ac5afa59ada34de634b6be4db5a59b24(13).png') rgba(0, 0, 0, 0.3);
@@ -140,11 +136,13 @@ body {
   z-index: 19;
   width: 14.3356643356%;
   height: 70px;
-  border-radius: 20px;
-  background-color: rgb(144, 163, 147);
+  border-top: 2px dotted rgb(0, 0, 0);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(172, 186, 174);
   font-size: 1.75em;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   white-space: nowrap;
 }
 
@@ -178,7 +176,10 @@ body {
 }
 
 .index {
+  left: 0;
+  right: 0;
   width: 100%;
+  margin: 0 auto;
 }
 
 .link {
@@ -192,11 +193,13 @@ body {
   z-index: 17;
   width: 14.1608391608%;
   height: 35px;
-  border-radius: 20px;
-  background-color: rgb(101, 119, 154);
+  border-top: 2px dotted rgb(0, 0, 0);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(172, 186, 174);
   font-size: 1.75em;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .lstwwa {
@@ -222,8 +225,10 @@ body {
   width: 42.3997395833%;
   min-height: 431px;
   margin: 0 auto;
-  border-radius: 20px;
-  background-color: rgb(139, 182, 197);
+  border-top: 2px dashed rgb(0, 0, 0);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #cbdccd;
   font-size: 1em;
   color: rgb(0, 0, 0);
 }
@@ -236,7 +241,7 @@ body {
   z-index: 11;
   width: 5.1666666666%;
   height: 25px;
-  border-radius: 3px;
+  border-radius: 10px;
   background-color: rgb(133, 145, 172);
   font-size: 1em;
   text-align: center;
@@ -250,11 +255,13 @@ body {
   z-index: 18;
   width: 14.3356643356%;
   height: 35px;
-  border-radius: 20px;
-  background-color: rgb(101, 119, 154);
+  border-top: 2px dotted rgb(0, 0, 0);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(172, 186, 174);
   font-size: 1.75em;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .resume {
@@ -264,11 +271,13 @@ body {
   z-index: 16;
   width: 14.3356643356%;
   height: 35px;
-  border-radius: 20px;
-  background-color: rgb(101, 119, 154);
+  border-top: 2px dotted rgb(0, 0, 0);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(172, 186, 174);
   font-size: 1.75em;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .sina {
@@ -337,14 +346,15 @@ body {
   height: 100px;
 }
 
-.text a,
-.text span {
+.text a {
   border-top-width: 0;
   border-right-width: 0;
   border-bottom-width: 0;
   border-left-width: 0;
   border-color: transparent;
-  border-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -354,6 +364,35 @@ body {
   font-style: inherit;
   font-size: inherit;
   font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: 700;
   text-transform: inherit;
   text-decoration: inherit;
   letter-spacing: inherit;
@@ -388,6 +427,7 @@ body {
   .index {
     top: 1365px;
     left: auto;
+    right: auto;
   }
 
   .index .button {

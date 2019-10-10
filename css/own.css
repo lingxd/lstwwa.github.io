@@ -85,11 +85,13 @@ body {
   z-index: 13;
   width: 14.3356643356%;
   height: 35px;
-  border-radius: 20px;
-  background-color: rgb(101, 119, 154);
+  border-top: 2px dotted rgb(0, 0, 0);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(172, 186, 174);
   font-size: 1.75em;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   white-space: nowrap;
 }
 
@@ -131,11 +133,13 @@ body {
   z-index: 11;
   width: 14.1608391608%;
   height: 35px;
-  border-radius: 20px;
-  background-color: rgb(101, 119, 154);
+  border-top: 2px dotted rgb(0, 0, 0);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(172, 186, 174);
   font-size: 1.75em;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .lstwwa .text {
@@ -155,11 +159,13 @@ body {
   z-index: 12;
   width: 14.3356643356%;
   height: 35px;
-  border-radius: 20px;
-  background-color: rgb(101, 119, 154);
+  border-top: 2px dotted rgb(0, 0, 0);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(172, 186, 174);
   font-size: 1.75em;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .resume {
@@ -169,11 +175,13 @@ body {
   z-index: 10;
   width: 14.3356643356%;
   height: 70px;
-  border-radius: 20px;
-  background-color: rgb(144, 163, 147);
+  border-top: 2px dotted rgb(0, 0, 0);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(172, 186, 174);
   font-size: 1.75em;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .rongyu .black {

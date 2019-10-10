@@ -21,7 +21,7 @@ body {
 
 .buttom {
   position: absolute;
-  top: 1400px;
+  top: 965px;
   z-index: 2;
   height: 50px;
 }
@@ -66,11 +66,13 @@ body {
   z-index: 9;
   width: 14.3356643356%;
   height: 35px;
-  border-radius: 20px;
-  background-color: rgb(101, 119, 154);
+  border-top: 2px dotted rgb(0, 0, 0);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(172, 186, 174);
   font-size: 1.867em;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   white-space: nowrap;
 }
 
@@ -103,11 +105,13 @@ body {
   z-index: 7;
   width: 14.1608391608%;
   height: 70px;
-  border-radius: 20px;
-  background-color: rgb(144, 163, 147);
+  border-top: 2px dotted rgb(0, 0, 0);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(172, 186, 174);
   font-size: 1.867em;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .lstwwa {
@@ -148,11 +152,13 @@ body {
   z-index: 8;
   width: 14.3356643356%;
   height: 35px;
-  border-radius: 20px;
-  background-color: rgb(101, 119, 154);
+  border-top: 2px dotted rgb(0, 0, 0);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(172, 186, 174);
   font-size: 1.867em;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .resume {
@@ -162,11 +168,13 @@ body {
   z-index: 6;
   width: 14.3356643356%;
   height: 35px;
-  border-radius: 20px;
-  background-color: rgb(101, 119, 154);
+  border-top: 2px dotted rgb(0, 0, 0);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(172, 186, 174);
   font-size: 1.867em;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .url {
@@ -208,6 +216,7 @@ body {
   border-bottom-width: 0;
   border-left-width: 0;
   border-color: transparent;
+  border-style: none;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -228,14 +237,41 @@ body {
   white-space: normal;
 }
 
+.text span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
 .text em,
-.text span,
 .text strong {
   border-top-width: 0;
   border-right-width: 0;
   border-bottom-width: 0;
   border-left-width: 0;
   border-color: transparent;
+  border-style: none;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -277,8 +313,8 @@ body {
   }
 
   .index {
-    top: 1365px;
-    left: auto;
+    top: 985px;
+    left: 0;
     right: auto;
   }
 
@@ -516,6 +552,14 @@ body {
 @media(max-width: 400px) {
   body {
     font-size: 0.938em;
+  }
+
+  .buttom {
+    top: 990px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .buttom .text {
