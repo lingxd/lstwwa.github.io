@@ -140,7 +140,7 @@ body {
   width: 14.3356643356%;
   height: 70px;
   border-radius: 20px;
-  background-color: rgb(101, 119, 154);
+  background-color: rgb(144, 163, 147);
   font-size: 1.75em;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -321,158 +321,6 @@ body {
   height: 100px;
 }
 
-@media(max-width: 1100px) {
-  body {
-    font-size: 0.938em;
-  }
-
-  .buttom .text {
-    width: 40.7855113636%;
-    font-size: 0.4em;
-  }
-
-  .cut {
-    right: auto;
-  }
-
-  .head {
-    left: 0;
-    height: 140px;
-  }
-
-  .head .index {
-    left: 0;
-    right: auto;
-    height: 140px;
-  }
-
-  .index {
-    top: 1365px;
-    left: auto;
-  }
-
-  .index .button {
-    left: 89.9999999999%;
-    width: 5.8323863636%;
-    font-size: 1.067em;
-  }
-
-  .link .home {
-    left: -0.0406598514%;
-    width: 14.3192379182%;
-  }
-
-  .link .link {
-    min-width: 0;
-    min-height: 0;
-    font-size: 1.733em;
-  }
-
-  .link .linux {
-    left: 57.0841078066%;
-    width: 14.2785780669%;
-  }
-
-  .link .resources {
-    left: 85.6110594795%;
-    width: 14.3192379182%;
-  }
-
-  .link .resume {
-    left: 28.5223048327%;
-    width: 14.3192379182%;
-  }
-
-  .lstwwa .image {
-    left: -0.0173290204%;
-    width: 90px;
-    height: auto;
-  }
-
-  .lstwwa .text {
-    top: 20px;
-    left: 32.3186229205%;
-    width: 67.609172828%;
-    min-width: 0;
-    min-height: 0;
-    font-size: 15px;
-  }
-
-  .url {
-    top: 210px;
-    left: 10%;
-    right: auto;
-    width: 80%;
-    height: 121px;
-  }
-
-  .url .baidu {
-    width: 22%;
-    height: 50px;
-    font-size: 1.067em;
-  }
-
-  .url .csdn {
-    top: 71px;
-    width: 22%;
-    height: 50px;
-    font-size: 1.067em;
-  }
-
-  .url .github {
-    top: 71px;
-    width: 22%;
-    height: 50px;
-    font-size: 1.333em;
-  }
-
-  .url .google {
-    left: 25.5%;
-    width: 22%;
-    height: 50px;
-    font-size: 1.067em;
-  }
-
-  .url .imooc {
-    left: 78.0007102272%;
-    width: 22%;
-    height: 50px;
-    font-size: 1.067em;
-  }
-
-  .url .sina {
-    right: 25.5%;
-    width: 22%;
-    height: 50px;
-    font-size: 1.067em;
-  }
-
-  .index .link-1 {
-    left: 42.1818181818%;
-    width: 47.8181818181%;
-    height: 100px;
-  }
-
-  .index .lstwwa-2 {
-    top: auto;
-    left: auto;
-    width: 40.1813706137%;
-    height: 90px;
-  }
-
-  .url .github-1 {
-    left: 78.0007102272%;
-  }
-
-  .url .github-2 {
-    left: 52.5017755681%;
-  }
-
-  .url .github-3 {
-    left: 25.5%;
-  }
-}
-
 @media(max-width: 1000px) {
   body {
     font-size: 0.875em;
@@ -483,19 +331,32 @@ body {
     font-size: 0.429em;
   }
 
-  .head,
-  .head .index {
+  .cut {
+    right: auto;
+  }
+
+  .head {
+    left: 0;
     height: 155px;
   }
 
+  .head .index {
+    left: 0;
+    right: auto;
+    height: 155px;
+  }
+
+  .index {
+    top: 1365px;
+    left: auto;
+  }
+
   .index .button {
-    left: 90%;
     width: 5.8328125%;
     font-size: 1.143em;
   }
 
   .link .home {
-    left: 0;
     width: 14.2744076797%;
     height: 50px;
     font-size: 1.571em;
@@ -537,7 +398,7 @@ body {
     left: 0;
     right: 0;
     width: 79.8%;
-    height: 110px;
+    height: 150px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -548,13 +409,13 @@ body {
   }
 
   .url .csdn {
-    top: 60px;
+    top: 83px;
     width: 20%;
     font-size: 1.143em;
   }
 
   .url .github {
-    top: 60px;
+    top: 83px;
     width: 20%;
     font-size: 1.429em;
   }
@@ -585,137 +446,21 @@ body {
   }
 
   .index .lstwwa-2 {
-    top: 17px;
     left: 10%;
     width: 40.8989309389%;
     height: 80px;
   }
 
   .url .github-1 {
-    left: 79.9812103656%;
+    left: 79.9812030075%;
   }
 
   .url .github-2 {
-    left: 56.5567994989%;
+    left: 56.5574091478%;
   }
 
   .url .github-3 {
-    left: 25.4482110702%;
-  }
-}
-
-@media(max-width: 900px) {
-  body {
-    font-size: 0.813em;
-  }
-
-  .buttom .text {
-    width: 40.7864583333%;
-    font-size: 0.462em;
-  }
-
-  .head,
-  .head .index {
-    height: 160px;
-  }
-
-  .index .button {
-    width: 5.8333333333%;
-    font-size: 1.231em;
-  }
-
-  .link .home {
-    left: -0.0028409091%;
-    width: 14.9318181818%;
-    font-size: 1.538em;
-  }
-
-  .link .linux {
-    left: 57.0170454545%;
-    width: 14.4644886363%;
-    font-size: 1.538em;
-  }
-
-  .link .resources {
-    left: 85.7144886363%;
-    width: 14.2315340909%;
-    font-size: 1.692em;
-  }
-
-  .link .resume {
-    left: 28.5539772727%;
-    width: 14.2727272727%;
-    font-size: 1.692em;
-  }
-
-  .lstwwa .image {
-    left: 0;
-    width: 70px;
-    min-width: 0;
-    height: auto;
-  }
-
-  .lstwwa .text {
-    top: 15px;
-    left: 12.5%;
-    width: 34.0277777777%;
-    font-size: 13px;
-  }
-
-  .url {
-    left: 10%;
-    right: auto;
-    width: 80%;
-    height: 95px;
-  }
-
-  .url .baidu,
-  .url .csdn {
-    font-size: 1.231em;
-  }
-
-  .url .github {
-    font-size: 1.538em;
-  }
-
-  .url .google {
-    left: 25.4999999999%;
-    font-size: 1.231em;
-  }
-
-  .url .imooc {
-    left: 80%;
-    font-size: 1.231em;
-  }
-
-  .url .sina {
-    right: 25.5%;
-    font-size: 1.231em;
-  }
-
-  .index .link-1 {
-    top: 100px;
-    left: 37.2222222222%;
-    width: 52.7777777777%;
-    height: 49px;
-  }
-
-  .index .lstwwa-2 {
-    top: 18px;
-    width: 78.6666666666%;
-    height: 70px;
-  }
-
-  .url .github-1 {
-    left: 80%;
-  }
-
-  .url .github-2 {
-    left: 54.5008680555%;
-  }
-
-  .url .github-3 {
-    left: 25.4999999999%;
+    left: 25.4464285714%;
   }
 }
 
@@ -729,8 +474,9 @@ body {
     font-size: 0.5em;
   }
 
-  .head {
-    height: 116px;
+  .head,
+  .head .index {
+    height: 160px;
   }
 
   .index .button {
@@ -740,7 +486,7 @@ body {
   }
 
   .link .home {
-    left: 0;
+    left: -0.0028409091%;
     width: 14.0912282941%;
   }
 
@@ -766,24 +512,26 @@ body {
   .lstwwa .image {
     left: -0.140224359%;
     width: 60px;
+    min-width: 0;
     height: auto;
   }
 
   .lstwwa .text {
     top: 11px;
-    left: 32.96875%;
-    width: 67.03125%;
+    left: 32.9383886255%;
+    width: 94.0758293838%;
     font-size: 12px;
   }
 
   .url {
+    left: 10%;
+    right: auto;
     width: 79.8333333333%;
-    height: 110px;
+    height: 242px;
   }
 
   .url .baidu,
-  .url .csdn,
-  .url .imooc {
+  .url .csdn {
     font-size: 1.333em;
   }
 
@@ -793,6 +541,11 @@ body {
 
   .url .google {
     left: 25.654296875%;
+    font-size: 1.333em;
+  }
+
+  .url .imooc {
+    left: 80%;
     font-size: 1.333em;
   }
 
@@ -819,266 +572,16 @@ body {
     margin-left: auto;
   }
 
-  .url .github-2 {
-    left: 54.345703125%;
-  }
-
-  .url .github-3 {
-    left: 25.654296875%;
-  }
-}
-
-@media(max-width: 700px) {
-  body {
-    font-size: 0.688em;
-  }
-
-  .buttom .text {
-    width: 40.7857142857%;
-    font-size: 0.545em;
-  }
-
-  .head {
-    height: 140px;
-  }
-
-  .head .index {
-    left: 0;
-    right: 0;
-    height: 140px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .index .button {
-    left: 90%;
-    width: 5.8325892857%;
-    font-size: 1.455em;
-  }
-
-  .link .home {
-    width: 14.091739766%;
-  }
-
-  .link .link {
-    font-size: 1.636em;
-  }
-
-  .link .linux {
-    left: 57.033991228%;
-    width: 14.1666666666%;
-    height: 24px;
-  }
-
-  .link .resources {
-    left: 85.5116959064%;
-    width: 14.4298245614%;
-    height: 24px;
-  }
-
-  .link .resume {
-    left: 28.490497076%;
-    width: 14.2690058479%;
-    height: 24px;
-  }
-
-  .lstwwa .image {
-    left: -0.2485795455%;
-    width: 50px;
-    height: auto;
-  }
-
-  .lstwwa .text {
-    top: 6px;
-    left: 33.0357142857%;
-    width: 66.9642857142%;
-    font-size: 11px;
-  }
-
-  .url {
-    top: 205px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .url .baidu,
-  .url .csdn,
-  .url .imooc {
-    font-size: 1.455em;
-  }
-
-  .url .github {
-    font-size: 1.818em;
-  }
-
-  .url .google {
-    left: 25.4999999999%;
-    font-size: 1.455em;
-  }
-
-  .url .sina {
-    right: 25.9063591893%;
-    font-size: 1.455em;
-  }
-
-  .index .link-1 {
-    top: 83px;
-    left: 0;
-    right: 0;
-    height: 49px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .index .lstwwa-2 {
-    top: 13px;
-    left: 23.5714285714%;
-    right: auto;
-    width: 52.8571428571%;
-    height: 50px;
-  }
-
-  .url .github-2 {
-    left: 54.0959821428%;
-  }
-
-  .url .github-3 {
-    left: 25.4999999999%;
-  }
-}
-
-@media(max-width: 600px) {
-  body {
-    font-size: 0.625em;
-  }
-
-  .buttom .text {
-    width: 40.7864583333%;
-    font-size: 0.6em;
-  }
-
-  .head {
-    height: 135px;
-  }
-
-  .head .index {
-    left: 0;
-    right: auto;
-    height: 135px;
-  }
-
-  .index {
-    left: auto;
-  }
-
-  .index .button {
-    top: 3px;
-    width: 4.8333333333%;
-    height: 44px;
-    font-size: 1.6em;
-  }
-
-  .link .home {
-    height: 47px;
-    font-size: 1.6em;
-  }
-
-  .link .link {
-    width: 14.3328508174%;
-  }
-
-  .link .linux {
-    left: 57.3399182561%;
-    font-size: 1.5em;
-  }
-
-  .link .resources {
-    left: 85.6628916893%;
-    font-size: 1.6em;
-  }
-
-  .link .resume {
-    left: 28.6678303814%;
-    font-size: 1.6em;
-  }
-
-  .lstwwa .image {
-    left: -0.10384216%;
-    height: auto;
-  }
-
-  .lstwwa .text {
-    top: 8px;
-    left: 32.9166666666%;
-    width: 67.0833333333%;
-    font-size: 10px;
-  }
-
-  .url {
-    top: 160px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .url .baidu {
-    font-size: 1.6em;
-  }
-
-  .url .csdn {
-    top: 55px;
-    font-size: 1.6em;
-  }
-
-  .url .github {
-    top: 55px;
-    font-size: 2em;
-  }
-
-  .url .google {
-    left: 25.4488517745%;
-    font-size: 1.6em;
-  }
-
-  .url .imooc {
-    left: 80.1050365344%;
-    font-size: 1.6em;
-  }
-
-  .url .sina {
-    right: 25.4501565762%;
-    font-size: 1.6em;
-  }
-
-  .index .link-1 {
-    top: 75px;
-    left: 0;
-    right: 0;
-    height: 47px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .index .lstwwa-2 {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .url .github-1 {
-    left: 80.1050365344%;
+    left: 79.9995106913%;
   }
 
   .url .github-2 {
-    left: 54.5518006263%;
+    left: 54.3499535156%;
   }
 
   .url .github-3 {
-    left: 25.4488517745%;
+    left: 25.6520037187%;
   }
 }
 
@@ -1093,16 +596,19 @@ body {
   }
 
   .index .button {
+    top: 3px;
+    left: 90%;
     width: 5.8%;
     font-size: 1.778em;
   }
 
   .link .home {
+    left: 0;
     width: 17%;
   }
 
   .link .link {
-    font-size: 1.667em;
+    font-size: 15px;
   }
 
   .link .linux {
@@ -1137,11 +643,10 @@ body {
   }
 
   .url {
-    top: 166px;
+    top: 185px;
     left: 0;
     right: 0;
     width: 79.8%;
-    height: 168px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1152,7 +657,7 @@ body {
   }
 
   .url .csdn {
-    top: 60px;
+    top: 90px;
     left: 75%;
     width: 25%;
     font-size: 1.778em;
@@ -1170,7 +675,7 @@ body {
   }
 
   .url .imooc {
-    top: 60px;
+    top: 90px;
     left: 0;
     width: 25%;
     font-size: 1.778em;
@@ -1183,7 +688,7 @@ body {
   }
 
   .index .link-1 {
-    top: 77px;
+    top: 95px;
     left: 0;
     right: 0;
     width: 81.7307692307%;
@@ -1201,17 +706,17 @@ body {
   }
 
   .url .github-1 {
-    top: 120px;
-    left: 58.2158521303%;
+    top: 175px;
+    left: 57.7145989974%;
   }
 
   .url .github-2 {
-    top: 120px;
-    left: 16.9447055137%;
+    top: 175px;
+    left: 18.1978383458%;
   }
 
   .url .github-3 {
-    top: 60px;
+    top: 90px;
     left: 37.5352443609%;
   }
 }
@@ -1275,7 +780,7 @@ body {
     left: 0;
     right: 0;
     width: 79.75%;
-    height: 230px;
+    height: 322px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1286,7 +791,7 @@ body {
   }
 
   .url .csdn {
-    top: 180px;
+    top: 255px;
     left: 0;
     width: 40%;
     font-size: 1.6em;
@@ -1304,20 +809,20 @@ body {
   }
 
   .url .imooc {
-    left: 59.9333855799%;
+    top: 85px;
+    left: 59.9970611285%;
     width: 40%;
     font-size: 1.6em;
   }
 
   .url .sina {
-    top: 60px;
+    top: 85px;
     right: 60.0019592476%;
     width: 40%;
     font-size: 1.6em;
   }
 
   .index .link-1 {
-    top: 80px;
     left: 0;
     right: 0;
     width: 81.799591002%;
@@ -1335,150 +840,17 @@ body {
   }
 
   .url .github-1 {
-    top: 180px;
+    top: 255px;
     left: 59.9970611285%;
   }
 
   .url .github-2 {
+    top: 170px;
     left: 59.9970611285%;
   }
 
   .url .github-3 {
-    top: 120px;
-    left: 0;
-  }
-}
-
-@media(max-width: 300px) {
-  body {
-    font-size: 0.5em;
-  }
-
-  .buttom .text {
-    left: 0;
-    width: 50.3333333333%;
-    font-size: 0.75em;
-  }
-
-  .head {
-    height: 115px;
-  }
-
-  .head .index {
-    left: 0;
-    right: 0;
-    height: 116px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .index .button {
-    left: 90%;
-    width: 5.8333333333%;
-    font-size: 2em;
-  }
-
-  .link .home {
-    height: 30px;
-    font-size: 12px;
-  }
-
-  .link .link {
-    width: 16.875878952%;
-    line-height: 1.7;
-  }
-
-  .link .linux {
-    right: 27.4962237616%;
-    height: 20px;
-    font-size: 12px;
-  }
-
-  .link .resources {
-    left: auto;
-    right: 0.1145893015%;
-    height: 20px;
-    font-size: 1.5em;
-  }
-
-  .link .resume {
-    left: 27.5014323662%;
-    height: 20px;
-    font-size: 1.5em;
-  }
-
-  .lstwwa .image {
-    height: auto;
-  }
-
-  .lstwwa .text {
-    top: 12px;
-    width: 79.5833333333%;
-    font-size: 8px;
-  }
-
-  .url {
     top: 170px;
     left: 0;
-    right: 0;
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .url .baidu {
-    font-size: 2em;
-  }
-
-  .url .csdn {
-    top: 120px;
-    font-size: 2em;
-  }
-
-  .url .github {
-    font-size: 2.5em;
-  }
-
-  .url .google,
-  .url .imooc {
-    left: 60%;
-    font-size: 2em;
-  }
-
-  .url .sina {
-    right: 60%;
-    font-size: 2em;
-  }
-
-  .index .link-1 {
-    top: 75px;
-    left: 0;
-    right: 0;
-    width: 81.6666666666%;
-    height: 40px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .index .lstwwa-2 {
-    top: 10px;
-    left: 0;
-    right: 0;
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .url .github-1 {
-    left: 60%;
-  }
-
-  .url .github-2 {
-    top: 180px;
-    left: 0;
-  }
-
-  .url .github-3 {
-    left: 59.9153645833%;
   }
 }

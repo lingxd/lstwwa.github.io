@@ -103,7 +103,7 @@ body {
   width: 14.1608391608%;
   height: 70px;
   border-radius: 20px;
-  background-color: rgb(101, 119, 154);
+  background-color: rgb(144, 163, 147);
   font-size: 1.867em;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -239,14 +239,9 @@ body {
   white-space: normal;
 }
 
-@media(max-width: 1100px) {
-  body {
-    font-size: 0.75em;
-  }
-
+@media(max-width: 1000px) {
   .buttom .text {
-    width: 40.7855113636%;
-    font-size: 0.5em;
+    width: 40.7859375%;
   }
 
   .cut {
@@ -255,13 +250,13 @@ body {
 
   .head {
     left: 0;
-    height: 140px;
+    height: 155px;
   }
 
   .head .index {
     left: 0;
     right: auto;
-    height: 140px;
+    height: 155px;
   }
 
   .index {
@@ -271,105 +266,27 @@ body {
   }
 
   .link .home {
-    left: -0.0406598514%;
-    width: 14.3192379182%;
-  }
-
-  .link .link {
-    min-width: 0;
-    min-height: 0;
-    font-size: 2.167em;
-  }
-
-  .link .linux {
-    left: 57.0841078066%;
-    width: 14.2785780669%;
-  }
-
-  .link .resources {
-    left: 85.6110594795%;
-    width: 14.3192379182%;
-  }
-
-  .link .resume {
-    left: 28.5223048327%;
-    width: 14.3192379182%;
-  }
-
-  .lstwwa .image {
-    left: -0.0173290204%;
-    width: 90px;
-    height: auto;
-  }
-
-  .lstwwa .text {
-    top: 20px;
-    left: 32.3186229205%;
-    width: 67.609172828%;
-    min-width: 0;
-    min-height: 0;
-    font-size: 1.25em;
-  }
-
-  .text {
-    left: 0;
-    font-size: 12px;
-  }
-
-  .url {
-    top: 195px;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .index .link-1 {
-    left: 42.1818181818%;
-    width: 47.8181818181%;
-    height: 100px;
-  }
-
-  .index .lstwwa-2 {
-    top: auto;
-    left: auto;
-    width: 40.1813706137%;
-    height: 90px;
-  }
-}
-
-@media(max-width: 1000px) {
-  .buttom .text {
-    width: 40.7859375%;
-  }
-
-  .head,
-  .head .index {
-    height: 155px;
-  }
-
-  .link .home {
-    left: 0;
     width: 14.2744076797%;
-    font-size: 1.833em;
+    font-size: 1.467em;
   }
 
   .link .linux {
     left: 57.1103962418%;
     width: 14.3446180555%;
     height: 50px;
-    font-size: 1.833em;
+    font-size: 1.467em;
   }
 
   .link .resources {
     left: 85.666870915%;
     width: 14.2744076797%;
-    font-size: 2em;
+    font-size: 1.6em;
   }
 
   .link .resume {
     left: 28.5539215686%;
     width: 14.2744076797%;
-    font-size: 1.833em;
+    font-size: 1.467em;
   }
 
   .lstwwa .image {
@@ -382,12 +299,15 @@ body {
     top: 16px;
     left: 31.6367265469%;
     width: 68.1231287425%;
-    font-size: 1.167em;
+    font-size: 0.933em;
+  }
+
+  .text {
+    left: 10%;
   }
 
   .url {
     top: 205px;
-    left: 10%;
     right: auto;
   }
 
@@ -399,20 +319,19 @@ body {
   }
 
   .index .lstwwa-2 {
-    top: 17px;
     left: 10%;
     width: 40.8989309389%;
     height: 80px;
   }
 }
 
-@media(max-width: 900px) {
+@media(max-width: 800px) {
   body {
-    font-size: 0.75em;
+    font-size: 0.938em;
   }
 
   .buttom .text {
-    width: 40.7864583333%;
+    width: 40.78515625%;
   }
 
   .head,
@@ -422,75 +341,11 @@ body {
 
   .link .home {
     left: -0.0028409091%;
-    width: 14.9318181818%;
-    font-size: 1.667em;
-  }
-
-  .link .linux {
-    left: 57.0170454545%;
-    width: 14.4644886363%;
-    font-size: 1.667em;
-  }
-
-  .link .resources {
-    left: 85.7144886363%;
-    width: 14.2315340909%;
-    font-size: 1.833em;
-  }
-
-  .link .resume {
-    left: 28.5539772727%;
-    width: 14.2727272727%;
-  }
-
-  .lstwwa .image {
-    left: 0;
-    width: 70px;
-    min-width: 0;
-    height: auto;
-  }
-
-  .lstwwa .text {
-    top: 15px;
-    left: 12.5%;
-    width: 34.0277777777%;
-    font-size: 1.083em;
-  }
-
-  .url {
-    top: 210px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .index .link-1 {
-    top: 100px;
-    left: 37.2222222222%;
-    width: 52.7777777777%;
-    height: 49px;
-  }
-
-  .index .lstwwa-2 {
-    top: 18px;
-    width: 78.6666666666%;
-    height: 70px;
-  }
-}
-
-@media(max-width: 800px) {
-  .buttom .text {
-    width: 40.78515625%;
-  }
-
-  .head {
-    height: 116px;
-  }
-
-  .link .home {
-    left: 0;
     width: 14.0912282941%;
+  }
+
+  .link .link {
+    font-size: 1.333em;
   }
 
   .link .linux {
@@ -501,18 +356,17 @@ body {
   .link .resources {
     left: 85.6071246169%;
     width: 14.3529749744%;
-    font-size: 1.667em;
   }
 
   .link .resume {
     left: 28.7075459652%;
     width: 14.1949693564%;
-    font-size: 1.667em;
   }
 
   .lstwwa .image {
     left: -0.140224359%;
     width: 60px;
+    min-width: 0;
     height: auto;
   }
 
@@ -520,10 +374,11 @@ body {
     top: 11px;
     left: 32.96875%;
     width: 67.03125%;
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .url {
+    top: 210px;
     left: 0;
     right: 0;
     margin-right: auto;
@@ -548,178 +403,19 @@ body {
   }
 }
 
-@media(max-width: 700px) {
-  body {
-    font-size: 0.75em;
-  }
-
-  .buttom .text {
-    width: 40.7857142857%;
-  }
-
-  .head {
-    height: 140px;
-  }
-
-  .head .index {
-    left: 0;
-    right: 0;
-    height: 140px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .link .home {
-    width: 14.091739766%;
-    height: 24px;
-  }
-
-  .link .link {
-    font-size: 1.5em;
-  }
-
-  .link .linux {
-    left: 57.033991228%;
-    width: 14.1666666666%;
-  }
-
-  .link .resources {
-    left: 85.5116959064%;
-    width: 14.4298245614%;
-    height: 24px;
-  }
-
-  .link .resume {
-    left: 28.490497076%;
-    width: 14.2690058479%;
-    height: 24px;
-  }
-
-  .lstwwa .image {
-    left: -0.2485795455%;
-    width: 50px;
-    height: auto;
-  }
-
-  .lstwwa .text {
-    top: 6px;
-    left: 33.0357142857%;
-    width: 66.9642857142%;
-    font-size: 0.917em;
-  }
-
-  .url {
-    top: 195px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .index .link-1 {
-    top: 83px;
-    left: 0;
-    right: 0;
-    height: 49px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .index .lstwwa-2 {
-    top: 13px;
-    left: 23.5714285714%;
-    right: auto;
-    width: 52.8571428571%;
-    height: 50px;
-  }
-}
-
-@media(max-width: 600px) {
-  .buttom .text {
-    width: 40.7864583333%;
-  }
-
-  .head {
-    height: 135px;
-  }
-
-  .head .index {
-    left: 0;
-    right: auto;
-    height: 135px;
-  }
-
-  .index {
-    left: auto;
-  }
-
-  .link .home {
-    font-size: 1.333em;
-  }
-
-  .link .link {
-    width: 14.3328508174%;
-  }
-
-  .link .linux {
-    left: 57.3399182561%;
-    height: 47px;
-    font-size: 1.25em;
-  }
-
-  .link .resources {
-    left: 85.6628916893%;
-    font-size: 1.333em;
-  }
-
-  .link .resume {
-    left: 28.6678303814%;
-    font-size: 1.333em;
-  }
-
-  .lstwwa .image {
-    left: -0.10384216%;
-    height: auto;
-  }
-
-  .lstwwa .text {
-    top: 8px;
-    left: 32.9166666666%;
-    width: 67.0833333333%;
-    font-size: 0.833em;
-  }
-
-  .index .lstwwa-2,
-  .url {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .index .link-1 {
-    top: 75px;
-    left: 0;
-    right: 0;
-    height: 47px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
 @media(max-width: 500px) {
-  body {
-    font-size: 0.75em;
-  }
-
   .buttom .text {
     width: 40.784375%;
   }
 
   .link .home {
+    left: 0;
     width: 17%;
     height: 22px;
-    font-size: 1.25em;
+  }
+
+  .link .link {
+    font-size: 1em;
   }
 
   .link .linux {
@@ -732,14 +428,12 @@ body {
     left: 83%;
     width: 16.875%;
     height: 22px;
-    font-size: 1.25em;
   }
 
   .link .resume {
     left: 27.5%;
     width: 16.875%;
     height: 22px;
-    font-size: 1.25em;
   }
 
   .lstwwa .image {
@@ -751,10 +445,11 @@ body {
     top: 10px;
     left: 32.8850855745%;
     width: 66.9926650366%;
-    font-size: 0.75em;
+    font-size: 0.6em;
   }
 
   .url {
+    top: 195px;
     left: 0;
     right: 0;
     margin-right: auto;
@@ -762,7 +457,7 @@ body {
   }
 
   .index .link-1 {
-    top: 77px;
+    top: 95px;
     left: 0;
     right: 0;
     width: 81.7307692307%;
@@ -781,6 +476,10 @@ body {
 }
 
 @media(max-width: 400px) {
+  body {
+    font-size: 0.938em;
+  }
+
   .buttom .text {
     width: 40.78515625%;
   }
@@ -798,12 +497,12 @@ body {
   .link .resources {
     left: 83.125%;
     height: 25px;
-    font-size: 1.083em;
+    font-size: 0.867em;
   }
 
   .link .resume {
     height: 25px;
-    font-size: 1.083em;
+    font-size: 0.867em;
   }
 
   .lstwwa .image {
@@ -814,7 +513,7 @@ body {
     top: 8px;
     left: 33%;
     width: 78.2477341389%;
-    font-size: 0.833em;
+    font-size: 0.667em;
   }
 
   .url {
@@ -825,7 +524,6 @@ body {
   }
 
   .index .link-1 {
-    top: 80px;
     left: 0;
     right: 0;
     width: 81.799591002%;
@@ -838,93 +536,6 @@ body {
     left: 0;
     right: 0;
     width: 80.25%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
-@media(max-width: 300px) {
-  body {
-    font-size: 0.5em;
-  }
-
-  .buttom .text {
-    left: 0;
-    width: 50.3333333333%;
-    font-size: 0.75em;
-  }
-
-  .head {
-    height: 116px;
-  }
-
-  .head .index {
-    left: 0;
-    right: 0;
-    height: 116px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .link .link {
-    width: 16.875878952%;
-    font-size: 1.5em;
-    line-height: 1.7;
-  }
-
-  .link .linux {
-    right: 27.4962237616%;
-    height: 30px;
-  }
-
-  .link .resources {
-    left: auto;
-    right: 0.1145893015%;
-    height: 20px;
-  }
-
-  .link .resume {
-    left: 27.5014323662%;
-    height: 20px;
-  }
-
-  .lstwwa .image {
-    height: auto;
-  }
-
-  .lstwwa .text {
-    top: 12px;
-    width: 79.5833333333%;
-    font-size: 1em;
-  }
-
-  .text {
-    left: 0;
-    font-size: 8px;
-  }
-
-  .url {
-    top: 165px;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .index .link-1 {
-    top: 75px;
-    left: 0;
-    right: 0;
-    width: 81.6666666666%;
-    height: 40px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .index .lstwwa-2 {
-    top: 10px;
-    left: 0;
-    right: 0;
-    width: 80%;
     margin-right: auto;
     margin-left: auto;
   }
