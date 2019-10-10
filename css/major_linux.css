@@ -6,7 +6,8 @@ body {
 
 .index-2 p,
 .lstwwa-2 p,
-.text-1 p {
+.text-1 p,
+.text-2 p {
   margin-bottom: 1em;
 }
 
@@ -123,6 +124,23 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.pi {
+  position: absolute;
+  top: 630px;
+  left: 0;
+  right: 0;
+  z-index: 14;
+  width: 80%;
+  min-height: 81px;
+  margin: 0 auto;
+  border-left: 2px dashed rgb(0, 0, 0);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #cbdccd;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
 .resources {
   display: block;
   top: 0;
@@ -153,15 +171,16 @@ body {
 
 .url {
   position: absolute;
-  top: 230px;
+  top: 180px;
   left: 0;
   right: 0;
   z-index: 13;
   width: 80%;
   min-height: 81px;
   margin: 0 auto;
-  border: 2px dashed rgb(0, 0, 0);
-  border-radius: 30px;
+  border-left: 2px dashed rgb(0, 0, 0);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
   background-color: #cbdccd;
   font-size: 1em;
   color: rgb(0, 0, 0);
@@ -189,7 +208,6 @@ body {
   border-bottom-width: 0;
   border-left-width: 0;
   border-color: transparent;
-  border-style: none;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -218,7 +236,6 @@ body {
   border-bottom-width: 0;
   border-left-width: 0;
   border-color: transparent;
-  border-style: none;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -302,12 +319,17 @@ body {
     font-size: 0.933em;
   }
 
-  .text {
-    left: 10%;
+  .pi {
+    top: 650px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .url {
     top: 205px;
+    left: 10%;
     right: auto;
   }
 
@@ -377,9 +399,18 @@ body {
     font-size: 0.8em;
   }
 
+  .pi {
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text {
+    left: 0;
+  }
+
   .url {
     top: 210px;
-    left: 0;
     right: 0;
     margin-right: auto;
     margin-left: auto;
@@ -446,6 +477,13 @@ body {
     left: 32.8850855745%;
     width: 66.9926650366%;
     font-size: 0.6em;
+  }
+
+  .pi {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .url {
@@ -516,6 +554,7 @@ body {
     font-size: 0.667em;
   }
 
+  .pi,
   .url {
     left: 0;
     right: 0;

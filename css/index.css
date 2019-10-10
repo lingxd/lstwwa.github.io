@@ -1,11 +1,12 @@
 body {
   background-color: #aec6d4;
   font: 400 1em/1.38 Helvetica;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .lstwwa-2 p,
-.lstwwa-4 p {
+.lstwwa-4 p,
+.text-1 p {
   margin-bottom: 1em;
 }
 
@@ -212,6 +213,21 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.main {
+  position: absolute;
+  top: 383px;
+  left: 0;
+  right: 0;
+  z-index: 23;
+  width: 42.3997395833%;
+  min-height: 431px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: rgb(139, 182, 197);
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
 .me {
   display: block;
   position: absolute;
@@ -321,14 +337,37 @@ body {
   height: 100px;
 }
 
-@media(max-width: 1000px) {
-  body {
-    font-size: 0.875em;
-  }
+.text a,
+.text span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
 
+@media(max-width: 1000px) {
   .buttom .text {
     width: 40.7859375%;
-    font-size: 0.429em;
   }
 
   .cut {
@@ -353,31 +392,30 @@ body {
 
   .index .button {
     width: 5.8328125%;
-    font-size: 1.143em;
   }
 
   .link .home {
     width: 14.2744076797%;
     height: 50px;
-    font-size: 1.571em;
+    font-size: 1.375em;
   }
 
   .link .linux {
     left: 57.1103962418%;
     width: 14.3446180555%;
-    font-size: 1.571em;
+    font-size: 1.375em;
   }
 
   .link .resources {
     left: 85.666870915%;
     width: 14.2744076797%;
-    font-size: 1.714em;
+    font-size: 1.5em;
   }
 
   .link .resume {
     left: 28.5539215686%;
     width: 14.2744076797%;
-    font-size: 1.571em;
+    font-size: 1.375em;
   }
 
   .lstwwa .image {
@@ -390,7 +428,19 @@ body {
     top: 16px;
     left: 31.6367265469%;
     width: 68.1231287425%;
-    font-size: 14px;
+    font-size: 0.875em;
+  }
+
+  .main {
+    top: 400px;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text {
+    left: 0;
+    width: 66.125%;
   }
 
   .url {
@@ -405,37 +455,31 @@ body {
 
   .url .baidu {
     width: 20%;
-    font-size: 1.143em;
   }
 
   .url .csdn {
     top: 83px;
     width: 20%;
-    font-size: 1.143em;
   }
 
   .url .github {
     top: 83px;
     width: 20%;
-    font-size: 1.429em;
   }
 
   .url .google {
     left: 25.4482110702%;
     width: 20%;
-    font-size: 1.143em;
   }
 
   .url .imooc {
     left: 79.9812103656%;
     width: 20%;
-    font-size: 1.143em;
   }
 
   .url .sina {
     right: 23.4439834024%;
     width: 20%;
-    font-size: 1.143em;
   }
 
   .index .link-1 {
@@ -466,12 +510,11 @@ body {
 
 @media(max-width: 800px) {
   body {
-    font-size: 0.75em;
+    font-size: 1em;
   }
 
   .buttom .text {
     width: 40.78515625%;
-    font-size: 0.5em;
   }
 
   .head,
@@ -482,7 +525,6 @@ body {
   .index .button {
     left: 89.9999999999%;
     width: 5.83203125%;
-    font-size: 1.333em;
   }
 
   .link .home {
@@ -491,7 +533,7 @@ body {
   }
 
   .link .link {
-    font-size: 1.667em;
+    font-size: 1.25em;
   }
 
   .link .linux {
@@ -520,7 +562,15 @@ body {
     top: 11px;
     left: 32.9383886255%;
     width: 94.0758293838%;
-    font-size: 12px;
+    font-size: 0.75em;
+  }
+
+  .main {
+    top: 396px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .url {
@@ -530,29 +580,17 @@ body {
     height: 242px;
   }
 
-  .url .baidu,
-  .url .csdn {
-    font-size: 1.333em;
-  }
-
-  .url .github {
-    font-size: 1.667em;
-  }
-
   .url .google {
     left: 25.654296875%;
-    font-size: 1.333em;
   }
 
   .url .imooc {
     left: 80%;
-    font-size: 1.333em;
   }
 
   .url .sina {
     right: 25.654296875%;
     font-style: normal;
-    font-size: 1.333em;
   }
 
   .index .link-1 {
@@ -586,20 +624,14 @@ body {
 }
 
 @media(max-width: 500px) {
-  body {
-    font-size: 0.563em;
-  }
-
   .buttom .text {
     width: 40.784375%;
-    font-size: 0.667em;
   }
 
   .index .button {
     top: 3px;
     left: 90%;
     width: 5.8%;
-    font-size: 1.778em;
   }
 
   .link .home {
@@ -608,7 +640,7 @@ body {
   }
 
   .link .link {
-    font-size: 15px;
+    font-size: 0.938em;
   }
 
   .link .linux {
@@ -639,7 +671,19 @@ body {
     top: 10px;
     left: 32.8850855745%;
     width: 66.9926650366%;
-    font-size: 9px;
+    font-size: 0.563em;
+  }
+
+  .main {
+    top: 460px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text {
+    width: 80.2%;
   }
 
   .url {
@@ -653,38 +697,32 @@ body {
 
   .url .baidu {
     width: 25%;
-    font-size: 1.778em;
   }
 
   .url .csdn {
     top: 90px;
     left: 75%;
     width: 25%;
-    font-size: 1.778em;
   }
 
   .url .github {
     width: 25%;
-    font-size: 2.222em;
   }
 
   .url .google {
     left: 37.5352443609%;
     width: 25%;
-    font-size: 1.778em;
   }
 
   .url .imooc {
     top: 90px;
     left: 0;
     width: 25%;
-    font-size: 1.778em;
   }
 
   .url .sina {
     right: 0;
     width: 25%;
-    font-size: 1.778em;
   }
 
   .index .link-1 {
@@ -723,7 +761,7 @@ body {
 
 @media(max-width: 400px) {
   body {
-    font-size: 0.625em;
+    font-size: 1em;
   }
 
   .buttom {
@@ -732,36 +770,32 @@ body {
 
   .buttom .text {
     width: 40.78515625%;
-    font-size: 0.6em;
   }
 
   .index .button {
     left: 89.9999999999%;
     width: 5.83203125%;
-    font-size: 1.6em;
   }
 
   .link .home {
     width: 16.875%;
     height: 40px;
-    font-size: 1.5em;
   }
 
   .link .linux {
     right: 27.49609375%;
     height: 25px;
-    font-size: 1.5em;
   }
 
   .link .resources {
     left: 83.125%;
     height: 25px;
-    font-size: 1.3em;
+    font-size: 0.813em;
   }
 
   .link .resume {
     height: 25px;
-    font-size: 1.3em;
+    font-size: 0.813em;
   }
 
   .lstwwa .image {
@@ -772,7 +806,15 @@ body {
     top: 8px;
     left: 33%;
     width: 78.2477341389%;
-    font-size: 10px;
+    font-size: 0.625em;
+  }
+
+  .main {
+    top: 545px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .url {
@@ -787,39 +829,33 @@ body {
 
   .url .baidu {
     width: 40%;
-    font-size: 1.6em;
   }
 
   .url .csdn {
     top: 255px;
     left: 0;
     width: 40%;
-    font-size: 1.6em;
   }
 
   .url .github {
     width: 40%;
-    font-size: 2em;
   }
 
   .url .google {
     left: 59.9970611285%;
     width: 40%;
-    font-size: 1.6em;
   }
 
   .url .imooc {
     top: 85px;
     left: 59.9970611285%;
     width: 40%;
-    font-size: 1.6em;
   }
 
   .url .sina {
     top: 85px;
     right: 60.0019592476%;
     width: 40%;
-    font-size: 1.6em;
   }
 
   .index .link-1 {
