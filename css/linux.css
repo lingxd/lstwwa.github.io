@@ -21,7 +21,7 @@ body {
 
 .buttom {
   position: absolute;
-  top: 965px;
+  top: 1041px;
   z-index: 2;
   height: 50px;
 }
@@ -130,7 +130,7 @@ body {
 
 .pi {
   position: absolute;
-  top: 630px;
+  top: 707px;
   left: 0;
   right: 0;
   z-index: 14;
@@ -230,7 +230,6 @@ body {
   text-decoration: underline;
   letter-spacing: inherit;
   word-spacing: inherit;
-  color: inherit;
   opacity: 1;
   word-break: normal;
   word-wrap: normal;
@@ -290,6 +289,14 @@ body {
   word-break: normal;
   word-wrap: normal;
   white-space: normal;
+}
+
+.text-1 a {
+  color: inherit;
+}
+
+.text-2 a {
+  color: rgb(0, 131, 220);
 }
 
 @media(max-width: 1000px) {
@@ -555,7 +562,7 @@ body {
   }
 
   .buttom {
-    top: 990px;
+    top: 1094px;
     left: 0;
     right: 0;
     margin-right: auto;
@@ -598,7 +605,14 @@ body {
     font-size: 0.667em;
   }
 
-  .pi,
+  .pi {
+    top: 744px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .url {
     left: 0;
     right: 0;
