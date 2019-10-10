@@ -42,7 +42,6 @@ body {
   width: 99.75%;
   min-height: 31px;
   font-size: 1.333em;
-  text-align: center;
   color: rgb(255, 255, 255);
 }
 
@@ -69,6 +68,7 @@ body {
 
 .text {
   position: absolute;
+  text-align: center;
 }
 
 .text-2 p {
@@ -83,7 +83,7 @@ body {
 }
 
 .container-1 {
-  top: 2189px;
+  top: 2976px;
   z-index: 6;
 }
 
@@ -92,7 +92,28 @@ body {
   z-index: 3;
 }
 
-.text a,
+.text a {
+  border: 1px solid rgb(0, 0, 0);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
 .text em {
   border-top-width: 0;
   border-right-width: 0;
